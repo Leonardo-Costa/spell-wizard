@@ -1,6 +1,6 @@
 import { Home } from './src/screens';
 import { StyleSheet, View } from 'react-native';
-
+//teste de push
 export default function App() {
   return (
     <View style={styles.container}>
