@@ -1,3 +1,4 @@
 import { IconButton } from "./IconButton";
+import { BigTitle } from "./BigTitle/BigTitle";
 
-export {IconButton}
+export {IconButton, BigTitle}
