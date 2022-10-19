@@ -1,19 +1,31 @@
 import { StyleSheet, View, FlatList } from "react-native";
-import { BigTitle, IconButton } from "../../atom";
+import { BigTitle, IconButton, SearchBar } from "../../atom";
 import { SpellCard } from "../../molecules";
 import React from "react";
 import spells from "../../data/spells.json";
 
+const icons = {
+  group: require("../../../assets/group.png"),
+};
+
 function Home() {
-  const icons = {
-    group: require("../../../assets/group.png"),
-  };
+
 
   return (
     <View style={styles.container}>
       <View style={styles.topPart}>
-        <BigTitle text="Spells" />
-        <IconButton img={icons.group} />
+        <View
+          style={{
+            justifyContent: "space-between",
+            flexDirection: "row",
+            alignItems: "center",
+            marginBottom: 20
+          }}
+        >
+          <BigTitle text="Spells" />
+          <IconButton img={icons.group} />
+        </View>
+        <SearchBar />
       </View>
       <View style={styles.spellList}>
         <FlatList
@@ -36,14 +48,12 @@ const styles = StyleSheet.create({
   },
   topPart: {
     flex: 1,
-    justifyContent: "space-between",
     paddingHorizontal: 15,
-    flexDirection: "row",
-    alignItems: "center",
+    paddingTop: 60,
   },
   spellList: {
     marginHorizontal: 15,
-    flex: 3,
+    flex: 4,
   },
 });
 
