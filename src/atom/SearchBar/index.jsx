@@ -5,16 +5,12 @@ import { StyleSheet, View, TextInput } from "react-native";
 import { IconButton } from "../../atom";
 import colors from "../../misc/Colors";
 
-const icons = {
-    search: require("../../../assets/search.png"),
-};
+function SearchBar({icon}) {
 
-function SearchBar() {
-    
   return (
     <View style={styles.container}>
       <IconButton
-        img={icons.search}
+        img={icon}
         color={colors.dark_gray}
         width={24}
         height={24}

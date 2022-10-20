@@ -6,6 +6,7 @@ import spells from "../../data/spells.json";
 
 const icons = {
   group: require("../../../assets/group.png"),
+  search: require("../../../assets/search.png"),
 };
 
 function Home() {
@@ -25,7 +26,7 @@ function Home() {
           <BigTitle text="Spells" />
           <IconButton img={icons.group} />
         </View>
-        <SearchBar />
+        <SearchBar icon={icons.search}/>
       </View>
       <View style={styles.spellList}>
         <FlatList

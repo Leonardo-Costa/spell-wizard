@@ -13,7 +13,7 @@ function SpellCard({ spell }) {
     <View style={styles.container}>
       <View style={styles.titleAndOptions}>
         <Text numberOfLines={1} style={styles.title}>{spell.name}</Text>
-        <View style={{ flexDirection: "row" }}>
+        <View style={{ flex: 1, flexDirection: "row", justifyContent: 'flex-end' }}>
           <IconButton
             width={30}
             height={30}
@@ -56,6 +56,7 @@ const styles = StyleSheet.create({
     fontSize: 42,
     fontWeight: "bold",
     color: colors.dark_gray,
+    flex: 3
   },
   subtitle: {
     fontSize: 16,
