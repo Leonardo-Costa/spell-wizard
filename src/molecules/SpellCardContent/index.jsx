@@ -1,4 +1,4 @@
-import { StyleSheet, Text, View } from "react-native";
+import { StyleSheet, Text, View, TouchableOpacity, Modal } from "react-native";
 import { IconButton } from "../../atom";
 import colors from "../../misc/Colors";
 import React from "react";
@@ -8,12 +8,26 @@ const icons = {
   opcao: require("../../../assets/Opcao.png"),
 };
 
-function SpellCard({ spell }) {
+function SpellCardContent({ spell, modalVisible, setModalVisible }) {
   return (
-    <View style={styles.container}>
+    <TouchableOpacity
+      onPress={() => {
+        setModalVisible(!modalVisible);
+      }}
+      style={styles.container}
+      activeOpacity={0.8}
+    >
       <View style={styles.titleAndOptions}>
-        <Text numberOfLines={1} style={styles.title}>{spell.name}</Text>
-        <View style={{ flex: 1, flexDirection: "row", justifyContent: 'flex-end' }}>
+        <Text numberOfLines={1} style={styles.title}>
+          {spell.name}
+        </Text>
+        <View
+          style={{
+            flex: 1,
+            flexDirection: "row",
+            justifyContent: "flex-end",
+          }}
+        >
           <IconButton
             width={30}
             height={30}
@@ -34,9 +48,11 @@ function SpellCard({ spell }) {
       <View style={styles.divisor} />
 
       <Text numberOfLines={3} style={styles.desc}>
-        {spell.desc.map((item) => {return(item + '\n')})}
+        {spell.desc.map((item) => {
+          return item + "\n";
+        })}
       </Text>
-    </View>
+    </TouchableOpacity>
   );
 }
 
@@ -45,7 +61,7 @@ const styles = StyleSheet.create({
     backgroundColor: colors.primary,
     padding: 20,
     borderRadius: 20,
-    marginBottom: 20
+    marginBottom: 20,
   },
   titleAndOptions: {
     flexDirection: "row",
@@ -56,7 +72,7 @@ const styles = StyleSheet.create({
     fontSize: 42,
     fontWeight: "bold",
     color: colors.dark_gray,
-    flex: 3
+    flex: 3,
   },
   subtitle: {
     fontSize: 16,
@@ -77,4 +93,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export { SpellCard };
+export { SpellCardContent };

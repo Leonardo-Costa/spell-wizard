@@ -1,6 +1,6 @@
 import { StyleSheet, View, FlatList } from "react-native";
 import { BigTitle, IconButton, SearchBar } from "../../atom";
-import { SpellCard } from "../../molecules";
+import { SpellCard } from "../../organisms";
 import React from "react";
 import spells from "../../data/spells.json";
 
@@ -10,8 +10,6 @@ const icons = {
 };
 
 function Home() {
-
-
   return (
     <View style={styles.container}>
       <View style={styles.topPart}>

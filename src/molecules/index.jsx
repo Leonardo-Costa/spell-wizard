@@ -1,3 +1,3 @@
-import { SpellCard } from "./SpellCard";
+import { SpellCardContent } from "./SpellCardContent";
 
-export {SpellCard}
+export { SpellCardContent };
