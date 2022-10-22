@@ -1,7 +1,8 @@
 import { StyleSheet, TouchableOpacity, View, Image } from "react-native";
 import React from "react";
 
-function IconButton({ img, width, height, padding, color }) {
+function IconButton({ img, width, height,
+   padding, color}) {
   return (
     <View>
       <TouchableOpacity
@@ -9,6 +10,9 @@ function IconButton({ img, width, height, padding, color }) {
           padding: padding ? padding: 2,
           justifyContent: "center",
           alignItems: "center",
+        }}
+        onPress= {() => {
+          navigation.navigate('FilterTab')
         }}
       >
         <Image
