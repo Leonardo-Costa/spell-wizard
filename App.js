@@ -7,7 +7,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 //teste de push
 export default function App() {
   return (
-    <Home></Home>
+      <Home></Home>
   );
 }
 

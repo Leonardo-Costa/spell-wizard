@@ -1,4 +1,4 @@
-import { SpellCard } from "./SpellCard";
+import { SpellCardContent } from './SpellCardContent';
 import { GenericButtonOnOff } from "./ToggleButton";
 
-export {SpellCard, GenericButtonOnOff}
+export {SpellCardContent, GenericButtonOnOff}
