@@ -4,6 +4,18 @@ import { SpellCard } from "../../organisms";
 import React from "react";
 import spells from "../../data/spells.json";
 
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
+
+const FilterStack = createNativeStackNavigator();
+
+function FilterTabStack() {
+  return (
+    <FilterTabStack.Navigator>
+      <FilterTabStack.Screen name="Home" component={Home} />
+    </FilterTabStack.Navigator>
+  );
+}
+
 const icons = {
   group: require("../../../assets/group.png"),
   search: require("../../../assets/search.png"),
@@ -22,7 +34,7 @@ function Home() {
           }}
         >
           <BigTitle text="Spells" />
-          <IconButton img={icons.group} />
+          <IconButton img={icons.group}/>
         </View>
         <SearchBar icon={icons.search}/>
       </View>
