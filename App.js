@@ -1,13 +1,11 @@
-import { Home, Filter } from './src/screens';
-import { StyleSheet, View } from 'react-native';
-import { NavigationContainer } from '@react-navigation/native';
-import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import { Home} from './src/screens';
+import { StyleSheet} from 'react-native';
 
 
 //teste de push
 export default function App() {
   return (
-      <Home></Home>
+      <Home/>
   );
 }
 
