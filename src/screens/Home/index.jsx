@@ -4,7 +4,7 @@ import { SpellCard } from "../../organisms";
 import React from "react";
 import spells from "../../data/spells.json";
 
-import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import { createNativeStackNavigator } from "@react-navigation/native-stack";
 
 const FilterStack = createNativeStackNavigator();
 
@@ -30,13 +30,13 @@ function Home() {
             justifyContent: "space-between",
             flexDirection: "row",
             alignItems: "center",
-            marginBottom: 20
+            marginBottom: 20,
           }}
         >
           <BigTitle text="Spells" />
-          <IconButton img={icons.group}/>
+          <IconButton img={icons.group} />
         </View>
-        <SearchBar icon={icons.search}/>
+        <SearchBar icon={icons.search} />
       </View>
       <View style={styles.spellList}>
         <FlatList
@@ -64,7 +64,7 @@ const styles = StyleSheet.create({
   },
   spellList: {
     marginHorizontal: 15,
-    flex: 4,
+    flex: 3,
   },
 });
 
