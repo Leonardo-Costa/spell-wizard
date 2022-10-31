@@ -1,20 +1,12 @@
-//a search bar with an icon on the left and a text input on the right using react native
-
 import React from "react";
 import { StyleSheet, View, TextInput } from "react-native";
-import { IconButton } from "../../atom";
+import { IconButton } from "../../atom/IconButton";
 import colors from "../../misc/Colors";
 
-function SearchBar({icon}) {
-
+function SearchBar({ icon }) {
   return (
     <View style={styles.container}>
-      <IconButton
-        img={icon}
-        color={colors.dark_gray}
-        width={24}
-        height={24}
-      />
+      <IconButton img={icon} color={colors.dark_gray} width={24} height={24} />
       <TextInput style={styles.input} placeholder="Search" />
     </View>
   );

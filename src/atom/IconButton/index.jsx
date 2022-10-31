@@ -1,12 +1,13 @@
 import { StyleSheet, TouchableOpacity, View, Image } from "react-native";
 import React from "react";
 
-function IconButton({ img, width, height, padding, color }) {
+function IconButton({ img, width, height, padding, color, onPress }) {
   return (
     <View>
       <TouchableOpacity
+        onPress={onPress}
         style={{
-          padding: padding ? padding: 2,
+          padding: padding ? padding : 2,
           justifyContent: "center",
           alignItems: "center",
         }}

@@ -1,20 +1,10 @@
 import { StyleSheet, View, FlatList } from "react-native";
 import { BigTitle, IconButton, SearchBar } from "../../atom";
 import { SpellCard } from "../../organisms";
-import React from "react";
+import React, { useState } from "react";
 import spells from "../../data/spells.json";
-
-import { createNativeStackNavigator } from "@react-navigation/native-stack";
-
-const FilterStack = createNativeStackNavigator();
-
-function FilterTabStack() {
-  return (
-    <FilterTabStack.Navigator>
-      <FilterTabStack.Screen name="Home" component={Home} />
-    </FilterTabStack.Navigator>
-  );
-}
+import { Modal } from "react-native";
+import { Filter } from "../Filter";
 
 const icons = {
   group: require("../../../assets/group.png"),
@@ -22,6 +12,8 @@ const icons = {
 };
 
 function Home() {
+  const [modalVisible, setModalVisible] = useState(false);
+
   return (
     <View style={styles.container}>
       <View style={styles.topPart}>
@@ -34,7 +26,12 @@ function Home() {
           }}
         >
           <BigTitle text="Spells" />
-          <IconButton img={icons.group} />
+          <IconButton
+            onPress={() => {
+              setModalVisible(true);
+            }}
+            img={icons.group}
+          />
         </View>
         <SearchBar icon={icons.search} />
       </View>
@@ -46,6 +43,15 @@ function Home() {
           keyExtractor={(item) => item.index}
         />
       </View>
+      <Modal
+        visible={modalVisible}
+        animationType="slide"
+        onRequestClose={() => {
+          setModalVisible(!modalVisible);
+        }}
+      >
+        <Filter setModalVisible={setModalVisible} />
+      </Modal>
     </View>
   );
 }
