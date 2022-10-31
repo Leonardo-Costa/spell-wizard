@@ -1,15 +1,29 @@
 import { StyleSheet, Text, View, TouchableOpacity } from "react-native";
-import React, { useState } from "react";
+import React, { useState, useContext, useEffect } from "react";
 import colors from "../../misc/Colors";
+import { FilterContext } from "../../contexts/filters";
 
-function FilterButton({ size, title, style }) {
-  const [color, setColor] = useState(true);
+function FilterButton({ size, title, style, id }) {
+  const { level, setLevel } = useContext(FilterContext);
+  const [selected, setSelected] = useState(true);
+
+  useEffect(() => {
+    setSelected(level[id]);
+  }, [level]);
+
+  const handleOnPress = () => {
+    let list = level;
+    list[id] = !list[id];
+    setLevel(list);
+    setSelected(!selected);
+  };
+
   return (
     <View style={{ alignItems: "center", ...style }}>
       <TouchableOpacity
         activeOpacity={0.75}
         onPress={() => {
-          setColor(!color);
+          handleOnPress();
         }}
         style={{
           width: size,
@@ -20,7 +34,11 @@ function FilterButton({ size, title, style }) {
       >
         <View
           style={[
-            { backgroundColor: color ? colors.dark_gray : colors.white },
+            {
+              backgroundColor: selected ? colors.white : colors.dark_gray,
+              width: size,
+              height: size,
+            },
             styles.button,
           ]}
         />
@@ -41,8 +59,6 @@ function FilterButton({ size, title, style }) {
 
 const styles = StyleSheet.create({
   button: {
-    width: 40,
-    height: 40,
     borderRadius: 40,
   },
 });

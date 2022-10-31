@@ -26,7 +26,7 @@ function FilterByName({ name, titles }) {
         }}
       >
         {titles.map((text) => (
-          <TextButton style={styles.button} text={text} />
+          <TextButton key={text} style={styles.button} text={text} />
         ))}
       </View>
     </View>

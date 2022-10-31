@@ -1,10 +1,32 @@
 import { StyleSheet, Text, View } from "react-native";
 import { FilterButton } from "../../atom";
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
 import colors from "../../misc/Colors";
+import { FilterContext } from "../../contexts/filters";
+
+const levelNames = {
+  0: "0",
+  1: "1st",
+  2: "2nd",
+  3: "3rd",
+  4: "4th",
+  5: "5th",
+  6: "6th",
+  7: "7th",
+  8: "8th",
+  9: "9th",
+};
 
 function FilterByLevel({ style }) {
-  const buttonSize = 50;
+  const buttonSize = 30;
+  const { level, setLevel } = useContext(FilterContext);
+
+  const handlePress = (l) => {
+    let list = level;
+    list[l] = !list[l];
+    setLevel(list);
+  };
+
   return (
     <View style={[styles.container, style]}>
       <Text
@@ -25,11 +47,14 @@ function FilterByLevel({ style }) {
           width: "100%",
         }}
       >
-        <FilterButton size={buttonSize} title="Cantrip" />
-        <FilterButton size={buttonSize} title="1st" />
-        <FilterButton size={buttonSize} title="2nd" />
-        <FilterButton size={buttonSize} title="3rd" />
-        <FilterButton size={buttonSize} title="4th" />
+        {Object.keys(levelNames).map((l) => (
+          <FilterButton
+            key={l}
+            size={buttonSize}
+            title={levelNames[l]}
+            id={l}
+          />
+        ))}
       </View>
       <View
         style={{
@@ -37,13 +62,7 @@ function FilterByLevel({ style }) {
           justifyContent: "space-between",
           width: "100%",
         }}
-      >
-        <FilterButton size={buttonSize} title="5th" />
-        <FilterButton size={buttonSize} title="6th" />
-        <FilterButton size={buttonSize} title="7th" />
-        <FilterButton size={buttonSize} title="8th" />
-        <FilterButton size={buttonSize} title="9th" />
-      </View>
+      ></View>
     </View>
   );
 }

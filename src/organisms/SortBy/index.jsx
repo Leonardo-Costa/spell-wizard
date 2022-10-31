@@ -1,14 +1,15 @@
 import { StyleSheet, Text, View, TouchableOpacity } from "react-native";
-import React, { useState } from "react";
+import React, { useContext } from "react";
 import { Icon } from "../../atom";
 import colors from "../../misc/Colors";
+import { FilterContext } from "../../contexts/filters";
 
 const icons = {
   teste: require("../../../assets/Check_Big.png"),
 };
 
 function SortBy() {
-  const [ascending, setAscending] = useState(true);
+  const { ascending, setAscending } = useContext(FilterContext);
   return (
     <View style={styles.container}>
       <View
