@@ -16,7 +16,6 @@ function ClassButton({ id, text }) {
     let list = classes;
     list[id] = !list[id];
     setClasses(list);
-    console.log(list);
   };
   return (
     <TouchableOpacity

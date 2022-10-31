@@ -6,7 +6,7 @@ import {
   Text,
   TouchableOpacity,
 } from "react-native";
-import React from "react";
+import React, { useContext } from "react";
 import {
   FilterByLevel,
   FilterByClass,
@@ -15,12 +15,21 @@ import {
 } from "../../organisms";
 import { Separator, Button } from "../../atom";
 import colors from "../../misc/Colors";
+import { FilterContext } from "../../contexts/filters";
 
 const icons = {
   close: require("../../../assets/Close_Circle.png"),
 };
 
 function Filter({ setModalVisible }) {
+  const { setAscending, setLevel, setClasses, setSchools } =
+    useContext(FilterContext);
+  const handleReset = () => {
+    setAscending(true);
+    setLevel([true, true, true, true, true, true, true, true, true, true]);
+    setClasses([true, true, true, true, true, true, true, true]);
+    setSchools([true, true, true, true, true, true, true, true]);
+  };
   return (
     <SafeAreaView style={styles.container}>
       <View
@@ -31,7 +40,11 @@ function Filter({ setModalVisible }) {
           marginVertical: 15,
         }}
       >
-        <TouchableOpacity>
+        <TouchableOpacity
+          onPress={() => {
+            handleReset();
+          }}
+        >
           <Text style={styles.title}>Reset</Text>
         </TouchableOpacity>
         <Text style={[styles.title, { textAlign: "center" }]}>Filters</Text>
