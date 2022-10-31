@@ -16,10 +16,39 @@ function FilterProvider({ children }) {
     true,
     true,
   ]);
+  const [classes, setClasses] = useState([
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+  ]);
+  const [schools, setSchools] = useState([
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+  ]);
 
   return (
     <FilterContext.Provider
-      value={{ ascending, setAscending, level, setLevel }}
+      value={{
+        ascending,
+        setAscending,
+        level,
+        setLevel,
+        classes,
+        setClasses,
+        schools,
+        setSchools,
+      }}
     >
       {children}
     </FilterContext.Provider>

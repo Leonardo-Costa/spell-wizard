@@ -7,7 +7,12 @@ import {
   TouchableOpacity,
 } from "react-native";
 import React from "react";
-import { FilterByLevel, FilterByName, SortBy } from "../../organisms";
+import {
+  FilterByLevel,
+  FilterByClass,
+  FilterBySchool,
+  SortBy,
+} from "../../organisms";
 import { Separator, Button } from "../../atom";
 import colors from "../../misc/Colors";
 
@@ -49,33 +54,9 @@ function Filter({ setModalVisible }) {
         <Separator />
         <FilterByLevel />
         <Separator />
-        <FilterByName
-          name="Class"
-          titles={[
-            "bard",
-            "cleric",
-            "druid",
-            "paladin",
-            "ranger",
-            "sorcerer",
-            "warlock",
-            "wizard",
-          ]}
-        />
+        <FilterByClass />
         <Separator />
-        <FilterByName
-          name="School of Magic"
-          titles={[
-            "Conjuration",
-            "Necromancy",
-            "Evocation",
-            "Abjuration",
-            "Divination",
-            "Enchantment",
-            "Illusion",
-            "Transmutation",
-          ]}
-        />
+        <FilterBySchool />
       </ScrollView>
     </SafeAreaView>
   );

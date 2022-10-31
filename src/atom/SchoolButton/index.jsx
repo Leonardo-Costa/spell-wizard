@@ -1,21 +1,35 @@
-import { StyleSheet, Text, View, TouchableOpacity } from "react-native";
-import React, { useState } from "react";
+import { StyleSheet, Text, TouchableOpacity } from "react-native";
+import React, { useState, useEffect, useContext } from "react";
+import { FilterContext } from "../../contexts/filters";
 import colors from "../../misc/Colors";
 
-function TextButton({ text, style }) {
+function SchoolButton({ id, text }) {
   const [pressed, setPressed] = useState(false);
+  const { schools, setSchools } = useContext(FilterContext);
+
+  useEffect(() => {
+    setPressed(schools[id]);
+  }, [schools]);
+
+  const handleOnPress = () => {
+    setPressed(!pressed);
+    let list = schools;
+    list[id] = !list[id];
+    setSchools(list);
+    console.log(list);
+  };
   return (
     <TouchableOpacity
       activeOpacity={0.75}
       onPress={() => {
-        setPressed(!pressed);
+        handleOnPress();
       }}
       style={[
         {
           backgroundColor: pressed ? colors.white : colors.dark_gray,
           borderRadius: 50,
+          marginBottom: 10,
         },
-        style,
       ]}
     >
       <Text
@@ -36,4 +50,4 @@ function TextButton({ text, style }) {
 
 const styles = StyleSheet.create({});
 
-export { TextButton };
+export { SchoolButton };

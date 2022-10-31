@@ -1,6 +1,7 @@
 import { SpellCard } from "./SpellCard";
 import { FilterByLevel } from "./FilterByLevel";
-import { FilterByName } from "./FilterByName";
+import { FilterBySchool } from "./FilterBySchool";
+import { FilterByClass } from "./FilterByClass";
 import { SortBy } from "./SortBy";
 
-export { SpellCard, FilterByLevel, FilterByName, SortBy };
+export { SpellCard, FilterByLevel, SortBy, FilterBySchool, FilterByClass };

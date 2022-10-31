@@ -3,7 +3,18 @@ import { ClassButton } from "../../atom";
 import React from "react";
 import colors from "../../misc/Colors";
 
-function FilterByName({ name, titles }) {
+function FilterByClass() {
+  const classNames = {
+    0: "bard",
+    1: "cleric",
+    2: "druid",
+    3: "paladin",
+    4: "ranger",
+    5: "sorcerer",
+    6: "warlock",
+    7: "wizard",
+  };
+
   return (
     <View>
       <Text
@@ -15,7 +26,7 @@ function FilterByName({ name, titles }) {
           marginLeft: 10,
         }}
       >
-        Filter By {name}
+        Filter By Class
       </Text>
       <View
         style={{
@@ -25,9 +36,9 @@ function FilterByName({ name, titles }) {
           justifyContent: "space-between",
         }}
       >
-        {titles.map((text) => (
-          <ClassButton key={text} style={styles.button} text={text} />
-        ))}
+        {Object.keys(classNames).map((item) => {
+          return <ClassButton key={item} id={item} text={classNames[item]} />;
+        })}
       </View>
     </View>
   );
@@ -40,4 +51,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export { FilterByName };
+export { FilterByClass };

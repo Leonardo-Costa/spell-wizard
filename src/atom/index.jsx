@@ -6,8 +6,9 @@ import { SwitchButton } from "./SwitchButton/SwitchButton";
 import { Button } from "./Button";
 import { Separator } from "./Separator";
 import { Icon } from "./Icon";
-import { TextButton } from "./TextButton";
+import { ClassButton } from "./ClassButton";
 import { FilterButton } from "./FilterButton";
+import { SchoolButton } from "./SchoolButton";
 
 export {
   IconButton,
@@ -18,6 +19,7 @@ export {
   Button,
   Separator,
   Icon,
-  TextButton,
+  ClassButton,
   FilterButton,
+  SchoolButton,
 };

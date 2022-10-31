@@ -1,9 +1,20 @@
 import { StyleSheet, Text, View } from "react-native";
-import { ClassButton } from "../../atom";
+import { SchoolButton } from "../../atom";
 import React from "react";
 import colors from "../../misc/Colors";
 
-function FilterByName({ name, titles }) {
+function FilterBySchool() {
+  const schoolsNames = {
+    0: "Conjuration",
+    1: "Necromancy",
+    2: "Evocation",
+    3: "Abjuration",
+    4: "Divination",
+    5: "Enchantment",
+    6: "Illusion",
+    7: "Transmutation",
+  };
+
   return (
     <View>
       <Text
@@ -15,7 +26,7 @@ function FilterByName({ name, titles }) {
           marginLeft: 10,
         }}
       >
-        Filter By {name}
+        Filter By School
       </Text>
       <View
         style={{
@@ -25,9 +36,11 @@ function FilterByName({ name, titles }) {
           justifyContent: "space-between",
         }}
       >
-        {titles.map((text) => (
-          <ClassButton key={text} style={styles.button} text={text} />
-        ))}
+        {Object.keys(schoolsNames).map((item) => {
+          return (
+            <SchoolButton key={item} id={item} text={schoolsNames[item]} />
+          );
+        })}
       </View>
     </View>
   );
@@ -40,4 +53,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export { FilterByName };
+export { FilterBySchool };
