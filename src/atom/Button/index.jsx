@@ -31,7 +31,7 @@ function Button({
       ]}
       onPress={onPress}
     >
-      <Icon size={size || 10} image={image} color={color} />
+      <Icon size={size || 10} image={image} color={color ? color : "#000000"} />
     </TouchableOpacity>
   );
 }

@@ -14,6 +14,7 @@ import {
   SortBy,
 } from "../../organisms";
 import { Separator, Button } from "../../atom";
+import { FilterByStars } from "../../molecules";
 import colors from "../../misc/Colors";
 import { FilterContext } from "../../contexts/filters";
 
@@ -63,13 +64,17 @@ function Filter({ setModalVisible }) {
       </View>
 
       <ScrollView showsVerticalScrollIndicator={false}>
-        <SortBy />
-        <Separator />
-        <FilterByLevel />
-        <Separator />
-        <FilterByClass />
-        <Separator />
-        <FilterBySchool />
+        <View style={{ flex: 1, paddingBottom: 80 }}>
+          <SortBy />
+          <Separator />
+          <FilterByLevel />
+          <Separator />
+          <FilterByClass />
+          <Separator />
+          <FilterBySchool />
+          <Separator />
+          <FilterByStars />
+        </View>
       </ScrollView>
     </SafeAreaView>
   );
@@ -81,10 +86,12 @@ const styles = StyleSheet.create({
     flex: 1,
     width: "100%",
     justifyContent: "center",
-    paddingHorizontal: 10,
+    paddingHorizontal: 20,
+    borderTopLeftRadius: 30,
+    borderTopRightRadius: 30,
+    paddingTop: 10,
   },
   title: {
-    width: 60,
     fontSize: 24,
     fontWeight: "700",
     color: colors.dark_gray,

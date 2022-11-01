@@ -36,7 +36,7 @@ function FilterProvider({ children }) {
     true,
     true,
   ]);
-
+  const [stars, setStars] = useState(5);
   return (
     <FilterContext.Provider
       value={{
@@ -48,6 +48,8 @@ function FilterProvider({ children }) {
         setClasses,
         schools,
         setSchools,
+        stars,
+        setStars,
       }}
     >
       {children}

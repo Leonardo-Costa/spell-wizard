@@ -1,7 +1,7 @@
 import { StyleSheet, View, FlatList } from "react-native";
 import { BigTitle, IconButton, SearchBar } from "../../atom";
 import { SpellCard } from "../../organisms";
-import React, { useState, useContext } from "react";
+import React, { useState, useContext, useEffect } from "react";
 import spells from "../../data/spells.json";
 import { Modal } from "react-native";
 import { Filter } from "../Filter";
@@ -12,9 +12,15 @@ const icons = {
   search: require("../../../assets/search.png"),
 };
 
+const renderItem = ({ item }) => {
+  return <SpellCard key={item.index} spell={item} />;
+};
+
 function Home() {
   const [modalVisible, setModalVisible] = useState(false);
-  const { ascending } = useContext(FilterContext);
+  const { ascending, level, classes, schools, stars } =
+    useContext(FilterContext);
+  const [spellData, setSpellData] = useState(spells);
   return (
     <View style={styles.container}>
       <View style={styles.topPart}>
@@ -39,8 +45,8 @@ function Home() {
       <View style={styles.spellList}>
         <FlatList
           showsVerticalScrollIndicator={false}
-          data={spells}
-          renderItem={({ item }) => <SpellCard key={item.index} spell={item} />}
+          data={spellData}
+          renderItem={renderItem}
           keyExtractor={(item) => item.index}
         />
       </View>
