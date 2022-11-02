@@ -1,4 +1,4 @@
-import { StyleSheet, View, FlatList } from "react-native";
+import { StyleSheet, View, FlatList, RefreshControl } from "react-native";
 import { BigTitle, IconButton, SearchBar } from "../../atom";
 import { SpellCard } from "../../organisms";
 import React, { useState, useContext, useEffect } from "react";
@@ -18,9 +18,24 @@ const renderItem = ({ item }) => {
 
 function Home() {
   const [modalVisible, setModalVisible] = useState(false);
+  const [spellData, setSpellData] = useState(spells);
   const { ascending, level, classes, schools, stars } =
     useContext(FilterContext);
-  const [spellData, setSpellData] = useState(spells);
+
+  const filterSpells = () => {
+    let temp = [];
+    for (let i = 0; i < level.length; i++) {
+      if (level[i]) {
+        temp.push(i);
+      }
+    }
+    setSpellData(
+      spells.filter((item) => {
+        return temp.includes(item.level);
+      })
+    );
+  };
+
   return (
     <View style={styles.container}>
       <View style={styles.topPart}>
@@ -48,6 +63,14 @@ function Home() {
           data={spellData}
           renderItem={renderItem}
           keyExtractor={(item) => item.index}
+          refreshControl={
+            <RefreshControl
+              refreshing={false}
+              onRefresh={() => {
+                filterSpells();
+              }}
+            />
+          }
         />
       </View>
       <Modal
@@ -77,7 +100,7 @@ const styles = StyleSheet.create({
   },
   spellList: {
     marginHorizontal: 15,
-    flex: 3,
+    flex: 4,
   },
 });
 
