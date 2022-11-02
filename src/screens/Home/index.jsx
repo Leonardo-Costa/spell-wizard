@@ -87,7 +87,7 @@ function Home() {
             marginBottom: 20,
           }}
         >
-          <BigTitle text="Spells" />
+          <BigTitle>Spells</BigTitle>
           <IconButton
             onPress={() => {
               setModalVisible(true);

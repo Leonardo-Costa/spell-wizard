@@ -2,7 +2,7 @@ import { StyleSheet, View, Modal } from "react-native";
 import colors from "../../misc/Colors";
 import { SpellCardContent } from "../../molecules";
 import React, { useState } from "react";
-import { SpellDescription } from "../../templates";
+import { SpellDescription } from "../../templates/SpellDescription";
 
 const icons = {
   favorito: require("../../../assets/favorito.png"),
@@ -20,7 +20,7 @@ function SpellCard({ spell }) {
           setModalVisible(!modalVisible);
         }}
       >
-        <SpellDescription spell={spell}/>
+        <SpellDescription spell={spell} />
       </Modal>
       <SpellCardContent
         spell={spell}
