@@ -19,8 +19,15 @@ const renderItem = ({ item }) => {
 function Home() {
   const [modalVisible, setModalVisible] = useState(false);
   const [spellData, setSpellData] = useState(spells);
-  const { ascending, level, classes, schools, stars, classesNames } =
-    useContext(FilterContext);
+  const {
+    ascending,
+    level,
+    classes,
+    schools,
+    stars,
+    classesNames,
+    schoolNames,
+  } = useContext(FilterContext);
 
   const filterSpells = () => {
     //Algoritmo de filtragem de niveis
@@ -41,7 +48,7 @@ function Home() {
         classesSpells.push(classesNames[i]);
       }
     }
-    let aux = [];
+    let aux1 = [];
     for (let i = 0; i < filteredData.length; i++) {
       let flag = false;
       for (let j = 0; j < filteredData[i].classes.length; j++) {
@@ -51,10 +58,22 @@ function Home() {
         }
       }
       if (flag) {
-        aux.push(filteredData[i]);
+        aux1.push(filteredData[i]);
       }
     }
-    setSpellData(aux);
+    filteredData = aux1;
+    //Algoritmo de filtragem por escola
+    let schoolSpells = [];
+    for (let i = 0; i < schools.length; i++) {
+      if (schools[i]) {
+        schoolSpells.push(schoolNames[i]);
+      }
+    }
+
+    filteredData = filteredData.filter((item) => {
+      return schoolSpells.includes(item.school.index);
+    });
+    setSpellData(filteredData);
   };
 
   return (

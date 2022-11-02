@@ -47,6 +47,16 @@ function FilterProvider({ children }) {
     "warlock",
     "wizard",
   ];
+  const schoolNames = [
+    "conjuration",
+    "necromancy",
+    "evocation",
+    "abjuration",
+    "divination",
+    "enchantment",
+    "illusion",
+    "transmutation",
+  ];
   return (
     <FilterContext.Provider
       value={{
@@ -61,6 +71,7 @@ function FilterProvider({ children }) {
         stars,
         setStars,
         classesNames,
+        schoolNames,
       }}
     >
       {children}
