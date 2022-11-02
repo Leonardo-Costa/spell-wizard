@@ -19,21 +19,42 @@ const renderItem = ({ item }) => {
 function Home() {
   const [modalVisible, setModalVisible] = useState(false);
   const [spellData, setSpellData] = useState(spells);
-  const { ascending, level, classes, schools, stars } =
+  const { ascending, level, classes, schools, stars, classesNames } =
     useContext(FilterContext);
 
   const filterSpells = () => {
-    let temp = [];
+    //Algoritmo de filtragem de niveis
+    let levelSpells = [];
     for (let i = 0; i < level.length; i++) {
       if (level[i]) {
-        temp.push(i);
+        levelSpells.push(i);
       }
     }
-    setSpellData(
-      spells.filter((item) => {
-        return temp.includes(item.level);
-      })
-    );
+    let filteredData = spells.filter((item) => {
+      return levelSpells.includes(item.level);
+    });
+
+    //Algoritmo de filtragem de classes
+    let classesSpells = [];
+    for (let i = 0; i < classes.length; i++) {
+      if (classes[i]) {
+        classesSpells.push(classesNames[i]);
+      }
+    }
+    let aux = [];
+    for (let i = 0; i < filteredData.length; i++) {
+      let flag = false;
+      for (let j = 0; j < filteredData[i].classes.length; j++) {
+        if (classesSpells.includes(filteredData[i].classes[j].index)) {
+          flag = true;
+          break;
+        }
+      }
+      if (flag) {
+        aux.push(filteredData[i]);
+      }
+    }
+    setSpellData(aux);
   };
 
   return (

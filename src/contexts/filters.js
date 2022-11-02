@@ -37,6 +37,16 @@ function FilterProvider({ children }) {
     true,
   ]);
   const [stars, setStars] = useState(5);
+  const classesNames = [
+    "bard",
+    "cleric",
+    "druid",
+    "paladin",
+    "ranger",
+    "sorcerer",
+    "warlock",
+    "wizard",
+  ];
   return (
     <FilterContext.Provider
       value={{
@@ -50,6 +60,7 @@ function FilterProvider({ children }) {
         setSchools,
         stars,
         setStars,
+        classesNames,
       }}
     >
       {children}
