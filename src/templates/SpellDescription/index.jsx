@@ -2,7 +2,7 @@ import { StyleSheet, Text, View, SafeAreaView, ScrollView } from "react-native";
 import { MediumTitle, Separator, SmallTitle } from "../../atom";
 import { TitleSubtitle } from "../../molecules";
 import { SpellStats } from "../../organisms/SpellStats";
-import { RatingCard } from "../../organisms";
+import { RatingCard } from "../../organisms/RatingCard";
 import colors from "../../misc/Colors";
 import React from "react";
 

@@ -30,13 +30,8 @@ function RatingCard({ name }) {
       <View style={{ flexDirection: "row", paddingTop: 5 }}>
         {aux.map((item) => {
           return (
-            <View style={{ marginRight: 5 }}>
-              <Icon
-                key={item}
-                image={icons.star}
-                size={20}
-                color={colors.dark_gray}
-              />
+            <View key={item} style={{ marginRight: 5 }}>
+              <Icon image={icons.star} size={20} color={colors.dark_gray} />
             </View>
           );
         })}

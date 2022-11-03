@@ -30,6 +30,32 @@ function Home() {
   } = useContext(FilterContext);
 
   const filterSpells = () => {
+    let filteredData = spells;
+    //order filteredData by decreasing aphabetical order
+    if (!ascending) {
+      filteredData = filteredData.sort((a, b) => {
+        if (a.name < b.name) {
+          return 1;
+        }
+        if (a.name > b.name) {
+          return -1;
+        }
+        return 0;
+      });
+    }
+    //order filteredData by increasing alphabetical order
+    else {
+      filteredData = filteredData.sort((a, b) => {
+        if (a.name < b.name) {
+          return -1;
+        }
+        if (a.name > b.name) {
+          return 1;
+        }
+        return 0;
+      });
+    }
+
     //Algoritmo de filtragem de niveis
     let levelSpells = [];
     for (let i = 0; i < level.length; i++) {
@@ -37,7 +63,7 @@ function Home() {
         levelSpells.push(i);
       }
     }
-    let filteredData = spells.filter((item) => {
+    filteredData = filteredData.filter((item) => {
       return levelSpells.includes(item.level);
     });
 
