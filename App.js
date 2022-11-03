@@ -1,12 +1,16 @@
 import { Home } from "./src/screens";
 import { StyleSheet } from "react-native";
 import FilterProvider from "./src/contexts/filters";
+import { NavigationContainer } from "@react-navigation/native";
+import Tabs from "./Tabs";
 
 export default function App() {
   return (
-    <FilterProvider>
-      <Home />
-    </FilterProvider>
+    <NavigationContainer>
+      <FilterProvider>
+        <Tabs />
+      </FilterProvider>
+    </NavigationContainer>
   );
 }
 
