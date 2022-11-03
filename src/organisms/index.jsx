@@ -4,6 +4,7 @@ import { FilterBySchool } from "./FilterBySchool";
 import { FilterByClass } from "./FilterByClass";
 import { SortBy } from "./SortBy";
 import { SpellStats } from "./SpellStats";
+import { RatingCard } from "./RatingCard";
 
 export {
   SpellCard,
@@ -12,4 +13,5 @@ export {
   FilterBySchool,
   FilterByClass,
   SpellStats,
+  RatingCard,
 };

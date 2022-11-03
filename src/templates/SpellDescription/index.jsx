@@ -1,7 +1,8 @@
 import { StyleSheet, Text, View, SafeAreaView, ScrollView } from "react-native";
-import { MediumTitle, Separator } from "../../atom";
+import { MediumTitle, Separator, SmallTitle } from "../../atom";
 import { TitleSubtitle } from "../../molecules";
 import { SpellStats } from "../../organisms/SpellStats";
+import { RatingCard } from "../../organisms";
 import colors from "../../misc/Colors";
 import React from "react";
 
@@ -14,12 +15,16 @@ function SpellDescription({ spell }) {
       <ScrollView style={{ flex: 1, width: "100%" }}>
         <SpellStats spell={spell} />
         <TitleSubtitle title={"Description"} subTitle={spell.desc} />
-        <TitleSubtitle
-          title={"Higher levels"}
-          subTitle={spell.higher_level.map((item) => {
-            return item + "\n";
-          })}
-        />
+        {spell.higher_level ? (
+          <TitleSubtitle
+            title={"Higher levels"}
+            subTitle={spell.higher_level.map((item) => {
+              return item + "\n";
+            })}
+          />
+        ) : null}
+        <SmallTitle style={{ marginHorizontal: 20 }}>Ratings</SmallTitle>
+        <RatingCard name={spell.name} />
       </ScrollView>
     </SafeAreaView>
   );
