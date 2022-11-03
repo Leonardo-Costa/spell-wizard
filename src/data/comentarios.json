@@ -1,0 +1,2383 @@
+[
+  {
+    "Nome": "Acid Splash",
+    "Rating": 3,
+    "Description": "This has value against 2 opponents, but it deals low damage, so you need those 2 opponents for it to be worth casting. The good thing is it gives you a way to target DEX.Evokers get guaranteed half-damage at Wizard 6."
+  },
+  {
+    "Nome": "Blade Ward",
+    "Rating": 1,
+    "Description": "It’s a reach, but it can be used with armor of Agathys, to extend the effect. An Eldritch Knight could potentially use it for tanking with War Magic, to attack with the bonus action. None of this is good."
+  },
+  {
+    "Nome": "Booming Blade",
+    "Rating": 4,
+    "Description": "This spell enables a weapon attack, and adds damage to it. For Rogues and Clerics who fight in melee, it’s purple,because you only get 1 attack anyway. For those who don’t want to limit their attacks, or who don’t fight in melee, it’s green.Evokers get a damage bonus at Wizard 10. If you gish with Evocation, I respect you."
+  },
+  {
+    "Nome": "Chill Touch",
+    "Rating": 4,
+    "Description": "Good range, decent damage, and occasionally fantastic secondary effects are a solid combination."
+  },
+  {
+    "Nome": "Control Flames",
+    "Rating": 3,
+    "Description": "You can expand, extinguish, or change the light or shape of fire."
+  },
+  {
+    "Nome": "Create Bonfire",
+    "Rating": 2,
+    "Description": "If it didn’t require concentration, this spell would be strong, because it provides area control. There are better concentration spells though, so this won’t get much use. Evokers get guaranteed half-damage at Wizard 6."
+  },
+  {
+    "Nome": "Dancing Lights",
+    "Rating": 3,
+    "Description": "Another concentration spell, but there’s out-of-combat value here, so it’s good."
+  },
+  {
+    "Nome": "Druidcraft",
+    "Rating": 3,
+    "Description": "Fun nature tricks."
+  },
+  {
+    "Nome": "Eldritch Blast",
+    "Rating": 5,
+    "Description": "The value of this spell is the fantastic invocations it can be combined with, such as Agonizing Blast and Repelling Blast. If you’re a Warlock, it’s your thing."
+  },
+  {
+    "Nome": "Fire Bolt",
+    "Rating": 4,
+    "Description": "It’s commonly resisted, but it has good range and good damage, and it can burn things. Evokers get a damage bonus at Wizard 10."
+  },
+  {
+    "Nome": "Friends",
+    "Rating": 3,
+    "Description": "With the right build, you can get good value here. It’s also fun with Subtle Spell, to provoke hostility."
+  },
+  {
+    "Nome": "Frostbite",
+    "Rating": 3,
+    "Description": "This seems like it would be strong, but it targets CON, and it doesn’t affect spell attacks. Evocation bonuses at Wizard 6 and 10 add value, but not as much as you’d think. I like it anyway."
+  },
+  {
+    "Nome": "Green-Flame Blade",
+    "Rating": 4,
+    "Description": "Everything that applies to booming bladeapplies here."
+  },
+  {
+    "Nome": "Guidance",
+    "Rating": 5,
+    "Description": "This is the best cantrip in the game. One caster with this spell can boost ability checks across the board. If no one in your party has this, take it."
+  },
+  {
+    "Nome": "Gust",
+    "Rating": 3,
+    "Description": "This is the air version of control flames. You can push creatures and objects around. It’s more of a nudge."
+  },
+  {
+    "Nome": "Infestation",
+    "Rating": 1,
+    "Description": "This is fun for sadistic Druids, but it deals low damage, targets CON, and is a commonly resisted damage type."
+  },
+  {
+    "Nome": "Light",
+    "Rating": 3,
+    "Description": "Seeing is good, and bright light is better than dim light."
+  },
+  {
+    "Nome": "Lightning Lure",
+    "Rating": 2,
+    "Description": "Pulling is good, but range is poor. Those who can cast it don’t want others near them, or can do a lot more damage by attacking. It targets STR, which is interesting. Evokers get a damage bonus at Wizard 10."
+  },
+  {
+    "Nome": "Mage Hand",
+    "Rating": 4,
+    "Description": "Moving things without touching them is very beneficial."
+  },
+  {
+    "Nome": "Magic Stone",
+    "Rating": 2,
+    "Description": "You can do shenanigans like conjuring monkeys and giving them stones to throw, but ultimately there is little value here. Scaling is poor."
+  },
+  {
+    "Nome": "Mending",
+    "Rating": 3,
+    "Description": "At-will magical repair ability is fun and useful."
+  },
+  {
+    "Nome": "Message",
+    "Rating": 4,
+    "Description": "The ability to communicate is crucial for strategic operations, so I like this cantrip."
+  },
+  {
+    "Nome": "Minor Illusion",
+    "Rating": 5,
+    "Description": "This competes with guidancefor the top cantrip spot. Its application is only limited by your imagination."
+  },
+  {
+    "Nome": "Mold Earth",
+    "Rating": 3,
+    "Description": "This is the earth version of the elemental control cantrips. Some players really like digging holes to set up ambushes. If you’re one of those players, this is your cantrip."
+  },
+  {
+    "Nome": "Poison Spray",
+    "Rating": 1,
+    "Description": "This deals good damage, but it is commonly resisted, targets CON, and has poor range. Evokers get guaranteed half-damage at Wizard 6."
+  },
+  {
+    "Nome": "Prestidigitation",
+    "Rating": 4,
+    "Description": "This is the arcane version of druidcraft. It has all kinds of uses, some of them quite valuable."
+  },
+  {
+    "Nome": "Primal Savagery",
+    "Rating": 2,
+    "Description": "This is a melee cantrip that scales. Damage is ok, but Druids don’t need to be in melee. Unless they’re Moon Druids, of course, but they have their own claws and teeth. Other Druids can shapeshift, too, but that’s more for utility. This paragraph has derailed. Anyway, the cantrip is bad."
+  },
+  {
+    "Nome": "Produce Flame",
+    "Rating": 3,
+    "Description": "Range is not good, but this is a Druid’s best option for a straight damage cantrip. It also gives light."
+  },
+  {
+    "Nome": "Ray of Frost",
+    "Rating": 4,
+    "Description": "This has decent range, decent damage, and a good secondary effect. Evokers get a damage bonus at Wizard 10."
+  },
+  {
+    "Nome": "Resistance",
+    "Rating": 3,
+    "Description": "Saving throws are not as predictable as ability checks, but there still are some uses here. And it’s good to make saving throws."
+  },
+  {
+    "Nome": "Sacred Flame",
+    "Rating": 4,
+    "Description": "This targets DEX and avoids cover, with decent range and damage."
+  },
+  {
+    "Nome": "Shape Water",
+    "Rating": 3,
+    "Description": "The last of the elemental control cantrips. Make fun ice objects."
+  },
+  {
+    "Nome": "Shillelagh",
+    "Rating": 3,
+    "Description": "This is a cantrip that I think is overrated. As with primal savagery, it is a melee cantrip. Damage is good at low levels, but it scales poorly, and Druids don’t need to be in melee. Clerics do a little better with it, but the fact that it requires a bonus action and an Attack action can cause problems."
+  },
+  {
+    "Nome": "Shocking Grasp",
+    "Rating": 2,
+    "Description": "This is another overrated cantrip. It allows a disengage, but the chance of failure is too high to be worth the minor damage it deals. The effective way to disengage is to take the Disengage action, which has a 100% chance of success. Evokers get a damage bonus at Wizard 10."
+  },
+  {
+    "Nome": "Spare the Dying",
+    "Rating": 3,
+    "Description": "This does the same thing as a healer’s kit, but I still like it, because you can run out of healer’s kits."
+  },
+  {
+    "Nome": "Sword Burst",
+    "Rating": 1,
+    "Description": "Those who would cast this don’t want to be in melee, and those who like melee take the attack action. It does target DEX, but that’s not enough to redeem it. It is occasionally useful on an Eldritch Knight from levels 7 to 10. Don’t take it. Take something else. Evokers get guaranteed half-damage at Wizard 6."
+  },
+  {
+    "Nome": "Thaumaturgy",
+    "Rating": 3,
+    "Description": "This is the Cleric version of druidcraftand prestidigitation. It has many creative uses."
+  },
+  {
+    "Nome": "Thorn Whip",
+    "Rating": 5,
+    "Description": "This is an excellent cantrip. It uses an attack roll, it deals damage, and it pulls creatures. It’s great with persistent area effects, which Druids are the masters of. A lot of Nature Clerics take shillelagh, but I would take thorn whip."
+  },
+  {
+    "Nome": "Thunderclap",
+    "Rating": 1,
+    "Description": "This is like sword burst, but worse. It theoretically could have value on a Druid, because Druids don’t have good attack options, but Druids, if you’re surrounded, you are in trouble. Cast something big. If you are a special kind of masochist, you will take it on an Evoker, because it gains value at Wizard 2, 6, and 10. It’s still no good."
+  },
+  {
+    "Nome": "Toll the Dead",
+    "Rating": 4,
+    "Description": "Overall, this has a slight edge on sacred flame, and is similar in value to chill touch, fire bolt, and ray of frost. It targets WIS, and deals good damage. Evokers get guaranteed half-damage at Wizard 6."
+  },
+  {
+    "Nome": "True Strike",
+    "Rating": 1,
+    "Description": "This is the worst of all cantrips. It’s better to attack than to not attack and hope to attack later. You’d think it would have value in setting up spells, but there just aren’t big spells with attack rolls. Also, there are many ways to get advantage."
+  },
+  {
+    "Nome": "Vicious Mockery",
+    "Rating": 5,
+    "Description": "This spell is much better than frostbite, because it targets WIS and it affects all types of attacks. Its value is not in the damage it deals, but in mitigation: Against high-damage attackers, it is stronger than healing spells."
+  },
+  {
+    "Nome": "Word of Radiance",
+    "Rating": 2,
+    "Description": "Our last cantrip is another sword burst/thunderclap-type spell. It is better than those spells, for the following reasons:Clerics can hang in melee.You can avoid targeting allies.Potent Spellcasting gives it a damage boost.It still targets CON, though, so don’t get excited about it."
+  },
+  {
+    "Nome": "Level 1Absorb Elements",
+    "Rating": 5,
+    "Description": "Here we have a fantastic spell, better in higher levels than in lower ones, because elemental damage is more frequent in higher levels. Anything that uses a reaction is good. Then you have the fact that it can save a lot of hit points. The next turn damage bonus is irrelevant, as is upcasting."
+  },
+  {
+    "Nome": "Alarm",
+    "Rating": 3,
+    "Description": "Rituals are good. This is a useful ritual. If you are an Abjurer, this spell is purple,because it replenishes your Arcane Ward. If you cannot cast it as a ritual, it is red."
+  },
+  {
+    "Nome": "Animal Friendship",
+    "Rating": 2,
+    "Description": "This should be a cantrip, in my opinion. It is usually not worth the slot, but it occasionally has value. It is not as powerful as charm person. Upcasting is not great, but it gives you the option of using a higher spell slot instead of multiple level-1s."
+  },
+  {
+    "Nome": "Armor of Agathys",
+    "Rating": 4,
+    "Description": "This is a great spell to cast in melee. Combined with resistance or Arcane Ward, it is purple.It is a great reason to multiclass. It is fantastic with upcasting. For those who don’t fight in melee, it is orange."
+  },
+  {
+    "Nome": "Arms of Hadar",
+    "Rating": 1,
+    "Description": "This has the same problem as shocking grasp, in that it is a bad way to disengage. Other than that, it deals minor AoE damage, with mild upcast value."
+  },
+  {
+    "Nome": "Bane",
+    "Rating": 4,
+    "Description": "This is a high-quality spell that is overshadowed by all the other great spells in the Bard and Cleric lists. There are times when reducing opposing attack rolls and saving throws is fantastic. If your party has many casters, it is often better than bless. Upcasting is ok, but not great."
+  },
+  {
+    "Nome": "Beast Bond",
+    "Rating": 2,
+    "Description": "This spell improves the attacks of a friendly beast, which is only common if you are a Beast Master, in which case it is blue."
+  },
+  {
+    "Nome": "Bless",
+    "Rating": 5,
+    "Description": "This is a great, fantastic spell. This is what you cast if you’re a Cleric, until you get spirit guardians. If you’re going into melee, it’s great with War Caster. Paladins can cast it too, though they have other uses for spell slots. Upcasting is sometimes worthwhile."
+  },
+  {
+    "Nome": "Burning Hands",
+    "Rating": 3,
+    "Description": "Area damage at first level is good. If you can’t handle melee, this is red.Upcasting is generally inferior to other spell options."
+  },
+  {
+    "Nome": "Catapult",
+    "Rating": 3,
+    "Description": "For single-target damage, this spell is not great, but it can target multiple creatures if one or more saves are made, provided the creatures are in a line. It stops on a failed save or if the object travels 90 feet. That’s only a slight overall damage increase, though, on average. If you can get creative with the object hurled, there is more value. Upcasting is poor."
+  },
+  {
+    "Nome": "Cause Fear",
+    "Rating": 1,
+    "Description": "This is a single-target spell that allows a save for no effect, and it requires concentration. None of those things are good. To make matters worse, a target that fails the save still can take actions, and there is a new save every round. Upcasting would be ok if the spell were ok, but it isn’t. On a Conquest Paladin, this is green."
+  },
+  {
+    "Nome": "Ceremony",
+    "Rating": 2,
+    "Description": "It’s a ritual, so it doesn’t consume a spell slot. You perform various priestly functions, with magical benefits."
+  },
+  {
+    "Nome": "Chaos Bolt",
+    "Rating": 1,
+    "Description": "This is a weak spell with a small chance to create a new instance of itself. Upcasting is poor."
+  },
+  {
+    "Nome": "Charm Person",
+    "Rating": 4,
+    "Description": "This spell is not strong in combat, but it is quite strong out-of-combat. Upcasting is sometimes worth it."
+  },
+  {
+    "Nome": "Chromatic Orb",
+    "Rating": 1,
+    "Description": "This is essentially the same as chaos bolt. Don’t be fooled by these single-target damage spells. There are much better things you can do with a first-level spell slot."
+  },
+  {
+    "Nome": "Color Spray",
+    "Rating": 1,
+    "Description": "This spell inflicts one turn of blindness on a small number of low-level creatures. In the first few levels, you can find some value here, but after that it’s useless. Upcasting is poor."
+  },
+  {
+    "Nome": "Command",
+    "Rating": 4,
+    "Description": "There are a lot of good uses for this spell, in and out of combat. Upcasting can be worth it."
+  },
+  {
+    "Nome": "Compelled Duel",
+    "Rating": 3,
+    "Description": "This spell has a save for no effect, but it uses a bonus action, which is beneficial. In most cases, it is best used against a target who is not near you, forcing disadvantage on attacks or the consequences of moving."
+  },
+  {
+    "Nome": "Comprehend Languages",
+    "Rating": 4,
+    "Description": "The value of this spell varies by campaign, but it’s often fantastic. If you cannot cast it as a ritual, it is orange."
+  },
+  {
+    "Nome": "Create or Destroy Water",
+    "Rating": 2,
+    "Description": "This spell is very situational, but it can be interesting."
+  },
+  {
+    "Nome": "Cure Wounds",
+    "Rating": 2,
+    "Description": "This is a low amount of healing at the cost of a spell slot and an action. Upcasting is poor."
+  },
+  {
+    "Nome": "Detect Evil and Good",
+    "Rating": 2,
+    "Description": "Another very situational spell. Situational is good for prepared casters, though, because you can change up your options when needed."
+  },
+  {
+    "Nome": "Detect Magic",
+    "Rating": 5,
+    "Description": "This is one of the absolute-best spells for a Wizard, because you can cast it without even preparing it. For other ritual casters, it’s blue.For non-ritual casters, it’s orange."
+  },
+  {
+    "Nome": "Detect Poison and Disease",
+    "Rating": 2,
+    "Description": "This is a ritual, good in the right situations."
+  },
+  {
+    "Nome": "Disguise Self",
+    "Rating": 3,
+    "Description": "For those who enjoy sneakery and trickery, this spell has a lot of value."
+  },
+  {
+    "Nome": "Dissonant Whispers",
+    "Rating": 5,
+    "Description": "Bard has a great list of spells, especially at first level, and this is the best of them. It would be good even without the damage. The key is that it allows opportunity attacks, because the target spends movement. Thus multiple allies in position can deal a lot of damage. Rogues are stars here, with the chance for a second Sneak Attack. Use it on targets with low WIS saves. Upcasting is poor."
+  },
+  {
+    "Nome": "Divine Favor",
+    "Rating": 3,
+    "Description": "It can be difficult to keep concentration in melee, but with many attacks, damage adds up."
+  },
+  {
+    "Nome": "Earth Tremor",
+    "Rating": 2,
+    "Description": "This is a lot like arms of Hadar, but slightly better, because it knocks creatures prone. It might be good for a Druid with a lot of conjured animals. Upcasting is poor."
+  },
+  {
+    "Nome": "Ensnaring Strike",
+    "Rating": 4,
+    "Description": "The value of this spell is that it combines with your Attack action. Thus even if it fails, you still have dealt damage. If the effect succeeds, it is strong, dealing damage itself and applying the restrained condition. Upcasting is poor, because the important part is the condition."
+  },
+  {
+    "Nome": "Entangle",
+    "Rating": 5,
+    "Description": "As with ensnaring strike, this spell applies the restrained condition, but it does it to an area, which is a solid value increase. It’s a bit mind-blowing how good this spell is. It also applies difficult terrain."
+  },
+  {
+    "Nome": "Expeditious Retreat",
+    "Rating": 3,
+    "Description": "This spell gives you Dash as a bonus action. If you are a Goblin, it gives you Cunning Action."
+  },
+  {
+    "Nome": "Faerie Fire",
+    "Rating": 5,
+    "Description": "This spell illustrates how fantastic both the Bard and Druid spell lists are. It also illustrates your enemies with a fiery halo. Your whole team gets advantage against all who fail their saves, and can see them, if they’re invisible."
+  },
+  {
+    "Nome": "False Life",
+    "Rating": 2,
+    "Description": "This spell gives a small amount of temporary hit points. Upcasting is poor."
+  },
+  {
+    "Nome": "Feather Fall",
+    "Rating": 3,
+    "Description": "This spell is occasionally great, because it stops you from dying. Also, cliffs and balconies become escape routes."
+  },
+  {
+    "Nome": "Find Familiar",
+    "Rating": 5,
+    "Description": "This is the best ritual in the game, even better than detect magic, and one of the best spells overall. It has a wide variety of uses, including the Help action, scouting, and item retrieval. It is the reason to take Ritual Casting, and a top pick with Magic Initiate."
+  },
+  {
+    "Nome": "Fog Cloud",
+    "Rating": 4,
+    "Description": "Uses include eliminating opposing advantage, eliminating allied disadvantage, disrupting opponents at range, and escaping combat altogether. Upcasting is sometimes fantastic."
+  },
+  {
+    "Nome": "Goodberry",
+    "Rating": 5,
+    "Description": "This spell is better than cure wounds, because it brings ten allies back from unconsciousness. You can cast it before a long rest, and it will last throughout the next day. A familiar can deliver the berries."
+  },
+  {
+    "Nome": "Grease",
+    "Rating": 4,
+    "Description": "This disrupts enemy movement and gives advantage to allied attacks. It is especially strong in choke points."
+  },
+  {
+    "Nome": "Guiding Bolt",
+    "Rating": 4,
+    "Description": "This is great in early levels, but falls off in later levels. Upcasting is poor."
+  },
+  {
+    "Nome": "Hail of Thorns",
+    "Rating": 5,
+    "Description": "As with ensnaring strike, this spell combines with your Attack action. Further, it affects an area, with half damage on a save. Upcasting is good."
+  },
+  {
+    "Nome": "Healing Word",
+    "Rating": 5,
+    "Description": "This is better than cure woundsbecause it has range and is cast as a bonus action. Both heal small amounts of damage, so their value is to pick up downed allies. Upcasting is poor."
+  },
+  {
+    "Nome": "Hellish Rebuke",
+    "Rating": 3,
+    "Description": "This is a pretty good way to add damage on a reaction. The problem is you have to get hit. If you don’t fight in melee, it’s red.Upcasting is ok."
+  },
+  {
+    "Nome": "Heroism",
+    "Rating": 4,
+    "Description": "This cures the frightened condition and adds temporary hit points, refreshing them each turn for the duration. Upcasting is ok to good, depending on enemy attack strength."
+  },
+  {
+    "Nome": "Hex",
+    "Rating": 4,
+    "Description": "This uses a bonus action to increase damage on attacks. It also affects ability checks. Upcasting is not great because it requires concentration, so it goes away when you cast hypnotic pattern."
+  },
+  {
+    "Nome": "Hunter’s Mark",
+    "Rating": 4,
+    "Description": "This is the Ranger version of hex."
+  },
+  {
+    "Nome": "Ice Knife",
+    "Rating": 4,
+    "Description": "This is like the attack and the save parts of hail of thornsall in one, though with less damage. Upcasting is poor."
+  },
+  {
+    "Nome": "Identify",
+    "Rating": 4,
+    "Description": "There are other ways to identify magic items, but as a ritual, this spell is quite handy."
+  },
+  {
+    "Nome": "Illusory Script",
+    "Rating": 2,
+    "Description": "This is a ritual that allows letter shenanigans."
+  },
+  {
+    "Nome": "Inflict Wounds",
+    "Rating": 2,
+    "Description": "If you plan to be in melee, you can get value from this, but there are generally better uses for your spell slots. If you aren’t built for melee, this is red.Upcasting is not great, but occasionally worth it."
+  },
+  {
+    "Nome": "Jump",
+    "Rating": 1,
+    "Description": "Anything solved by this spell has many other solutions."
+  },
+  {
+    "Nome": "Longstrider",
+    "Rating": 3,
+    "Description": "This does not use concentration, which makes it quite beneficial in some situations. Upcasting can be worth it."
+  },
+  {
+    "Nome": "Mage Armor",
+    "Rating": 5,
+    "Description": "This spell is well named, because it protects you as if it were armor. If you have medium armor proficiency, this is red."
+  },
+  {
+    "Nome": "Magic Missile",
+    "Rating": 3,
+    "Description": "For ranged damage, this is much better than chaos boltand chromatic orb. On average it’s stronger, because It hits automatically. Also, it can be split among multiple opponents. If you are an Evoker, this is purpleat Wizard 10, because there is one roll for all darts. Upcasting is poor for non-Evokers, though sometimes it’s worth it regardless. Against spellcasters, each dart forces its own CON save."
+  },
+  {
+    "Nome": "Protection from Evil and Good",
+    "Rating": 2,
+    "Description": "There are times when this spell is beneficial, but there are so many strong first-level spells that there’s usually a better option."
+  },
+  {
+    "Nome": "Purify Food and Drink",
+    "Rating": 2,
+    "Description": "This is a fun little ritual that you can prepare when relevant."
+  },
+  {
+    "Nome": "Ray of Sickness",
+    "Rating": 1,
+    "Description": "This spell requires a hit and a failed save to apply the poisoned condition. If the save is successful, it deals a small amount of damage. Thus you have a very low chance of a good result and a very high chance of a bad result. Upcasting is poor."
+  },
+  {
+    "Nome": "Sanctuary",
+    "Rating": 2,
+    "Description": "There are many who like this spell, but the problem is that the target is essentially removed from combat. Thus everyone else takes more damage, and the group has lesser effect."
+  },
+  {
+    "Nome": "Searing Smite",
+    "Rating": 1,
+    "Description": "This spell adds damage to an attack, but the damage is tiny. Upcasting is poor."
+  },
+  {
+    "Nome": "Shield",
+    "Rating": 5,
+    "Description": "This spell uses a reaction to avoid damage. It is valuable at every level."
+  },
+  {
+    "Nome": "Shield of Faith",
+    "Rating": 3,
+    "Description": "This spell applies a quality buff with a bonus action. The fact that it uses concentration, though, means that it is competing with some highly effective options."
+  },
+  {
+    "Nome": "Silent Image",
+    "Rating": 4,
+    "Description": "Illusions bring a lot of value out-of-combat, with creativity. In some groups, there is value in-combat, as well. minor illusionbrings synergy with sound. If you are an Illusionist, this spell becomes ridiculous at Wizard 14."
+  },
+  {
+    "Nome": "Sleep",
+    "Rating": 5,
+    "Description": "This spell quickly loses value, turning redby character level 5. In early levels, though, nothing is more powerful. Upcasting is poor."
+  },
+  {
+    "Nome": "Snare",
+    "Rating": 2,
+    "Description": "This is an out-of-combat spell that sets a trap. If a creature walks into it, there is a chance that creature will be restrained. It won’t take long to break free, though, so if you have a plan, act quickly."
+  },
+  {
+    "Nome": "Speak with Animals",
+    "Rating": 2,
+    "Description": "This spell has limited value as a ritual because it requires the animal to wait for you to finish casting it. On occasion, it is worth a spell slot."
+  },
+  {
+    "Nome": "Tasha’s Hideous Laughter",
+    "Rating": 4,
+    "Description": "This spell targets WIS and has a very strong effect. The drawbacks are that it requires concentration and on successful save it does nothing."
+  },
+  {
+    "Nome": "Tenser’s Floating Disk",
+    "Rating": 4,
+    "Description": "This is a ritual that carries things for you, with potential for creative use."
+  },
+  {
+    "Nome": "Thunderous Smite",
+    "Rating": 3,
+    "Description": "This spell adds damage to an attack. Further, there is a chance the opponent will be pushed and knocked down. Pushing has many beneficial uses, and knockdown gives advantage to allies in melee."
+  },
+  {
+    "Nome": "Thunderwave",
+    "Rating": 4,
+    "Description": "This is an area damage spell with pushback, which is valuable. If you don’t like melee, this is orange.Upcasting is ok."
+  },
+  {
+    "Nome": "Unseen Servant",
+    "Rating": 3,
+    "Description": "This is a ritual with many uses."
+  },
+  {
+    "Nome": "Witch Bolt",
+    "Rating": 1,
+    "Description": "This spell does poor damage on a hit and nothing on a miss. If you hit and your target doesn’t move away, you can use your action to deal poor damage on subsequent turns. Upcasting is poor."
+  },
+  {
+    "Nome": "Wrathful Smite",
+    "Rating": 5,
+    "Description": "This spell adds a tiny amount of damage to an attack, then the target must make a WIS save or be frightened. From there, the target has problems, because ending the condition requires an action and an ability check, while frightened causes disadvantage on ability checks."
+  },
+  {
+    "Nome": "Zephyr Strike",
+    "Rating": 4,
+    "Description": "For a bonus action, you get a strong boost to an attack, and movement benefits."
+  },
+  {
+    "Nome": "Level 2Aganazzar’s Scorcher",
+    "Rating": 1,
+    "Description": "This is an area-fire spell for 3d8 damage. burning handsis an area-fire spell for 3d6 damage. Save your 2nd-level slot and cast burning hands. Instead of upcasting, cast fireball."
+  },
+  {
+    "Nome": "Aid",
+    "Rating": 3,
+    "Description": "This stacks with temporary hit points, because it increases the hit point maximum. Upcasting is good, because each additional level adds as much as the base spell."
+  },
+  {
+    "Nome": "Alter Self",
+    "Rating": 3,
+    "Description": "You gain some shapeshifting ability, including an aquatic form that can breathe underwater and swim. This is different from disguise selfbecause it is not an illusion."
+  },
+  {
+    "Nome": "Animal Messenger",
+    "Rating": 2,
+    "Description": "You can use animals to send messages. Upcasting is expensive, because it’s no longer a ritual."
+  },
+  {
+    "Nome": "Arcane Lock",
+    "Rating": 1,
+    "Description": "You can put a tougher-than-normal lock on things, except for the fact that it can be dispelled, while normal locks can’t be. I feel this should be first-level, or a ritual."
+  },
+  {
+    "Nome": "Augury",
+    "Rating": 2,
+    "Description": "This is a ritual that gives you minor information about the future, as predicted by the DM."
+  },
+  {
+    "Nome": "Barkskin",
+    "Rating": 2,
+    "Description": "This has some value for a Moon Druid, for improved AC in wild shape."
+  },
+  {
+    "Nome": "Beast Sense",
+    "Rating": 3,
+    "Description": "This is a ritual that lets you perceive through the senses of a beast friend, if you have one."
+  },
+  {
+    "Nome": "Blindness/Deafness",
+    "Rating": 3,
+    "Description": "The great thing about this spell is it doesn’t require concentration. The not-great part is that it’s a single-target spell with a save for no effect, and it targets CON. Upcasting is good, because it adds a target per level."
+  },
+  {
+    "Nome": "Blur",
+    "Rating": 3,
+    "Description": "This is a strong defensive buff, but it requires concentration and it costs an action, so it gives your opponents a break from whatever other stuff you might do."
+  },
+  {
+    "Nome": "Branding Smite",
+    "Rating": 3,
+    "Description": "This is a Paladin smite spell. It turns an invisible creature visible with no saving throw. You have to hit it, of course, but you can keep trying as long as you keep concentration. Interestingly, this works with ranged weapons as well as melee weapons. Upcasting is poor."
+  },
+  {
+    "Nome": "Calm Emotions",
+    "Rating": 4,
+    "Description": "This is an area spell that suppresses charm, fright, or hostility. The area is large."
+  },
+  {
+    "Nome": "Cloud of Daggers",
+    "Rating": 3,
+    "Description": "The good thing about this spell is it doesn’t allow a save. Unfortunately it doesn’t do that much damage in the first place. This spell works well in a choke point, especially if your party can push opponents back through the area. Upcasting is good, because the spell has a duration, and the damage can’t be avoided."
+  },
+  {
+    "Nome": "Continual Flame",
+    "Rating": 1,
+    "Description": "For 50 gp you can make a lantern, or put lights in your home that won’t need replacement. It seems like you could just pay someone to do this for you, though, if you wanted it."
+  },
+  {
+    "Nome": "Cordon Of Arrows",
+    "Rating": 1,
+    "Description": "This is a trap you can set in preparation for battle. Unfortunately, damage is tiny. Upcasting is poor."
+  },
+  {
+    "Nome": "Crown of Madness",
+    "Rating": 1,
+    "Description": "This is a single-target spell that allows a save for no effect. Further, it only works if the target is next to another of your opponents, so you need favorable positioning, or an ally who can grapple or something. There are too many problems."
+  },
+  {
+    "Nome": "Darkness",
+    "Rating": 3,
+    "Description": "This is similar to fog cloud, but you can cast it on an object and move it. If you can see in your darkness, it’s purple."
+  },
+  {
+    "Nome": "Darkvision",
+    "Rating": 3,
+    "Description": "If your whole party can see in the dark, you are much less easy to detect, because you don’t need light. The same is true, of course, for anyone on a solo mission."
+  },
+  {
+    "Nome": "Detect Thoughts",
+    "Rating": 3,
+    "Description": "This spell has a lot of value out of combat. The fact that you can read surface thoughts without allowing a saving throw is very beneficial."
+  },
+  {
+    "Nome": "Dragon’s Breath",
+    "Rating": 4,
+    "Description": "As a bonus action, you can turn your familiar into an area damage source. Even with only one use, that’s a lot of added value. You can also cast it on creatures that aren’t easily killed. Upcasting is poor."
+  },
+  {
+    "Nome": "Dust Devil",
+    "Rating": 1,
+    "Description": "This spell threatens enemies with a tiny amount of damage if they don’t move. Maybe they don’t want to move because they’ll face opportunity attacks. Well, then they’ll have to take a tiny amount of damage. There’s also a chance to be pushed, but that doesn’t provoke opportunity attacks. Finally, there’s an obscurement effect. Upcasting is poor."
+  },
+  {
+    "Nome": "Earthbind",
+    "Rating": 1,
+    "Description": "This spell slowly brings a flying creature to the ground, with a save for no effect. It would be better if it dealt damage, or stopped attacks, or stopped ground movement, or something, like ensnaring strikeor Tasha’s hideous laughter. If this is your only possible way to deal with fliers, it’s orange."
+  },
+  {
+    "Nome": "Enhance Ability",
+    "Rating": 4,
+    "Description": "This spell has a lot of uses. Upcasting adds targets, which can be worthwhile."
+  },
+  {
+    "Nome": "Enlarge/Reduce",
+    "Rating": 2,
+    "Description": "This spell is poor in combat, but it’s good for shenanigans."
+  },
+  {
+    "Nome": "Enthrall",
+    "Rating": 2,
+    "Description": "This spell has out-of-combat value, for example to distract someone while your allies sneak past."
+  },
+  {
+    "Nome": "Find Steed",
+    "Rating": 3,
+    "Description": "You get a horse. I’m not as high on this spell as some are, because you can buy a horse. Also, the Twinned Spell effect is vastly misinterpreted. dragon’s breath, for example, does not give you and your horse AoE damage. If you play it that way, this is purple."
+  },
+  {
+    "Nome": "Find Traps",
+    "Rating": 2,
+    "Description": "This spell doesn’t actually find traps, unfortunately. Instead, it tells you if a trap is nearby. It does give the general nature of the trap, so hopefully you can use that to figure out where it is."
+  },
+  {
+    "Nome": "Flame Blade",
+    "Rating": 1,
+    "Description": "This is a very poor amount of damage to deal with a concentration spell."
+  },
+  {
+    "Nome": "Flaming Sphere",
+    "Rating": 4,
+    "Description": "This spell turns your bonus actions into damage, which is great. It also provides area control, threatening damage to opponents who don’t move. In this way it is much better than dust devil. Upcasting is good, for repeated damage and increased threat."
+  },
+  {
+    "Nome": "Gentle Repose",
+    "Rating": 3,
+    "Description": "This is a ritual that can save a party member from death, because it can give you time to find a caster of raise dead."
+  },
+  {
+    "Nome": "Gust of Wind",
+    "Rating": 2,
+    "Description": "This spell pushes those who fail a STR save, and extinguishes small, unprotected flames. You could combine with an area damage spell, or push enemies down a corridor while allies hit them from range."
+  },
+  {
+    "Nome": "Healing Spirit",
+    "Rating": 2,
+    "Description": "This spell heals small amounts of damage over multiple turns without using your action. It once had ridiculous out-of-combat value, but it has been nerfed, so now its value is combat-based. With a level of Life Cleric, this spell is blue.Upcasting is ok to good."
+  },
+  {
+    "Nome": "Heat Metal",
+    "Rating": 5,
+    "Description": "It’s easy to overlook this spell, because it only says 2d8. But then you look at it more, and you see that the damage cannot be reduced by a save, and you can deal it on following turns with your bonus action, and each time you deal the damage the target either drops the object or gets disadvantage on attack rolls and ability checks. All of that is fantastic. Upcasting is ok."
+  },
+  {
+    "Nome": "Hold Person",
+    "Rating": 1,
+    "Description": "This spell is poor for two reasons. First, there is a save for no effect. Second, it only affects humanoids. One of the things that is popular about it is that it allows auto-criticals. If an enemy is incapacitated, though, it’s often better to take out the enemies who can hurt you. Compare to Tasha’s hideous laughter, and think about that spell slot. Upcasting is theoretically good, because it adds targets, but it doesn’t make the spell worth it."
+  },
+  {
+    "Nome": "Invisibility",
+    "Rating": 4,
+    "Description": "This is a very useful spell out of combat. Upcasting is good, because it adds targets."
+  },
+  {
+    "Nome": "Knock",
+    "Rating": 2,
+    "Description": "This is a backup spell for when lockpicks and muscles don’t work."
+  },
+  {
+    "Nome": "Lesser Restoration",
+    "Rating": 3,
+    "Description": "This spell is great when you need it; otherwise it does nothing. You may want to prepare it some days and not others, depending on expected encounters."
+  },
+  {
+    "Nome": "Levitate",
+    "Rating": 4,
+    "Description": "This spell has high utility and defensive value. You can avoid melee attacks altogether while you cast spells or do other things. You can use it on an ally for safe disengage, though you cannot use it on yourself for this purpose, as the movement is caused by your action. Another thing you can do is use it offensively, removing the target from melee for the duration. The drawback, of course, is the CON save for no effect. If you are a Diviner, this is purple."
+  },
+  {
+    "Nome": "Locate Animals or Plants",
+    "Rating": 2,
+    "Description": "This is a ritual that could possibly be useful. As with most rituals, it is only worth taking if you have ritual casting."
+  },
+  {
+    "Nome": "Locate Object",
+    "Rating": 2,
+    "Description": "This spell only locates objects that are familiar to you, which greatly reduces its value."
+  },
+  { "Nome": "Magic Mouth", "Rating": 3, "Description": "Shenanigans." },
+  {
+    "Nome": "Magic Weapon",
+    "Rating": 3,
+    "Description": "If your opponents can’t be damaged by nonmagical weapons, and your Fighter doesn’t have a magic weapon, this spell is quite effective. Upcasting is poor."
+  },
+  {
+    "Nome": "Maximilian’s Earthen Grasp",
+    "Rating": 1,
+    "Description": "At first, it seems this spell has value, because it allows actions over its duration. But those actions are so useless that it’s essentially a single-target spell, with a save for no effect. The damage is minor."
+  },
+  {
+    "Nome": "Melf’s Acid Arrow",
+    "Rating": 1,
+    "Description": "This spell does a tiny amount of guaranteed damage, with a chance for a tiny amount of additional damage. Upcasting is poor."
+  },
+  {
+    "Nome": "Mind Spike",
+    "Rating": 1,
+    "Description": "This spell does poor damage, and the rest of it is extremely situational. Some think there is value for Diviners, with recovery of spell slots. Diviners, don’t be fooled. Cast something good instead. If the battle isn’t difficult, cast a cantrip or attack or whatever. Upcasting is poor."
+  },
+  {
+    "Nome": "Mirror Image",
+    "Rating": 5,
+    "Description": "This is a great defensive spell that requires no concentration. Thus you can avoid attacks while also causing trouble for opponents."
+  },
+  {
+    "Nome": "Misty Step",
+    "Rating": 5,
+    "Description": "This is one of the best spells in the game in my opinion. You teleport, and you still have your action. The obvious use is to escape opportunity attacks, but there are all kinds of other applications."
+  },
+  {
+    "Nome": "Moonbeam",
+    "Rating": 3,
+    "Description": "This spell provides a small amount of area control, by threatening damage to those who don’t move away. It is better than dust devil, though moving it costs an action. It also combines with push and pull effects, because those entering the area take damage. It is good against shapechangers. Upcasting is poor."
+  },
+  {
+    "Nome": "Nystul’s Magic Aura",
+    "Rating": 2,
+    "Description": "This spell has security and deception utility."
+  },
+  {
+    "Nome": "Pass Without Trace",
+    "Rating": 5,
+    "Description": "This spell adds a huge bonus to stealth for your entire party, which allows you to bypass obstacles completely."
+  },
+  {
+    "Nome": "Phantasmal Force",
+    "Rating": 3,
+    "Description": "The value of this spell varies widely by group. Regardless, there are good out-of-combat uses."
+  },
+  {
+    "Nome": "Prayer of Healing",
+    "Rating": 3,
+    "Description": "This is a viable out-of-combat healing spell. Upcasting is poor, in most cases."
+  },
+  {
+    "Nome": "Protection from Poison",
+    "Rating": 2,
+    "Description": "lesser restorationhas more general value, but if you expect to face poison, prepare this."
+  },
+  {
+    "Nome": "Pyrotechnics",
+    "Rating": 2,
+    "Description": "This spell has beneficial effects for no concentration, which is great, but it is extremely situational."
+  },
+  {
+    "Nome": "Ray of Enfeeblement",
+    "Rating": 1,
+    "Description": "This spell must hit to take effect, then applies a partial debuff. Not worth the spell slot."
+  },
+  {
+    "Nome": "Rope Trick",
+    "Rating": 4,
+    "Description": "This is a free short rest, great for healing and recovery of features."
+  },
+  {
+    "Nome": "Scorching Ray",
+    "Rating": 1,
+    "Description": "This is the same damage as a level-2 magic missile, which is not a path to success. Upcasting is poor. With hex, this spell is bluefor a few levels, and upcasting is ok."
+  },
+  {
+    "Nome": "See Invisibility",
+    "Rating": 4,
+    "Description": "Sometimes, it is very important to see the invisible, and this spell does not fail."
+  },
+  {
+    "Nome": "Shadow Blade",
+    "Rating": 4,
+    "Description": "This is an effective way to deal damage for Eldritch Knights and Bladesingers, making use of Extra Attack. If you don’t fight in melee, this is red.Upcasting is good."
+  },
+  {
+    "Nome": "Shatter",
+    "Rating": 4,
+    "Description": "This is an area damage spell with additional value against objects and inorganic creatures. Though not fantastic, it is frequently useful. Upcasting is ok."
+  },
+  {
+    "Nome": "Silence",
+    "Rating": 4,
+    "Description": "This spell has uses both as a ritual and with a spell slot. It is very effective against casters, if their movement can be stopped."
+  },
+  {
+    "Nome": "Skywrite",
+    "Rating": 3,
+    "Description": "This is a ritual that facilitates communication. If you are not a Wizard, this is orange.In general, rituals that Wizards can cast are worse for those who don’t have books, because the ritual must be known or prepared."
+  },
+  {
+    "Nome": "Snilloc’s Snowball Swarm",
+    "Rating": 1,
+    "Description": "This spell does a small amount of damage to a tiny area. Upcasting is poor."
+  },
+  {
+    "Nome": "Spider Climb",
+    "Rating": 2,
+    "Description": "This spell has exploration utility, with benefits for stealthy and ranged characters."
+  },
+  {
+    "Nome": "Spike Growth",
+    "Rating": 5,
+    "Description": "This is another fantastic Druid area-spell. It creates difficult terrain, and damages all who move through it, synergizing with push and pull effects, such as thorn whip."
+  },
+  {
+    "Nome": "Spiritual Weapon",
+    "Rating": 5,
+    "Description": "This spell provides damage each turn on a bonus action, for no concentration. All of that is fantastic. It is the reason to choose Divine Soul, as a Sorcerer. Upcasting is ok."
+  },
+  {
+    "Nome": "Suggestion",
+    "Rating": 4,
+    "Description": "This spell is decent in combat, and fantastic out of combat. Sorcerers take it to another level with Subtle Spell. Twinned Spell is also good."
+  },
+  {
+    "Nome": "Warding Bond",
+    "Rating": 3,
+    "Description": "As a backline caster, this is a great way to provide support to your tank."
+  },
+  {
+    "Nome": "Warding Wind",
+    "Rating": 3,
+    "Description": "This spell is a versatile problem-solver. When you need it, you’ll appreciate it."
+  },
+  {
+    "Nome": "Web",
+    "Rating": 5,
+    "Description": "This is entanglewith area control and a slightly better save. Thus it combines well with push and pull effects."
+  },
+  {
+    "Nome": "Zone of Truth",
+    "Rating": 1,
+    "Description": "This spell is situational and has a save for no effect. Depending on your group, it can have value."
+  },
+  {
+    "Nome": "Level 3Animate Dead",
+    "Rating": 5,
+    "Description": "A skeleton with a bow is free damage, and many skeletons with bows is a lot of free damage. If you are a Necromancer, this is your whole game, and it’s a powerful one. Upcasting is fantastic."
+  },
+  {
+    "Nome": "Aura Of Vitality",
+    "Rating": 2,
+    "Description": "This spell is similar to healing spirit, in that it provides healing without using your action. With a level of Life Cleric, it is blue."
+  },
+  {
+    "Nome": "Beacon of Hope",
+    "Rating": 3,
+    "Description": "If things are about to get terrible, this spell might get you through. It combines well with allied healing."
+  },
+  {
+    "Nome": "Bestow Curse",
+    "Rating": 1,
+    "Description": "This spell has a variety of possibilities, all of which are weak, and there is a save for no effect. Upcasting is interesting, because it extends the duration, and can remove the concentration requirement."
+  },
+  {
+    "Nome": "Blinding Smite",
+    "Rating": 2,
+    "Description": "This spell adds damage to an attack, with a possibility of blindness. Unfortunately, it targets CON, and the damage is not great for the slot level."
+  },
+  {
+    "Nome": "Blink",
+    "Rating": 3,
+    "Description": "This spell does not require concentration, and if you don’t need to be casting reaction spells, it is a good way to improve your defense."
+  },
+  {
+    "Nome": "Call Lightning",
+    "Rating": 3,
+    "Description": "This spell deals damage each turn to an area. All of that is good, but the area is small, and the damage is only ok. In stormy conditions, this is purple.Upcasting is good, because it applies over the duration."
+  },
+  {
+    "Nome": "Catnap",
+    "Rating": 1,
+    "Description": "This spell provides quicker short rests, so it regains resources, but it costs resources as well. A level-3 spell slot is valuable. Further, the time for short rest is not eliminated, merely reduced. There just isn’t much value here.Upcasting is poor."
+  },
+  {
+    "Nome": "Clairvoyance",
+    "Rating": 2,
+    "Description": "This spell provides information at range, which is valuable in the right situations."
+  },
+  {
+    "Nome": "Conjure Animals",
+    "Rating": 5,
+    "Description": "This spell adds allies, which is just about the best thing you can do in a fight. Benefits include tanking, positioning, and damage. Upcasting is strong."
+  },
+  {
+    "Nome": "Conjure Barrage",
+    "Rating": 2,
+    "Description": "This is an area damage spell, but the damage is minor. The area is large, so with many targets, there is value."
+  },
+  {
+    "Nome": "Counterspell",
+    "Rating": 5,
+    "Description": "This is the best spell in the game, in my opinion. Whatever the target is trying to do, it doesn’t happen. Further, you are winning the action economy, because you are trading a reaction for, most likely, an action. If you counter a counterspell, it is also fantastic, because you protect an action of your own, or of an ally. Upcasting is good."
+  },
+  {
+    "Nome": "Create Food and Water",
+    "Rating": 2,
+    "Description": "If you have no other way to get food and water, this does it, though goodberry, of course, is much cheaper."
+  },
+  {
+    "Nome": "Crusader’s Mantle",
+    "Rating": 4,
+    "Description": "If your party has many attackers,this spell is strong. One way to get many attackers is to cast animate objects."
+  },
+  {
+    "Nome": "Daylight",
+    "Rating": 2,
+    "Description": "This spell does not create daylight, so it doesn’t kill vampires. It does create a large area of light, and it does dispel darkness."
+  },
+  {
+    "Nome": "Dispel Magic",
+    "Rating": 4,
+    "Description": "counterspellstops spells before they happen; this spell instead stops them afterwards. counterspellis better, but this spell is very good. You can’t always stop spells before they happen, and you don’t always want to. If a save stops a spell, you don’t have to dispel it. Or you might just have a better use for that spell slot. Bards and Abjurers are especially effective with these two spells, because they get bonuses to the ability checks involved. Upcasting is a good option."
+  },
+  {
+    "Nome": "Elemental Weapon",
+    "Rating": 2,
+    "Description": "This spell is similar to magic weapon. It is situationally worth it. Upcasting is poor."
+  },
+  {
+    "Nome": "Enemies Abound",
+    "Rating": 3,
+    "Description": "This is a single-target spell with a save for no effect, but there are uses. If the target has poor INT saves, or your party is invisible, the results can be strong."
+  },
+  {
+    "Nome": "Erupting Earth",
+    "Rating": 2,
+    "Description": "This is an area-damage spell, but the area is not large, and the damage is not high. For Druids, it has value as a non-concentration option. Upcasting is good."
+  },
+  {
+    "Nome": "Fear",
+    "Rating": 4,
+    "Description": "This is an area spell with a strong effect. The area is not large, but it targets WIS, which is good."
+  },
+  {
+    "Nome": "Feign Death",
+    "Rating": 2,
+    "Description": "This is a ritual with occasional value."
+  },
+  {
+    "Nome": "Fireball",
+    "Rating": 5,
+    "Description": "This is an area-damage spell, which has value against multiple opponents. The area is large and the damage is high. Upcasting is ok."
+  },
+  {
+    "Nome": "Flame Arrows",
+    "Rating": 2,
+    "Description": "Theoretically, if you cast this spell in preparation for a battle, and your party has multiple archers, this spell has value. That is very situational."
+  },
+  {
+    "Nome": "Fly",
+    "Rating": 4,
+    "Description": "This spell gives flying speed to any target. The speed is good, and flying is very beneficial. Upcasting is good, because it adds targets."
+  },
+  {
+    "Nome": "Gaseous Form",
+    "Rating": 2,
+    "Description": "A misty cloud, you’d think, would not take damage from weapons, but that is not the case. This spell has exploration value, but little else."
+  },
+  {
+    "Nome": "Glyph of Warding",
+    "Rating": 2,
+    "Description": "This spell prepares an area or an object with a trap. The value is situational. Upcasting can be useful."
+  },
+  {
+    "Nome": "Haste",
+    "Rating": 3,
+    "Description": "This spell has strong benefit, but also carries great risk. If you lose concentration, the target loses a turn, which can be disastrous. Thus it is not a good self-buff, in my opinion. On a Rogue, this spell gives a chance for a second Sneak Attack, with readied Attack action. For a Sorcerer with Twinned Spell, this is purple."
+  },
+  {
+    "Nome": "Hunger of Hadar",
+    "Rating": 4,
+    "Description": "This is an area-control spell that synergizes with push and pull effects. The area is large, and a creature in the middle can be caught there for more than one turn, which is very beneficial. The damage is minor."
+  },
+  {
+    "Nome": "Hypnotic Pattern",
+    "Rating": 5,
+    "Description": "This is an area-control spell with a very strong effect that targets WIS. Those who are affected can be shaken out of it, but the shaking costs an action. In many battles, this will be the first spell you cast."
+  },
+  {
+    "Nome": "Leomund’s Tiny Hut",
+    "Rating": 5,
+    "Description": "This is a ritual that allows a long rest for your entire party whenever you want it. You don’t have to rest, but you can. The protection is very strong. The floor counts as part of the dome."
+  },
+  {
+    "Nome": "Life Transference",
+    "Rating": 2,
+    "Description": "This can be an effective heal in the right situations, but the cost is high."
+  },
+  {
+    "Nome": "Lightning Arrow",
+    "Rating": 3,
+    "Description": "This spell is similar to upcast hail of thorns, with a bigger area but lower damage. The value of this spell is that it doesn’t use your entire action, so with Extra Attack you can drop a remaining target. Upcasting is good."
+  },
+  {
+    "Nome": "Lightning Bolt",
+    "Rating": 4,
+    "Description": "This is an area-damage spell with an ok area and high damage. Upcasting is poor."
+  },
+  {
+    "Nome": "Magic Circle",
+    "Rating": 2,
+    "Description": "You can cast this spell to create a circle, then put a demon in it with a summoning spell. I don’t know why you would do that. I assume you have your reasons."
+  },
+  {
+    "Nome": "Major Image",
+    "Rating": 4,
+    "Description": "This is improved silent image, with greater range, size, and effects, including sound. Upcasting is good."
+  },
+  {
+    "Nome": "Mass Healing Word",
+    "Rating": 2,
+    "Description": "If multiple allies go down at the same time, you can bring them up with a bonus action. That is very situational. Upcasting is poor."
+  },
+  {
+    "Nome": "Meld Into Stone",
+    "Rating": 2,
+    "Description": "This is a ritual with situational value."
+  },
+  {
+    "Nome": "Melf’s Minute Meteors",
+    "Rating": 3,
+    "Description": "This is like call lightning, but it uses bonus actions and it runs out after three turns. Damage is slightly lower, which is a problem on the first turn, but once the bonus actions kick in, it’s strong. Casting before battle is beneficial. The fact that it runs out is not an issue, because battles don’t last many turns. Upcasting is poor, for the same reason."
+  },
+  {
+    "Nome": "Nondetection",
+    "Rating": 2,
+    "Description": "This spell is useful when sneaking against casters. It is also useful if you are a Deep Gnome Abjurer, because it replenishes your Arcane Ward, and you can cast it at will with Svirfneblin Magic."
+  },
+  {
+    "Nome": "Phantom Steed",
+    "Rating": 4,
+    "Description": "This is a ritual that gives you a horse. It is a fast horse. It is a good horse."
+  },
+  {
+    "Nome": "Plant Growth",
+    "Rating": 5,
+    "Description": "This is a very strong spell because it controls a large area, and it does not require concentration. Used strategically, it brings victory. If you have archers and your enemy does not, they’re dead. Etc."
+  },
+  {
+    "Nome": "Protection from Energy",
+    "Rating": 2,
+    "Description": "This spell provides partial damage reduction vs. a chosen damage type. It is very situational."
+  },
+  {
+    "Nome": "Remove Curse",
+    "Rating": 3,
+    "Description": "In most campaigns, you won’t often need this spell, and when you do, you don’t need it immediately. It’s great if you’re a prepared caster, because you can wait until you need it, then prepare it. Others can find someone else to cast it."
+  },
+  {
+    "Nome": "Revivify",
+    "Rating": 5,
+    "Description": "If you care about survival, you want this spell. In most cases, it is the second-best option for Magical Secrets, after counterspell."
+  },
+  {
+    "Nome": "Sending",
+    "Rating": 3,
+    "Description": "This spell allows communication, which is important for strategy."
+  },
+  {
+    "Nome": "Sleet Storm",
+    "Rating": 4,
+    "Description": "This is a strong area-control spell. A very large area is both heavily obscured and difficult terrain. Targets must save or fall prone, and casters must save or lose concentration."
+  },
+  {
+    "Nome": "Slow",
+    "Rating": 4,
+    "Description": "This is another strong area-control spell. Targets must save or face limitations. Those with many attacks can only attack once. This is the type of spell that wins battles."
+  },
+  {
+    "Nome": "Speak with Dead",
+    "Rating": 2,
+    "Description": "This spell gets you information. It is situational."
+  },
+  {
+    "Nome": "Speak with Plants",
+    "Rating": 2,
+    "Description": "This spell does plant stuff. It is situational."
+  },
+  {
+    "Nome": "Spirit Guardians",
+    "Rating": 5,
+    "Description": "This spell is not situational. It is area control that deals damage while you use your actions to cast spells or attack or whatever. Upcasting is fantastic."
+  },
+  {
+    "Nome": "Stinking Cloud",
+    "Rating": 3,
+    "Description": "This is an area-control spell, which is good, but it targets CON, which is not good. In the right situations, it will win battles."
+  },
+  {
+    "Nome": "Summon Lesser Demons",
+    "Rating": 3,
+    "Description": "This is for those agents of chaos out there. In a sense, this is an area control spell, because it turns an area with no demons into hell. Yes, demons are from the Abyss, but this is a metaphor. It’s important to not let the demons near you, because they will attack whoever they’re closest to. With strategy, this spell can be beneficial. Without strategy, it’s a disaster."
+  },
+  {
+    "Nome": "Thunder Step",
+    "Rating": 5,
+    "Description": "A spell that does two things is like a spell plus a free action. Teleporting is good. Area damage is good. Two good things in one action is great. This spell is great. Upcasting is even good on this spell."
+  },
+  {
+    "Nome": "Tidal Wave",
+    "Rating": 4,
+    "Description": "Again we have a spell that does two things. One of them is damage, of a similar amount. The other is knocking creatures prone, which gives your allies advantage on melee attacks. If you are a Druid, you get synergy with conjure animals."
+  },
+  {
+    "Nome": "Tiny Servant",
+    "Rating": 3,
+    "Description": "This spell gives you a creature that you can order to do things. Interestingly, it has blindsight. Upcasting gives you two additional creatures per level."
+  },
+  {
+    "Nome": "Tongues",
+    "Rating": 2,
+    "Description": "This spell has situational value."
+  },
+  {
+    "Nome": "Vampiric Touch",
+    "Rating": 1,
+    "Description": "This spell deals low damage, with pitiful healing. Upcasting is poor."
+  },
+  {
+    "Nome": "Wall of Sand",
+    "Rating": 1,
+    "Description": "This spell has little value."
+  },
+  {
+    "Nome": "Wall of Water",
+    "Rating": 1,
+    "Description": "Cold spells turn the water into ice."
+  },
+  {
+    "Nome": "Water Breathing",
+    "Rating": 3,
+    "Description": "This is a ritual that allows your party to breathe water."
+  },
+  {
+    "Nome": "Water Walk",
+    "Rating": 3,
+    "Description": "This is a ritual that allows your party to walk on liquid surfaces."
+  },
+  {
+    "Nome": "Wind Wall",
+    "Rating": 1,
+    "Description": "This spell creates a temporary wall of wind that deals a small amount of damage and has other, minor effects. Walls have not done well at this level."
+  },
+  {
+    "Nome": "Level 4Arcane Eye",
+    "Rating": 4,
+    "Description": "This is a great spell for scouting."
+  },
+  {
+    "Nome": "Aura of Life",
+    "Rating": 3,
+    "Description": "Paladin auras tend to be useful. This one is situational, but quite effective."
+  },
+  {
+    "Nome": "Aura of Purity",
+    "Rating": 3,
+    "Description": "This is another situational, effective aura."
+  },
+  {
+    "Nome": "Banishment",
+    "Rating": 4,
+    "Description": "This spell completely removes a creature from battle. That is a very strong result. The drawback is that there is a save for no effect. If you are a Diviner, this is purple.Upcasting is fantastic, because it adds one additional target per level."
+  },
+  {
+    "Nome": "Blight",
+    "Rating": 2,
+    "Description": "This spell kills the shit out of plants. Against non-plants, it does an average of 36 damage, with a CON save for half. fireballand lightning boltaverage 28, with DEX saves, against multiple targets, on level-3 spell slots. Single-target damage spells are just very weak in general. If you are a Druid, you will probably use this, because once you’ve cast your concentration spell there aren’t that many options. Upcasting is poor."
+  },
+  {
+    "Nome": "Charm Monster",
+    "Rating": 3,
+    "Description": "Once in a while, this spell will be very beneficial. Upcasting is good, because it adds targets."
+  },
+  {
+    "Nome": "Compulsion",
+    "Rating": 4,
+    "Description": "dissonant whispersallows opportunity attacks against a single target. This spell does that to multiple targets, over multiple turns, using bonus actions. The drawback is that the targets get to act before moving."
+  },
+  {
+    "Nome": "Confusion",
+    "Rating": 1,
+    "Description": "This is a battlefield-control spell, but the area is small, and even those who fail their saves can sometimes act normally. So it isn’t even really a battlefield-control spell. It’s more of a battlefield-minor-disruption spell. Upcasting is poor."
+  },
+  {
+    "Nome": "Conjure Minor Elementals",
+    "Rating": 3,
+    "Description": "Unlike conjure animals, this spell takes a minute to cast, which makes it much worse. Much worse than conjure animals, though, is still decent. Upcasting is poor."
+  },
+  {
+    "Nome": "Conjure Woodland Beings",
+    "Rating": 5,
+    "Description": "Now we’re back to normal casting times. This one’s a lot of fun. If you are lucky enough to get pixies, you win, because they cast polymorph. Upcasting is good."
+  },
+  {
+    "Nome": "Control Water",
+    "Rating": 2,
+    "Description": "This spell is very situational."
+  },
+  {
+    "Nome": "Death Ward",
+    "Rating": 3,
+    "Description": "This spell is a useful preparation for a tough day of combat, especially since it does not require concentration."
+  },
+  {
+    "Nome": "Dimension Door",
+    "Rating": 5,
+    "Description": "This is another quality teleportation spell. The value over previous options is greater range and the ability to go somewhere not in your vision."
+  },
+  {
+    "Nome": "Divination",
+    "Rating": 4,
+    "Description": "This is a ritual that provides information."
+  },
+  {
+    "Nome": "Dominate Beast",
+    "Rating": 2,
+    "Description": "This spell turns a beast into an ally, but It is very situational. First you must see the beast, then you must have a use for it. One beneficial thing is that you can issue commands without using an action. Upcasting can be good because it increases duration."
+  },
+  {
+    "Nome": "Elemental Bane",
+    "Rating": 1,
+    "Description": "This spell has a CON save for no effect, and does very little even if the save is failed. Upcasting is poor."
+  },
+  {
+    "Nome": "Evard’s Black Tentacles",
+    "Rating": 4,
+    "Description": "This spell is very similar to entangle, with some added damage. It also synergizes with push and pull effects. The fact that this spell is good shows you how good entangleis."
+  },
+  {
+    "Nome": "Fabricate",
+    "Rating": 3,
+    "Description": "This spell is situational, but useful."
+  },
+  {
+    "Nome": "Find Greater Steed",
+    "Rating": 5,
+    "Description": "This is a very valuable spell. The best options are griffon and pegasus."
+  },
+  {
+    "Nome": "Fire Shield",
+    "Rating": 4,
+    "Description": "For cold and fire resistance, this spell is a lot better than protection from energy, because it does not require concentration. If you do not fight in melee, this is green."
+  },
+  {
+    "Nome": "Freedom of Movement",
+    "Rating": 3,
+    "Description": "This spell is situational, but it can be quite effective, and it does not require concentration."
+  },
+  {
+    "Nome": "Giant Insect",
+    "Rating": 3,
+    "Description": "The value of this spell depends on how frequently you see insects in your game, but it is essentially a summoning spell, which is good."
+  },
+  {
+    "Nome": "Grasping Vine",
+    "Rating": 2,
+    "Description": "This spell uses bonus actions and provides area control, both very good things. Unfortunately, it requires concentration, which means it prohibits some of your most effective spells. It does have value in the right situations, e.g. combined with plant growth."
+  },
+  {
+    "Nome": "Greater Invisibility",
+    "Rating": 5,
+    "Description": "Your target gets a strong benefit to attacks and defenses. This is great on Fighters, who make many attacks, or anyone with high damage potential. If you are a melee Sorcerer, it is strong with Twinned Spell."
+  },
+  {
+    "Nome": "Guardian of Faith",
+    "Rating": 3,
+    "Description": "This spell is good because it does not require concentration. It has value in tough combat, because after the first turn, the effect is free."
+  },
+  {
+    "Nome": "Guardian of Nature",
+    "Rating": 5,
+    "Description": "This spell uses a bonus action and gives you advantage on attacks, with either a damage bonus or a CON save bonus, along with other effects. That’s a lot of value. If you are not attacking, of course, this spell is red."
+  },
+  {
+    "Nome": "Hallucinatory Terrain",
+    "Rating": 2,
+    "Description": "This spell changes the appearance of an area. If you are an Illusionist, this spell is purple."
+  },
+  {
+    "Nome": "Ice Storm",
+    "Rating": 1,
+    "Description": "sleet stormis good, so you might expectice stormto be good, but it isn’t. Upcasting is poor."
+  },
+  {
+    "Nome": "Leomund’s Secret Chest",
+    "Rating": 2,
+    "Description": "This spell is very situational."
+  },
+  {
+    "Nome": "Locate Creature",
+    "Rating": 2,
+    "Description": "This spell has occasional value."
+  },
+  {
+    "Nome": "Mordenkainen’s Faithful Hound",
+    "Rating": 1,
+    "Description": "This spell is like guardian of faith, but much weaker, because damage is lower and the area is smaller."
+  },
+  {
+    "Nome": "Mordenkainen’s Private Sanctum",
+    "Rating": 2,
+    "Description": "This spell is very situational. Upcasting is even more situational."
+  },
+  {
+    "Nome": "Otiluke’s Resilient Sphere",
+    "Rating": 4,
+    "Description": "This spell provides protection from damage and spells. It can also be used to remove an enemy from combat, much like banishment, with a save for no effect but no upcasting."
+  },
+  {
+    "Nome": "Phantasmal Killer",
+    "Rating": 1,
+    "Description": "This spell allows repeated saves, with poor effects on failed saves. Upcasting is poor."
+  },
+  {
+    "Nome": "Polymorph",
+    "Rating": 5,
+    "Description": "This spell turns a nearly dead ally into a healthy giant ape, which is ridiculously powerful. Of course, it can also be used on healthy allies, and with other forms. Or cast it on an enemy, with a save for no effect. If you are a Sorcerer, you can cast this with Twinned Spell."
+  },
+  {
+    "Nome": "Shadow of Moil",
+    "Rating": 5,
+    "Description": "This spell is everything a Pact of the Blade Warlock wants: It gives advantage on attacks, disadvantage to attackers, and damage to those who hit you in melee. It’s good for Blastlocks too, because of all the attack rolls."
+  },
+  {
+    "Nome": "Sickening Radiance",
+    "Rating": 2,
+    "Description": "This is an area-control spell that deals damage, but there is a CON save for no effect. It also applies exhaustion, and counters invisibility. Exhaustion generally has little impact, but if the targets somehow fail many saves, it can get deadly. Theoretically there is some use against invisible creatures, but it seems that faerie fireor see invisiblewould be more effective. Overall, the unusual combination of applications makes this spell extremely situational."
+  },
+  {
+    "Nome": "Staggering Smite",
+    "Rating": 2,
+    "Description": "This is a Paladin smite spell that adds 14 damage, on average, to an attack, with a minor debuff on failed save. Both effects are weak, but the combination has value against high-damage attackers."
+  },
+  {
+    "Nome": "Stone Shape",
+    "Rating": 2,
+    "Description": "This spell is very situational."
+  },
+  {
+    "Nome": "Stoneskin",
+    "Rating": 2,
+    "Description": "This spell has an expensive component cost, therefore is generally not worth casting."
+  },
+  {
+    "Nome": "Storm Sphere",
+    "Rating": 2,
+    "Description": "This is an area-control spell that deals a tiny amount of damage, then allows additional damage on your bonus actions. If you are an Evoker, or you have a grappler on your team, it’s blue.Upcasting is ok."
+  },
+  {
+    "Nome": "Summon Greater Demon",
+    "Rating": 5,
+    "Description": "This is my kind of spell. You summon a nasty creature that causes all kinds of trouble, more for your opponents than for you. Tell your friends to stay away from it though. Upcasting is good, because demon."
+  },
+  {
+    "Nome": "Vitriolic Sphere",
+    "Rating": 4,
+    "Description": "If acid is your thing, this is your spell. You deal acid damage to a fireball-sized area. Upcasting is ok."
+  },
+  {
+    "Nome": "Wall of Fire",
+    "Rating": 4,
+    "Description": "This is an area-control spell that deals damage. It combines well with push and pull effects. Upcasting is good."
+  },
+  {
+    "Nome": "Watery Sphere",
+    "Rating": 4,
+    "Description": "This is an area-control spell that you can move with your action. Creatures inside the area must save or be restrained, and you can add creatures to it, up to four of size small or medium. It’s like a small entanglethat you can cast for free, each turn after the first."
+  },
+  {
+    "Nome": "Level 5Animate Objects",
+    "Rating": 5,
+    "Description": "Up to this point, there have been no strong single-target damage spells. This is the first. It’s also a multiple-target damage spell. You control it with bonus actions, and it deals damage each turn for the duration. If an ally has crusader’s mantle, things get ridiculous. Upcasting is good."
+  },
+  {
+    "Nome": "Antilife Shell",
+    "Rating": 3,
+    "Description": "This spell has protection benefits, and also can be used for positioning. With creativity, you can get value."
+  },
+  {
+    "Nome": "Awaken",
+    "Rating": 4,
+    "Description": "This spell creates friendly beasts and plants. If you are able to convince a target to adventure with you, it is very beneficial."
+  },
+  {
+    "Nome": "Banishing Smite",
+    "Rating": 5,
+    "Description": "This is a Paladin smite spell with a fantastic effect, provided the target has low enough hit points. It adds 5d10 damage to your attack, then if the target has 50 hit points or fewer it is banished, with no save. That no save part is the good part. Also the banished part. And the damage."
+  },
+  {
+    "Nome": "Bigby’s Hand",
+    "Rating": 2,
+    "Description": "This spell creates an enormous hand that you control with bonus actions. Everything it does is more easily accomplished in other ways. Compare damage, for example, to animate objects. Upcasting is ok."
+  },
+  {
+    "Nome": "Circle of Power",
+    "Rating": 5,
+    "Description": "This spell is well-named, because it is powerful. All friendly creatures get advantage on saves against spells and magical effects. Saves that reduce damage to half instead reduce it to zero. If you are a Bard, consider this for Magical Secrets."
+  },
+  {
+    "Nome": "Cloudkill",
+    "Rating": 1,
+    "Description": "This is an area-control spell that targets CON and deals poor damage. Upcasting is poor."
+  },
+  {
+    "Nome": "Commune",
+    "Rating": 3,
+    "Description": "This is a ritual that provides information."
+  },
+  {
+    "Nome": "Commune with Nature",
+    "Rating": 2,
+    "Description": "This is a ritual that provides information about your surrounding area."
+  },
+  {
+    "Nome": "Cone of Cold",
+    "Rating": 3,
+    "Description": "This is an area spell that deals 36 average damage on a failed CON save. Upcasting is ok."
+  },
+  {
+    "Nome": "Conjure Elemental",
+    "Rating": 4,
+    "Description": "This spell takes a minute to cast, but it creates a strong ally. It is important to maintain concentration, because if you lose concentration the ally becomes hostile. If you are a Conjurer, this spell is purple.Upcasting is ok."
+  },
+  {
+    "Nome": "Conjure Volley",
+    "Rating": 4,
+    "Description": "This spell targets DEX and deals 36 average damage to a large area."
+  },
+  {
+    "Nome": "Contact Other Plane",
+    "Rating": 4,
+    "Description": "This spell is communewith more questions and a chance for temporary insanity. It’s rated higher because it can be cast from a book. Otherwise, it’s orange."
+  },
+  {
+    "Nome": "Contagion",
+    "Rating": 1,
+    "Description": "This spell has a range of touch and requires an attack to apply the poisoned condition. The rest of it is unimportant because it takes too long."
+  },
+  {
+    "Nome": "Control Winds",
+    "Rating": 1,
+    "Description": "The effects of this spell are minor."
+  },
+  {
+    "Nome": "Creation",
+    "Rating": 1,
+    "Description": "This spell makes things, though they don’t last very long. Conjurers basically get this at Wizard 2. Upcasting would be good if the spell were good, but it isn’t."
+  },
+  {
+    "Nome": "Danse Macabre",
+    "Rating": 3,
+    "Description": "If you have corpses available, this is a summoning spell, which has value. If you are a Necromancer, this is purple.Upcasting requires more corpses, but is otherwise good."
+  },
+  {
+    "Nome": "Dawn",
+    "Rating": 1,
+    "Description": "This is an area-control spell that deals damage, but the damage is poor."
+  },
+  {
+    "Nome": "Destructive Wave",
+    "Rating": 5,
+    "Description": "This spell deals good damage over a large area to targets you choose, with the additional effect that it can knock them prone."
+  },
+  {
+    "Nome": "Dispel Evil and Good",
+    "Rating": 1,
+    "Description": "This spell does things that are more easily done with lower spell slots."
+  },
+  {
+    "Nome": "Dominate Person",
+    "Rating": 3,
+    "Description": "This spell is like super charm person, which has occasionally strong value out of combat. Upcasting is also occasionally strong."
+  },
+  {
+    "Nome": "Dream",
+    "Rating": 2,
+    "Description": "This spell has strong creative value, but is quite situational."
+  },
+  {
+    "Nome": "Enervation",
+    "Rating": 1,
+    "Description": "This spell requires concentration and the use of your action each turn to deal very low damage, then heal an even smaller amount. Upcasting is poor."
+  },
+  {
+    "Nome": "Far Step",
+    "Rating": 1,
+    "Description": "This spell is not worth your concentration."
+  },
+  {
+    "Nome": "Flame Strike",
+    "Rating": 1,
+    "Description": "This spell deals poor damage to a small area. Upcasting is poor."
+  },
+  {
+    "Nome": "Geas",
+    "Rating": 2,
+    "Description": "This spell can be worthwhile against targets with low hit points, but is otherwise useless. Upcasting has situational value."
+  },
+  {
+    "Nome": "Greater Restoration",
+    "Rating": 3,
+    "Description": "This is a very beneficial spell for prepared casters, because you can wait until you need it to prepare it. For others, it’s red.If an ally is a Berserker Barbarian, it’s purple."
+  },
+  {
+    "Nome": "Hallow",
+    "Rating": 2,
+    "Description": "This spell is very situational."
+  },
+  {
+    "Nome": "Hold Monster",
+    "Rating": 1,
+    "Description": "This is a single-target concentration spell with a save for no effect. Even if the save is failed, there is a new save each turn. Upcasting would be good if the spell were good, but it isn’t. If you are an Enchanter, this is green."
+  },
+  {
+    "Nome": "Holy Weapon",
+    "Rating": 3,
+    "Description": "If you or an ally attacks three times or more each turn, this spell can be worth it. The fact that it uses a bonus action is convenient, but it requires concentration, thus blocking other options."
+  },
+  {
+    "Nome": "Immolation",
+    "Rating": 1,
+    "Description": "This spell is complete garbage."
+  },
+  {
+    "Nome": "Infernal Calling",
+    "Rating": 2,
+    "Description": "This spell summons a devil, which you can attempt to command. If you fail, the devil does whatever it wants. That would generally be bad, because the devil is unfriendly to you. If you have a devil’s talisman, this spell is purple.Otherwise, it is very situational. Upcasting is ok."
+  },
+  {
+    "Nome": "Insect Plague",
+    "Rating": 3,
+    "Description": "This is an area-control spell that deals ok damage, and combines well with push and pull effects. Upcasting is ok."
+  },
+  {
+    "Nome": "Legend Lore",
+    "Rating": 2,
+    "Description": "This is quite an expensive spell for the information it reveals, but it can be worth it."
+  },
+  {
+    "Nome": "Maelstrom",
+    "Rating": 3,
+    "Description": "This is a control spell with a large area that limits the movement of low-STR targets, with added damage."
+  },
+  {
+    "Nome": "Mass Cure Wounds",
+    "Rating": 2,
+    "Description": "This spell doesn’t really heal that much damage. It’s only worth casting if things are bad, but if things are bad it might not save you. Upcasting is poor."
+  },
+  {
+    "Nome": "Mislead",
+    "Rating": 2,
+    "Description": "This spell has situational value, but it’s a bit expensive."
+  },
+  {
+    "Nome": "Modify Memory",
+    "Rating": 3,
+    "Description": "This spell has out-of-combat value. Upcasting can be worth it."
+  },
+  {
+    "Nome": "Negative Energy Flood",
+    "Rating": 1,
+    "Description": "This spell does poor damage, with an interesting but weak secondary effect."
+  },
+  {
+    "Nome": "Passwall",
+    "Rating": 2,
+    "Description": "This spell is good for storming castles."
+  },
+  {
+    "Nome": "Planar Binding",
+    "Rating": 2,
+    "Description": "This spell combines with magic circleand summoning spells to give you otherworldly servants. It’s fun, if you’re into it, but it’s an involved process, with expensive component costs. Upcasting is good."
+  },
+  {
+    "Nome": "Raise Dead",
+    "Rating": 3,
+    "Description": "This spell is extremely valuable in low-magic worlds, but in most campaigns you can find someone to cast it for you, if you need it."
+  },
+  {
+    "Nome": "Rary’s Telepathic Bond",
+    "Rating": 5,
+    "Description": "This is a very useful ritual."
+  },
+  {
+    "Nome": "Reincarnate",
+    "Rating": 3,
+    "Description": "This spell has advantages over raise dead in that it only requires part of the target’s body and it brings the target back at full health. Some people like randomness, and some don’t."
+  },
+  {
+    "Nome": "Scrying",
+    "Rating": 3,
+    "Description": "This spell brings you information about a creature of your choice."
+  },
+  {
+    "Nome": "Seeming",
+    "Rating": 2,
+    "Description": "This spell has out-of-combat value."
+  },
+  {
+    "Nome": "Skill Empowerment",
+    "Rating": 2,
+    "Description": "Level-5 is a high cost for this spell, but it can be useful."
+  },
+  {
+    "Nome": "Steel Wind Strike",
+    "Rating": 4,
+    "Description": "This is like an area spell that doesn’t harm allies. The fact that it provides an alternative to saves is also beneficial. For those who don’t like melee, it is red."
+  },
+  {
+    "Nome": "Swift Quiver",
+    "Rating": 5,
+    "Description": "Two additional attacks per turn are very beneficial. If you don’t have Extra Attack, this is red."
+  },
+  {
+    "Nome": "Synaptic Static",
+    "Rating": 5,
+    "Description": "This is an area spell with multiple benefits, including attack penalties and damage. Multiple benefits are good."
+  },
+  {
+    "Nome": "Telekinesis",
+    "Rating": 3,
+    "Description": "You can lift targets in the air and move them around. You can also move objects. If you are a Bard, this is blue,because you get a bonus from Jack of All Trades."
+  },
+  {
+    "Nome": "Teleportation Circle",
+    "Rating": 3,
+    "Description": "This spell provides safe, fast travel to specific locations. If those locations are convenient, it is very beneficial."
+  },
+  {
+    "Nome": "Transmute Rock",
+    "Rating": 3,
+    "Description": "This is an area-control spell that inflicts the restrained condition and does not cost concentration. Other uses are situational."
+  },
+  {
+    "Nome": "Tree Stride",
+    "Rating": 2,
+    "Description": "This spell makes you highly mobile in a wooded area."
+  },
+  {
+    "Nome": "Wall of Force",
+    "Rating": 5,
+    "Description": "This is the ultimate battlefield-control spell. Divide and conquer, or trap a single opponent."
+  },
+  {
+    "Nome": "Wall of Light",
+    "Rating": 1,
+    "Description": "This is an area control spell that deals poor damage, with a weak blinding effect. Upcasting is poor."
+  },
+  {
+    "Nome": "Wall of Stone",
+    "Rating": 4,
+    "Description": "This is a battlefield-control spell with out-of-combat benefits."
+  },
+  {
+    "Nome": "Wrath of Nature",
+    "Rating": 3,
+    "Description": "This is an area-control spell with multiple minor benefits. If you can activate all of them, it is worthwhile."
+  },
+  {
+    "Nome": "Level 6Arcane Gate",
+    "Rating": 2,
+    "Description": "This spell is very situational."
+  },
+  {
+    "Nome": "Blade Barrier",
+    "Rating": 3,
+    "Description": "This is an area-control spell with ok damage and other minor effects."
+  },
+  {
+    "Nome": "Bones of the Earth",
+    "Rating": 4,
+    "Description": "This is a battlefield control spell that does not require concentration. It is best cast indoors, where it forces targets to save or take a small amount of damage and be restrained. It also blocks movement through strategic locations. It does these things by creating pillars that rise from the ground. Upcasting adds more pillars, which can be worthwhile, but we’re getting into high-level territory here, so it has to be good."
+  },
+  {
+    "Nome": "Chain Lightning",
+    "Rating": 2,
+    "Description": "This spell deals 44 average damage to up to four targets, with saves for half damage. There are usually better options. Upcasting adds targets, which is rarely worthwhile."
+  },
+  {
+    "Nome": "Circle of Death",
+    "Rating": 1,
+    "Description": "This spell deals damage over a large area, but the damage is poor. Also there is an expensive material component. Upcasting is ok, if you’re casting it."
+  },
+  {
+    "Nome": "Conjure Fey",
+    "Rating": 3,
+    "Description": "This is the same as conjure elemental, but with fey. Upcasting is ok."
+  },
+  {
+    "Nome": "Contingency",
+    "Rating": 5,
+    "Description": "This is a powerful spell that gives you a free casting of another spell, when conditions are met. Good options include dimension doorand Otiluke’s resilient sphere."
+  },
+  {
+    "Nome": "Create Homunculus",
+    "Rating": 3,
+    "Description": "This spell gives you a faithful servant, essentially for free, because you can cast it when you don’t need the spell slot. You share a telepathic bond at any distance, which has value in scouting, spying, and all kinds of other operations."
+  },
+  {
+    "Nome": "Create Undead",
+    "Rating": 3,
+    "Description": "This is an upgrade of animate dead, but it’s not as good for its level. If you are a Necromancer, it is purple.Upcasting is ok."
+  },
+  {
+    "Nome": "Disintegrate",
+    "Rating": 1,
+    "Description": "This is a single-target damage spell with a save for no effect. It is not worth the level. Upcasting is poor."
+  },
+  {
+    "Nome": "Drawmij’s Instant Summons",
+    "Rating": 2,
+    "Description": "This is a ritual that is very situational."
+  },
+  {
+    "Nome": "Druid Grove",
+    "Rating": 3,
+    "Description": "This spell does cool Druid stuff."
+  },
+  {
+    "Nome": "Eyebite",
+    "Rating": 1,
+    "Description": "This spell lasts multiple rounds, but it only takes one target per round, with a save for no effect. At this level, there are far better options."
+  },
+  {
+    "Nome": "Find the Path",
+    "Rating": 2,
+    "Description": "This spell is very situational."
+  },
+  {
+    "Nome": "Flesh to Stone",
+    "Rating": 1,
+    "Description": "This is essentially a single-target spell with a save for no effect. That is not worth it at this level."
+  },
+  {
+    "Nome": "Forbiddance",
+    "Rating": 3,
+    "Description": "This is a ritual that is situational, but effective."
+  },
+  {
+    "Nome": "Globe of Invulnerability",
+    "Rating": 3,
+    "Description": "This is an area spell that stops all spells from outside the area, of level 5 or lower, even if upcasted. In certain situations, that is very worthwhile. Upcasting this spell can be worthwhile as well."
+  },
+  {
+    "Nome": "Guards and Wards",
+    "Rating": 2,
+    "Description": "This spell has situational value."
+  },
+  {
+    "Nome": "Harm",
+    "Rating": 2,
+    "Description": "This spell deals low damage, but it can be good against healing effects, as it lowers the hit point maximum."
+  },
+  {
+    "Nome": "Heal",
+    "Rating": 5,
+    "Description": "This is the first single-target, single-action healing spell that heals a large amount of damage. That has a lot of value in combat. Upcasting is ok."
+  },
+  {
+    "Nome": "Heroes’ Feast",
+    "Rating": 4,
+    "Description": "This is a great spell to cast before a tough day of combat. It does have a high component cost, but at this level that’s not much of a problem."
+  },
+  {
+    "Nome": "Investiture of Flame",
+    "Rating": 2,
+    "Description": "This spell gives you immunity to fire damage, and additional effects that are terrible."
+  },
+  {
+    "Nome": "Investiture of Ice",
+    "Rating": 2,
+    "Description": "This spell is very situational, and that situation would be that you’re in frozen terrain, facing powerful creatures with cold damage."
+  },
+  {
+    "Nome": "Investiture of Stone",
+    "Rating": 2,
+    "Description": "This spell lets you swim through stone."
+  },
+  {
+    "Nome": "Investiture of Wind",
+    "Rating": 2,
+    "Description": "If you need to fly and avoid ranged attacks, this is your spell. It’s too bad the investiture spells are so weak, because they have good flavor."
+  },
+  {
+    "Nome": "Magic Jar",
+    "Rating": 4,
+    "Description": "This is a powerful spell that allows you to possess other creatures. There are many applications."
+  },
+  {
+    "Nome": "Mass Suggestion",
+    "Rating": 5,
+    "Description": "This is a multiple-target spell that does not require concentration. That would have value with almost any effect, but the effect here is also good: The targets do what you want, for an entire 24 hours. This spell has all the good. There is no more good this spell can be. Upcasting increases the duration, which is good."
+  },
+  {
+    "Nome": "Mental Prison",
+    "Rating": 4,
+    "Description": "This is a single-target spell with two effects. First, the target takes 27.5 average damage. That isn’t huge, but it’s something. Second, if the target fails an INT save, it is essentially blinded and restrained for the duration. That is very beneficial. If you are a Sorcerer with Twinned Spell, this is purple."
+  },
+  {
+    "Nome": "Move Earth",
+    "Rating": 2,
+    "Description": "This spell is interesting, but situational."
+  },
+  {
+    "Nome": "Otiluke’s Freezing Sphere",
+    "Rating": 3,
+    "Description": "This spell does 35 average damage on a failed CON save, which is not a lot. The value comes from two things: First, it covers a very large area, and second, you can delay it for up to a minute. Thus you can cast it before battle and throw it while you cast with your bonus action, or give it to someone else to throw. Actually, you wouldn’t want to throw it because that would catch you in the area. You’d want to use a sling. This is a long discussion for a situational spell. There’s also the fact that it freezes water, so if you fight creatures swimming on the surface of a body of water, you’ve reached your heroic moment. Upcasting is poor."
+  },
+  {
+    "Nome": "Otto’s Irresistible Dance",
+    "Rating": 4,
+    "Description": "The value of this spell is the “irresistible” part, i.e. it takes effect without an initial saving throw. Thus the target loses an action, and if you time it right, many allies get advantage on attacks. If you are an Enchanter, this spell is purple."
+  },
+  {
+    "Nome": "Planar Ally",
+    "Rating": 3,
+    "Description": "This spell has a lot of possibility. In the right situations, it can be very beneficial."
+  },
+  {
+    "Nome": "Primordial Ward",
+    "Rating": 3,
+    "Description": "This spell can give you immunity to a damage type, which at times is very valuable."
+  },
+  {
+    "Nome": "Programmed Illusion",
+    "Rating": 3,
+    "Description": "This spell creates an illusion that follows a scripted routine. For example, if the imperial fleet is attacking, you can make an image of yourself asking for help. The illusion is permanent, and can activate as often as once per ten minutes."
+  },
+  {
+    "Nome": "Scatter",
+    "Rating": 4,
+    "Description": "This spell can be used for tactical positioning in combat, or to escape combat altogether. There is also out-of-combat value."
+  },
+  {
+    "Nome": "Soul Cage",
+    "Rating": 4,
+    "Description": "This spell has beneficial combat effects that do not require actions, and also some out-of-combat effects."
+  },
+  {
+    "Nome": "Sunbeam",
+    "Rating": 3,
+    "Description": "This spell deals minor damage, with a possible blinding effect, each turn for its duration. Undead and oozes save with disadvantage. If you are a Sorcerer with Quickened Spell, you can use it twice in one turn, then cast other spells while you continue to use it. It’s good against vampires, because it is sunlight."
+  },
+  {
+    "Nome": "Tenser’s Transformation",
+    "Rating": 2,
+    "Description": "This spell seems good for gishes, but gishes are already optimized to be doing much of what it provides. If you are not optimized for gishing, then it will not add enough to be worth casting. The main benefit is the damage added to attacks, but there are better ways to use your concentration. That said, you can build a character that makes use of it if you want to, so if you want to, go for it."
+  },
+  {
+    "Nome": "Transport via Plants",
+    "Rating": 4,
+    "Description": "This is an effective mass-teleportation spell."
+  },
+  {
+    "Nome": "True Seeing",
+    "Rating": 4,
+    "Description": "This spell grants truesight, which is very valuable."
+  },
+  {
+    "Nome": "Wall of Ice",
+    "Rating": 2,
+    "Description": "This spell creates a wall that is easily broken and has minor damage effects. Upcasting is poor."
+  },
+  {
+    "Nome": "Wall of Thorns",
+    "Rating": 3,
+    "Description": "This is an area-control spell that limits mobility and combines with push or pull effects. Upcasting is poor."
+  },
+  {
+    "Nome": "Wind Walk",
+    "Rating": 4,
+    "Description": "This spell provides fast travel for a long duration, with no concentration requirement."
+  },
+  {
+    "Nome": "Word of Recall",
+    "Rating": 4,
+    "Description": "This is a solid escape spell, with fast-travel applications."
+  },
+  {
+    "Nome": "Level 7Conjure Celestial",
+    "Rating": 4,
+    "Description": "This spell is similar to conjure elemental. It takes a higher spell slot, but the summoned creature does not turn hostile if you lose concentration. Also, celestials have beneficial powers. Upcasting is poor."
+  },
+  {
+    "Nome": "Crown of Stars",
+    "Rating": 4,
+    "Description": "This spell does not require concentration, and deals damage with your bonus actions. Further, it can be cast in preparation for battle. Upcasting is poor."
+  },
+  {
+    "Nome": "Delayed Blast Fireball",
+    "Rating": 1,
+    "Description": "This spell does 42 average damage, which is the same as an upcasted fireball, which is not worthwhile. If you have some setup time, you can increase the damage it deals, but that is so situational that I cannot recommend this spell. If you think you will have fun with it, take it. Upcasting is poor."
+  },
+  {
+    "Nome": "Divine Word",
+    "Rating": 4,
+    "Description": "This spell is strong against extraplanar creatures, and has value against others, depending on hit points. Further, it uses a bonus action, and does not require concentration."
+  },
+  {
+    "Nome": "Etherealness",
+    "Rating": 3,
+    "Description": "This spell has out-of-combat value, because it literally takes you out of combat. It also has exploration value. Upcasting is ok."
+  },
+  {
+    "Nome": "Finger of Death",
+    "Rating": 2,
+    "Description": "This spell deals poor damage, but if that damage kills a humanoid, you get a zombie. On its own, that is not worthwhile, but there are combinations that have value. If you are a Necromancer, this is blue."
+  },
+  {
+    "Nome": "Fire Storm",
+    "Rating": 1,
+    "Description": "This is an area-damage spell with a flexible area, but weak damage."
+  },
+  {
+    "Nome": "Forcecage",
+    "Rating": 5,
+    "Description": "This spell traps an enemy with no save. I.e. you win. It also does not require concentration."
+  },
+  {
+    "Nome": "Mirage Arcane",
+    "Rating": 2,
+    "Description": "This spell changes the appearance of a large area. If you are an Illusionist, it is purple."
+  },
+  {
+    "Nome": "Mordenkainen’s Magnificent Mansion",
+    "Rating": 3,
+    "Description": "This spell makes a totally sweet mansion."
+  },
+  {
+    "Nome": "Mordenkainen’s Sword",
+    "Rating": 1,
+    "Description": "This spell makes a crappy sword."
+  },
+  {
+    "Nome": "Plane Shift",
+    "Rating": 5,
+    "Description": "This is a fast-travel spell that goes to another plane. If your campaign does not allow interdimensional travel, it’s red."
+  },
+  {
+    "Nome": "Power Word Pain",
+    "Rating": 1,
+    "Description": "This spell does things to creatures with less than 100 hit points, which are not scary in the first place."
+  },
+  {
+    "Nome": "Prismatic Spray",
+    "Rating": 1,
+    "Description": "This is an area spell that deals weak damage, or possibly has some other weak effect."
+  },
+  {
+    "Nome": "Project Image",
+    "Rating": 1,
+    "Description": "This spell is not worth the spell slot."
+  },
+  {
+    "Nome": "Regenerate",
+    "Rating": 2,
+    "Description": "This is a weak healing spell that also restores missing body parts. It’s good to prepare when you need it."
+  },
+  {
+    "Nome": "Resurrection",
+    "Rating": 2,
+    "Description": "This is raise dead, but more powerful and more expensive."
+  },
+  {
+    "Nome": "Reverse Gravity",
+    "Rating": 4,
+    "Description": "This spell creates a powerful effect over a large area. Those who fail the save are essentially removed from combat. For those who make the save, or who enter the area after the spell is cast, the effects are a little unclear, so discuss with your group what will happen."
+  },
+  {
+    "Nome": "Sequester",
+    "Rating": 1,
+    "Description": "This spell is too situational fo recommend. It also has a very high component cost. If you really need to hide something, you can do it. Or you can hide a creature."
+  },
+  {
+    "Nome": " Simulacrum",
+    "Rating": 5,
+    "Description": "This spell is ridiculous. You create a copy of a powerful creature, with half the hit points, that is friendly to you, and obeys your commands. An example of a powerful creature is yourself. You then get twice the actions, and twice the spell slots. When the spell slots run out, you can cast it again."
+  },
+  {
+    "Nome": "Symbol",
+    "Rating": 1,
+    "Description": "This is a slightly more powerful glyph of warding."
+  },
+  {
+    "Nome": "Teleport",
+    "Rating": 3,
+    "Description": "This is essentially a single-action teleportation circle. Also of value is that you can travel with an associated object. Other uses have a chance to kill your entire party. In poker, if you risk your stack too much, you go broke."
+  },
+  {
+    "Nome": "Temple of the Gods",
+    "Rating": 3,
+    "Description": "This spell makes a cool temple that grants various protections."
+  },
+  {
+    "Nome": "Whirlwind",
+    "Rating": 1,
+    "Description": "This is an area-control spell with a small radius that can inflict the restrained condition, but the target must fail two saves. Otherwise, it deals weak damage. In most cases, I would rather cast entangle."
+  },
+  {
+    "Nome": "Level 8Abi-Dalzim’s Horrid Wilting",
+    "Rating": 1,
+    "Description": "This spell deals weak damage over a small area."
+  },
+  {
+    "Nome": "Animal Shapes",
+    "Rating": 5,
+    "Description": "You can turn your whole party into animals. As with polymorphetc., this spell provides an extra stack of hit points, which you can use at the beginning of combat, as a buffer, or later as a desperation maneuver. With a big enough posse, you can destroy an army. You alsoget exploration value."
+  },
+  {
+    "Nome": "Antimagic Field",
+    "Rating": 4,
+    "Description": "This spell completely shuts down magic. That, of course, means it shuts down your own magic, but there are times when it’s useful. In those times, you are very pleased to have it."
+  },
+  {
+    "Nome": "Antipathy/Sympathy",
+    "Rating": 4,
+    "Description": "This spell has all kinds of value. You can use it to drive away enemies, or capture them, or set up an area spell, or any number of other things. If you like to get creative, this is purple."
+  },
+  {
+    "Nome": "Clone",
+    "Rating": 3,
+    "Description": "This spell creates a backup body, in case you die. The drawback is it takes 120 days to get ready, which not all adventurers have time for."
+  },
+  {
+    "Nome": "Control Weather",
+    "Rating": 2,
+    "Description": "This spell controls the weather."
+  },
+  {
+    "Nome": "Demiplane",
+    "Rating": 4,
+    "Description": "This spell creates an extradimensional room. You can put your clone in here."
+  },
+  {
+    "Nome": "Dominate Monster",
+    "Rating": 3,
+    "Description": "This is another one for you creative types. If successful, you take control of a monster. You have to be careful because a target who takes damage gets a new saving throw. Upcasting can be worthwhile."
+  },
+  {
+    "Nome": "Earthquake",
+    "Rating": 4,
+    "Description": "This spell causes all kinds of havoc over a very large area."
+  },
+  {
+    "Nome": "Feeblemind",
+    "Rating": 2,
+    "Description": "This spell can have value against spellcasters, but is very situational. If you are an Enchanter, it is green."
+  },
+  {
+    "Nome": "Glibness",
+    "Rating": 3,
+    "Description": "This spell makes a Bard better at barding, or a tricky Warlock better at tricky warlocking. It synergizes with ability checks based on your casting mod, as found in counterspell, dispel magic, telekinesis, etc."
+  },
+  {
+    "Nome": "Holy Aura",
+    "Rating": 5,
+    "Description": "Your entire party gets advantage on saving throws, and opponents get disadvantage on attacks. Further, a fiend or an undead who hits with a melee attack must save or be blinded."
+  },
+  {
+    "Nome": "Illusory Dragon",
+    "Rating": 5,
+    "Description": "This spell causes fear, and also adds area damage on your bonus actions. Those things are great. Presumably, those who are fooled by it will waste spells and attacks, because they’ll think they’re fighting a dragon. Whether they’re fooled or not, stuff happens, which is great."
+  },
+  {
+    "Nome": "Incendiary Cloud",
+    "Rating": 1,
+    "Description": "This is an area-control spell that deals low damage."
+  },
+  {
+    "Nome": "Maddening Darkness",
+    "Rating": 2,
+    "Description": "This is an area-control spell that deals low damage and creates darkness. There isn’t a lot of synergy here, unless your party is all Warlocks with Repelling Blast and Devil’s Sight."
+  },
+  {
+    "Nome": "Maze",
+    "Rating": 5,
+    "Description": "This spell makes an enemy go away with no saving throw. Even one who comes back immediately wastes their action. Probably, though, they’re gone for a while."
+  },
+  {
+    "Nome": "Mighty Fortress",
+    "Rating": 2,
+    "Description": "This spell creates a fortress. It lasts seven days, but it doesn’t provide any protections beyond its physical structure."
+  },
+  {
+    "Nome": "Mind Blank",
+    "Rating": 4,
+    "Description": "This spell provides very strong protections, to you or an ally. It also doesn’t require concentration."
+  },
+  {
+    "Nome": "Power Word Stun",
+    "Rating": 1,
+    "Description": "This spell only works on enemies with less than 150 hit points, and isn’t even that strong when it works."
+  },
+  {
+    "Nome": "Sunburst",
+    "Rating": 1,
+    "Description": "This spell deals weak damage over a large area, and also can cause blindness. It isn’t worth the spell slot."
+  },
+  {
+    "Nome": "Telepathy",
+    "Rating": 1,
+    "Description": "This is an extreme communication spell. Again, not worth the slot."
+  },
+  {
+    "Nome": "Tsunami",
+    "Rating": 2,
+    "Description": "This is a super tidal wave. It is difficult to escape because it requires swimming. It also requires a STR check. It also moves targets away from you, and deals damage, for multiple turns. Against enemies who can’t swim, or who have low STR, it is devastating. Unfortunately, it takes a minute to cast, so it is very situational."
+  },
+  {
+    "Nome": "Level 9Astral Projection",
+    "Rating": 2,
+    "Description": "This spell sends you and your party to the astral plane. There is risk because for each of you there is a silver cord that must be maintained, or you die. The occurrence is rare, but rare things happen. For that reason, this spell is very situational."
+  },
+  {
+    "Nome": "Foresight",
+    "Rating": 5,
+    "Description": "Cast this on a martial ally and that ally gets advantage on literally everything for 8 hours, and attackers have disadvantage. The target also cannot be surprised. The reason to cast it on a martial character is for the benefit to attack rolls. If you are martial, cast it on yourself. It also does not require concentration."
+  },
+  {
+    "Nome": "Gate",
+    "Rating": 2,
+    "Description": "This spell is very situational."
+  },
+  {
+    "Nome": "Imprisonment",
+    "Rating": 2,
+    "Description": "This spell is very situational."
+  },
+  {
+    "Nome": "Invulnerability",
+    "Rating": 3,
+    "Description": "This spell makes you immune to all damage. That doesn’t make you invincible, but it’s useful."
+  },
+  {
+    "Nome": "Mass Heal",
+    "Rating": 5,
+    "Description": "This spell does a whole lot of healing."
+  },
+  {
+    "Nome": "Mass Polymorph",
+    "Rating": 3,
+    "Description": "This is essentially a multiple-target death spell. It can be used as a buff, but the buff version is much weaker than polymorph, per target. It’s basically a bunch of temporary hit points, in exchange for a reduction in effectiveness. Ten targets is a lot, though."
+  },
+  {
+    "Nome": "Meteor Swarm",
+    "Rating": 5,
+    "Description": "This is the ultimate blast spell."
+  },
+  {
+    "Nome": "Power Word Heal",
+    "Rating": 4,
+    "Description": "This is an effective single-target heal spell."
+  },
+  {
+    "Nome": "Power Word Kill",
+    "Rating": 1,
+    "Description": "This spell only works on creatures with 100 hit points or fewer. A lot of these red spells are good spells for villains, but bad spells for PCs."
+  },
+  {
+    "Nome": "Prismatic Wall",
+    "Rating": 5,
+    "Description": "This is a powerful battlefield control spell that does not require concentration."
+  },
+  {
+    "Nome": "Psychic Scream",
+    "Rating": 3,
+    "Description": "This is a multiple-target control spell that does not require concentration. The damage isn’t the important part; the stunned part is the important part."
+  },
+  {
+    "Nome": "Shapechange",
+    "Rating": 4,
+    "Description": "This spell is a lot like polymorph. It can only be cast on you, but you keep your features and mental stats, as well as skill and saving throw proficiencies. Also, you can change to any creature, not just a beast. You can change form multiple times, which doesn’t get you hit points, but does get you legendary resistances, innate spellcasting, et al."
+  },
+  {
+    "Nome": "Storm of Vengeance",
+    "Rating": 1,
+    "Description": "This spell has good flavor, but very low power."
+  },
+  {
+    "Nome": "Time Stop",
+    "Rating": 5,
+    "Description": "This spell stops time. That means you can take actions while no one else can. If you affect another creature, the spell ends, but there is high value out of combat, and some value in combat because you can set up walls and other effects."
+  },
+  {
+    "Nome": "True Polymorph",
+    "Rating": 5,
+    "Description": "This is another polymorphupgrade. There are two main uses. First, you can transform an ally into any creature, not just a beast, of CR equal to or less than the ally’s level. Second, you can transform an object, which makes it a very effective summoning spell. It does other things which are very situational, including targeting enemies, and turning targets into objects. If you maintain the entire duration, the spell becomes permanent."
+  },
+  {
+    "Nome": "True Resurrection",
+    "Rating": 4,
+    "Description": "This is the ultimate resurrection spell."
+  },
+  {
+    "Nome": "Weird",
+    "Rating": 1,
+    "Description": "This is an area spell that inflicts the frightened condition on a failed save, and causes weak damage. It is not worth the spell slot."
+  },
+  {
+    "Nome": "Wish",
+    "Rating": 5,
+    "Description": "This spell duplicates the effects of any spell of level 8 or lower. It can also be used to do many other things, but there is a chance you will never be able to cast it again, so those uses are not recommended."
+  },
+  {
+    "Nome": "Appendix: Tasha’s Cauldron of EverythingCantripMind Sliver",
+    "Rating": 3,
+    "Description": "The value of this spell is that it reduces an enemy’s save chance. The problem is that it takes your action, so in tough battles there is more value in casting leveled spells than in manipulating saving throws. The best you could do with it is in battles where you’re conserving spell slots for some reason, but enemies are still attempting saving throws. The damage this spell deals is poor, therefore of little consequence."
+  },
+  {
+    "Nome": "Level 1Tasha’s Caustic Brew",
+    "Rating": 2,
+    "Description": "This spell is interesting because it deals damage to multiple targets over multiple rounds, at level 1. Or more likely it deals damage once, then each target loses an action, which is also good. The problem is that it really doesn’t deal that much damage. If you have 2 targets, the total is about the same as an attack. The other problem is that the area is a line, so it’s difficult to hit many targets. Ok there’s another problem. You have to get near enemies to set this up, and if they attack you, you might lose concentration. With an ideal setup, you’ve got value, and good upcasting, but that setup is rare. At higher levels, this spell is not worth the concentration."
+  },
+  {
+    "Nome": "Level 2Summon Beast",
+    "Rating": 5,
+    "Description": "You get a beast, with abilities based on your choice of air, land, or water. Air forms can fly, while other forms are tougher..Tactical value is strong here; a creature that can fight for you adds damage, of course, as well as positional considerations. If it takes hits, those are hits that your allies don’t take, so in a sense this is a damage-prevention spell, as well. Upcasting is poor."
+  },
+  {
+    "Nome": "Tasha’s Mind Whip",
+    "Rating": 3,
+    "Description": "This spell deals a small amount of damage and reduces the target’s action economy. There are times when that is good. It also targets INT, which is good. There are multiple good things here, and upcasting is good, because it adds targets."
+  },
+  {
+    "Nome": "Level 3Intellect Fortress",
+    "Rating": 2,
+    "Description": "This spell is quite situational, but in those situations it can have value. Upcasting is theoretically good because it adds targets. Again, the situations in which you will cast this spell are rare."
+  },
+  {
+    "Nome": "Spirit Shroud",
+    "Rating": 3,
+    "Description": "This is a concentration spell that you cast with a bonus action. It adds 1d8 damage to your attacks, and the target can’t regain hit points for a round. Further, you can reduce the speed of nearby creatures. If you make many attacks, this can be worth it, and upcasting can be worth it, too. If you are a Bladesinger, for example, you can use it with 2 weapons."
+  },
+  {
+    "Nome": "Summon Fey",
+    "Rating": 3,
+    "Description": "You get a fey with abilities based on your choice of Fuming, Mirthful, and Tricksy. Damage is good, and the abilities provide tactical possibilities, even out of combat, but the spell doesn’t do much more than summon beast, and there are powerful options at this level. Upcasting is good; it might be better to cast this spell at level 4 than at level 3, because you get a second attack."
+  },
+  {
+    "Nome": "Summon Shadowspawn",
+    "Rating": 4,
+    "Description": "You get a monstrosity with abilities based on your choice of Fury, Despair, or Fear. It deals cold damage, so it is unaffected by common resistances. Further, once per day it can frighten nearby enemies, so there is a lot of value there. Upcasting to level 4 is good because you get a second attack and a strong hit point increase."
+  },
+  {
+    "Nome": "Summon Undead",
+    "Rating": 4,
+    "Description": "You get an undead with abilities based on your choice of Ghostly, Putrid, or Skeletal. Damage is not great, but there are additional effects that can be applied, such as the poisoned and frightened conditions, which can be strong. Upcasting to level 4 is good because you get a second attack."
+  },
+  {
+    "Nome": "Level 4Summon Aberration",
+    "Rating": 2,
+    "Description": "You get an aberration with abilities based on your choice of Beholderkin, Slaad, or Star Spawn. The Beholderkin can fly, the Slaad can regenerate, and the Star Spawn deals area damage. Attacks are somewhat weak, though, so overall this spell is not doing a lot, compared to other options. Upcasting is poor."
+  },
+  {
+    "Nome": "Summon Construct",
+    "Rating": 2,
+    "Description": "You get a construct with minor abilities based on your choice of Clay, Metal, or Stone. Damage is not great here; the best you can do is to make use of the condition immunities, or to choose Stone against a creature with strong reactions. Upcasting is poor."
+  },
+  {
+    "Nome": "Summon Elemental",
+    "Rating": 2,
+    "Description": "You get an elemental with abilities based on your choice of Air, Earth, Fire, or Water. Damage is not high; most of your value comes from resistances and immunities. Upcasting is poor."
+  },
+  {
+    "Nome": "Level 5Summon Celestial",
+    "Rating": 2,
+    "Description": "You get a large celestial with abilities based on your choice of Avenger or Defender. Both can fly; Avenger deals ranged damage; Defender deals melee damage while also adding temporary hit points to allies. There is also a very minor, once per day healing effect. Everything here is minor. Value will depend on making use of the flying speed and various immunities, or the large size, from a positional standpoint. If you cast it, you might want to upcast to level 6, because you get a third attack."
+  },
+  {
+    "Nome": "Level 6Summon Fiend",
+    "Rating": 2,
+    "Description": "You get a large Fiend with abilities based on your choice of Demon, Devil, or Yugoloth. Demon can climb and Devil can fly. Nothing is really great here. Demon explodes when it dies, dealing area fire damage. Devil can see in magical darkness; maybe you can make use of that."
+  },
+  {
+    "Nome": "Tasha’s Otherworldly Guise",
+    "Rating": 3,
+    "Description": "This spell is somewhat like Tenser’s transformation, in that it gives you attack benefits. That isn’t the value of the spell though. The value is that it gives you immunity to various things, and flight. It also gives you +2 AC. When those immunities are important, you can cast this."
+  },
+  {
+    "Nome": "Level 7Dream of the Blue Veil",
+    "Rating": 3,
+    "Description": "This spell takes you to another world, provided that you have a magic item or a willing creature from that world. Whether a world exists or not depends on your DM, of course, so take this spell only if it makes sense. Also, you can do the same thing with 2 castings of plane shift, or with various other techniques."
+  },
+  {
+    "Nome": "Level 9Blade of Disaster",
+    "Rating": 2,
+    "Description": "This spell requires concentration, and deals damage with your bonus action. Generally, this is not what you’re looking for in a level-9 spell.All of my materials are available for free at https://www.patreon."
+  }
+]
