@@ -11,11 +11,11 @@ export default function App() {
   return (
     <NavigationContainer>
       <FilterProvider>
-        <Stack.Navigator>
+        <Stack.Navigator screenOptions={{ headerShown: false }}>
           <Stack.Screen name="SplashScreen" component={SplashScreen} />
-          <Stack.Screen name="Tabs" component={Tabs} />
           <Stack.Screen name="Onboarding" component={Onboarding} />
           <Stack.Screen name="Login" component={Login} />
+          <Stack.Screen name="Tabs" component={Tabs} />
         </Stack.Navigator>
       </FilterProvider>
     </NavigationContainer>

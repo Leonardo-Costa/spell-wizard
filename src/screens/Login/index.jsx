@@ -1,10 +1,16 @@
-import { StyleSheet, Text, View } from "react-native";
+import { StyleSheet, Text, View, Button } from "react-native";
 import React from "react";
 
-function Login() {
+function Login({ navigation }) {
   return (
     <View style={styles.container}>
       <Text>Login</Text>
+      <Button
+        title={"tabs"}
+        onPress={() => {
+          navigation.navigate("Tabs");
+        }}
+      />
     </View>
   );
 }

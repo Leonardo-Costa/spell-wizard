@@ -1,10 +1,16 @@
-import { StyleSheet, Text, View } from "react-native";
+import { Button, StyleSheet, Text, View } from "react-native";
 import React from "react";
 
-function SplashScreen() {
+function SplashScreen({ navigation }) {
   return (
     <View style={styles.container}>
       <Text>SplashScreen</Text>
+      <Button
+        title={"Onboarding"}
+        onPress={() => {
+          navigation.navigate("Onboarding", { name: "Onboarding" });
+        }}
+      />
     </View>
   );
 }
