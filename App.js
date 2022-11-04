@@ -1,4 +1,4 @@
-import { SplashScreen, Onboarding, Login } from "./src/screens";
+import { SplashScreen, OnboardingScreen, Login } from "./src/screens";
 import { StyleSheet } from "react-native";
 import FilterProvider from "./src/contexts/filters";
 import { NavigationContainer } from "@react-navigation/native";
@@ -13,7 +13,7 @@ export default function App() {
       <FilterProvider>
         <Stack.Navigator screenOptions={{ headerShown: false }}>
           <Stack.Screen name="SplashScreen" component={SplashScreen} />
-          <Stack.Screen name="Onboarding" component={Onboarding} />
+          <Stack.Screen name="Onboarding" component={OnboardingScreen} />
           <Stack.Screen name="Login" component={Login} />
           <Stack.Screen name="Tabs" component={Tabs} />
         </Stack.Navigator>

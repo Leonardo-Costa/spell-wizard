@@ -4,7 +4,7 @@ import { AddSpell } from "./AddSpell";
 import { LikedSpells } from "./LikedSpells";
 import { SpellBooks } from "./SpellBooks";
 import { SplashScreen } from "./SplashScreen";
-import { Onboarding } from "./Onboarding";
+import { OnboardingScreen } from "./Onboarding";
 import { Login } from "./Login";
 
 export {
@@ -14,6 +14,6 @@ export {
   LikedSpells,
   SpellBooks,
   SplashScreen,
-  Onboarding,
+  OnboardingScreen,
   Login,
 };
