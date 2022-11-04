@@ -126,6 +126,7 @@ function Home() {
       <View style={styles.spellList}>
         <FlatList
           showsVerticalScrollIndicator={false}
+          removeClippedSubviews
           data={spellData}
           renderItem={renderItem}
           keyExtractor={(item) => item.index}
