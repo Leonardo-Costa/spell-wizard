@@ -6,9 +6,10 @@ import spells from "../../data/spells.json";
 import { Modal } from "react-native";
 import { Filter } from "../Filter";
 import { FilterContext } from "../../contexts/filters";
+import colors from "../../misc/Colors";
 
 const icons = {
-  group: require("../../../assets/group.png"),
+  filter: require("../../../assets/filter.png"),
   search: require("../../../assets/search.png"),
 };
 
@@ -118,7 +119,8 @@ function Home() {
             onPress={() => {
               setModalVisible(true);
             }}
-            img={icons.group}
+            color={colors.dark_gray}
+            img={icons.filter}
           />
         </View>
         <SearchBar icon={icons.search} />
@@ -126,6 +128,7 @@ function Home() {
       <View style={styles.spellList}>
         <FlatList
           showsVerticalScrollIndicator={false}
+          removeClippedSubviews
           data={spellData}
           renderItem={renderItem}
           keyExtractor={(item) => item.index}
@@ -145,6 +148,7 @@ function Home() {
         onRequestClose={() => {
           setModalVisible(!modalVisible);
         }}
+        transparent
       >
         <Filter setModalVisible={setModalVisible} />
       </Modal>
@@ -160,13 +164,13 @@ const styles = StyleSheet.create({
     justifyContent: "center",
   },
   topPart: {
-    flex: 1,
+    flex: 2,
     paddingHorizontal: 15,
     paddingTop: 60,
   },
   spellList: {
     marginHorizontal: 15,
-    flex: 4,
+    flex: 7,
   },
 });
 

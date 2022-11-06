@@ -7,7 +7,11 @@ function SearchBar({ icon }) {
   return (
     <View style={styles.container}>
       <IconButton img={icon} color={colors.dark_gray} width={24} height={24} />
-      <TextInput style={styles.input} placeholder="Search" />
+      <TextInput
+        style={styles.input}
+        placeholder="Search"
+        placeholderTextColor={colors.dark_gray}
+      />
     </View>
   );
 }

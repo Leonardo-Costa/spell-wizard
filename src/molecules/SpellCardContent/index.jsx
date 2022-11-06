@@ -43,11 +43,31 @@ function SpellCardContent({ spell, modalVisible, setModalVisible }) {
         </View>
       </View>
       <Text style={styles.subtitle}>
-        {spell.level}st Level {spell.school.name}
+        {spell.level == 0
+          ? spell.school.name + " " + "Cantrip"
+          : spell.level == 1
+          ? "1st Level" + " " + spell.school.name + " Spell"
+          : spell.level == 2
+          ? "2nd Level" + " " + spell.school.name + " Spell"
+          : spell.level == 3
+          ? "3rd Level" + " " + spell.school.name + " Spell"
+          : spell.level == 4
+          ? "4th Level" + " " + spell.school.name + " Spell"
+          : spell.level == 5
+          ? "5th Level" + " " + spell.school.name + " Spell"
+          : spell.level == 6
+          ? "6th Level" + " " + spell.school.name + " Spell"
+          : spell.level == 7
+          ? "7th Level" + " " + spell.school.name + " Spell"
+          : spell.level == 8
+          ? "8th Level" + " " + spell.school.name + " Spell"
+          : spell.level == 9
+          ? "9th Level" + " " + spell.school.name + " Spell"
+          : ""}{" "}
       </Text>
       <View style={styles.divisor} />
 
-      <Text numberOfLines={3} style={styles.desc}>
+      <Text numberOfLines={2} style={styles.desc}>
         {spell.desc.map((item) => {
           return item + "\n";
         })}
@@ -69,7 +89,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   title: {
-    fontSize: 42,
+    fontSize: 32,
     fontWeight: "bold",
     color: colors.dark_gray,
     flex: 3,

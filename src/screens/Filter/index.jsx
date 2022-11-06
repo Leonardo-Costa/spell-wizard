@@ -89,7 +89,6 @@ const styles = StyleSheet.create({
     paddingHorizontal: 20,
     borderTopLeftRadius: 30,
     borderTopRightRadius: 30,
-    paddingTop: 10,
   },
   title: {
     fontSize: 24,

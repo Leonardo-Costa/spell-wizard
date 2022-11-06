@@ -1,9 +1,9 @@
 import { StyleSheet, TouchableOpacity, View, Image } from "react-native";
 import React from "react";
 
-function IconButton({ img, width, height, padding, color, onPress }) {
+function IconButton({ img, width, height, padding, color, onPress, style }) {
   return (
-    <View>
+    <View style={style}>
       <TouchableOpacity
         onPress={onPress}
         style={{

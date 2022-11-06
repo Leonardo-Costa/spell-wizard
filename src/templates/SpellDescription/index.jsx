@@ -1,17 +1,38 @@
 import { StyleSheet, Text, View, SafeAreaView, ScrollView } from "react-native";
-import { MediumTitle, Separator, SmallTitle } from "../../atom";
+import { IconButton, MediumTitle, Separator, SmallTitle } from "../../atom";
 import { TitleSubtitle } from "../../molecules";
 import { SpellStats } from "../../organisms/SpellStats";
 import { RatingCard } from "../../organisms/RatingCard";
 import colors from "../../misc/Colors";
 import React from "react";
+import rating1 from "../../data/comentarios.json";
+import rating2 from "../../data/comentarios2.json";
 
-function SpellDescription({ spell }) {
+const icons = {
+  close: require("../../../assets/Close_Circle.png"),
+};
+
+function SpellDescription({ spell, setModalVisible }) {
   return (
     <SafeAreaView style={styles.container}>
-      <MediumTitle style={{ marginLeft: 20, marginBottom: 20 }}>
-        {spell.name}
-      </MediumTitle>
+      <View
+        style={{
+          flexDirection: "row",
+          justifyContent: "space-between",
+          alignItems: "center",
+          width: "100%",
+          marginBottom: 20,
+        }}
+      >
+        <MediumTitle style={{ marginLeft: 20 }}>{spell.name}</MediumTitle>
+        <View style={{ marginRight: 15 }}>
+          <IconButton
+            img={icons.close}
+            onPress={() => setModalVisible(false)}
+          />
+        </View>
+      </View>
+
       <ScrollView style={{ flex: 1, width: "100%" }}>
         <SpellStats spell={spell} />
         <TitleSubtitle title={"Description"} subTitle={spell.desc} />
@@ -24,7 +45,8 @@ function SpellDescription({ spell }) {
           />
         ) : null}
         <SmallTitle style={{ marginHorizontal: 20 }}>Ratings</SmallTitle>
-        <RatingCard name={spell.name} />
+        <RatingCard name={spell.name} rating={rating1} />
+        <RatingCard name={spell.name} rating={rating2} />
       </ScrollView>
     </SafeAreaView>
   );
