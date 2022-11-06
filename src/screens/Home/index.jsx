@@ -1,5 +1,6 @@
 import { StyleSheet, View, FlatList, RefreshControl } from "react-native";
 import { BigTitle, IconButton, SearchBar } from "../../atom";
+import { NoSpells } from "../../molecules";
 import { SpellCard } from "../../organisms";
 import React, { useState, useContext, useEffect } from "react";
 import spells from "../../data/spells.json";
@@ -20,6 +21,8 @@ const renderItem = ({ item }) => {
 function Home() {
   const [modalVisible, setModalVisible] = useState(false);
   const [spellData, setSpellData] = useState(spells);
+  const [text, setText] = useState("");
+  const [isSpell, setIsSpell] = useState(true);
   const {
     ascending,
     level,
@@ -100,8 +103,22 @@ function Home() {
     filteredData = filteredData.filter((item) => {
       return schoolSpells.includes(item.school.index);
     });
+
+    //filtar filteredData com base no nome
+    filteredData = filteredData.filter((item) => {
+      return item.name.toLowerCase().includes(text.toLowerCase());
+    });
     setSpellData(filteredData);
+    if (filteredData.length == 0) {
+      setIsSpell(false);
+    } else {
+      setIsSpell(true);
+    }
   };
+
+  useEffect(() => {
+    filterSpells();
+  }, [text]);
 
   return (
     <View style={styles.container}>
@@ -123,24 +140,28 @@ function Home() {
             img={icons.filter}
           />
         </View>
-        <SearchBar icon={icons.search} />
+        <SearchBar icon={icons.search} text={text} setText={setText} />
       </View>
       <View style={styles.spellList}>
-        <FlatList
-          showsVerticalScrollIndicator={false}
-          removeClippedSubviews
-          data={spellData}
-          renderItem={renderItem}
-          keyExtractor={(item) => item.index}
-          refreshControl={
-            <RefreshControl
-              refreshing={false}
-              onRefresh={() => {
-                filterSpells();
-              }}
-            />
-          }
-        />
+        {isSpell ? (
+          <FlatList
+            showsVerticalScrollIndicator={false}
+            removeClippedSubviews
+            data={spellData}
+            renderItem={renderItem}
+            keyExtractor={(item) => item.index}
+            refreshControl={
+              <RefreshControl
+                refreshing={false}
+                onRefresh={() => {
+                  filterSpells();
+                }}
+              />
+            }
+          />
+        ) : (
+          <NoSpells style={{ marginTop: 150 }} />
+        )}
       </View>
       <Modal
         visible={modalVisible}
@@ -171,6 +192,7 @@ const styles = StyleSheet.create({
   spellList: {
     marginHorizontal: 15,
     flex: 7,
+    alignItems: "center",
   },
 });
 

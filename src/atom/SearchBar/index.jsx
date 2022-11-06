@@ -3,7 +3,7 @@ import { StyleSheet, View, TextInput } from "react-native";
 import { IconButton } from "../../atom/IconButton";
 import colors from "../../misc/Colors";
 
-function SearchBar({ icon }) {
+function SearchBar({ icon, text, setText }) {
   return (
     <View style={styles.container}>
       <IconButton img={icon} color={colors.dark_gray} width={24} height={24} />
@@ -11,6 +11,10 @@ function SearchBar({ icon }) {
         style={styles.input}
         placeholder="Search"
         placeholderTextColor={colors.dark_gray}
+        value={text}
+        onChangeText={(text) => {
+          setText(text);
+        }}
       />
     </View>
   );
