@@ -1,5 +1,4 @@
 import { StyleSheet, Text, View } from "react-native";
-import comentarios from "../../data/comentarios.json";
 import React, { useState, useEffect } from "react";
 import colors from "../../misc/Colors";
 import { Icon, SmallTitle } from "../../atom";
@@ -11,8 +10,8 @@ const icons = {
 
 const ratings = ["Horrible", "Bad", "Okay", "Good", "Amazing"];
 
-function RatingCard({ name }) {
-  const [comments, setComments] = useState(comentarios);
+function RatingCard({ name, rating }) {
+  const [comments, setComments] = useState(rating);
   const [comment, setComment] = useState({
     Nome: "",
     Rating: "",
@@ -53,7 +52,6 @@ function RatingCard({ name }) {
         >
           <Icon image={icons.rpgBot} size={60} />
         </View>
-
         <View style={{ flex: 3 }}>
           <Stars />
           <SmallTitle>{ratings[comment.Rating - 1]}</SmallTitle>

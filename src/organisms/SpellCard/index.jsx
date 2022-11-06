@@ -20,7 +20,7 @@ function SpellCard({ spell }) {
           setModalVisible(!modalVisible);
         }}
       >
-        <SpellDescription spell={spell} />
+        <SpellDescription setModalVisible={setModalVisible} spell={spell} />
       </Modal>
       <SpellCardContent
         spell={spell}
