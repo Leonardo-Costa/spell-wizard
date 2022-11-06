@@ -3,6 +3,7 @@ import React from "react";
 import Onboarding from "react-native-onboarding-swiper";
 import colors from "../../misc/Colors";
 import { MediumTitle, SmallTitle } from "../../atom";
+import { StackActions } from "@react-navigation/native";
 
 const images = {
   logo: require("../../../assets/logo.png"),
@@ -13,10 +14,10 @@ function OnboardingScreen({ navigation }) {
     <Onboarding
       bottomBarColor={colors.white}
       onSkip={() => {
-        navigation.navigate("Login");
+        navigation.dispatch(StackActions.replace("Login"));
       }}
       onDone={() => {
-        navigation.navigate("Login");
+        navigation.dispatch(StackActions.replace("Login"));
       }}
       pages={[
         {

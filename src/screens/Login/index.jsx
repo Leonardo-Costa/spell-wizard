@@ -9,6 +9,7 @@ import {
 import { Icon } from "../../atom";
 import React from "react";
 import colors from "../../misc/Colors";
+import { StackActions } from "@react-navigation/native";
 
 const icons = {
   logo: require("../../../assets/logo.png"),
@@ -29,7 +30,7 @@ function Login({ navigation }) {
       <TouchableOpacity
         style={{ padding: 20 }}
         onPress={() => {
-          navigation.navigate("Tabs");
+          navigation.dispatch(StackActions.replace("Tabs"));
         }}
       >
         <Text style={styles.button}>Skip</Text>

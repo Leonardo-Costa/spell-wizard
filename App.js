@@ -7,15 +7,27 @@ import Tabs from "./Tabs";
 
 const Stack = createNativeStackNavigator();
 
-export default function App() {
+export default function App({ navigation }) {
   return (
     <NavigationContainer>
       <FilterProvider>
         <Stack.Navigator screenOptions={{ headerShown: false }}>
-          <Stack.Screen name="SplashScreen" component={SplashScreen} />
-          <Stack.Screen name="Onboarding" component={OnboardingScreen} />
-          <Stack.Screen name="Login" component={Login} />
-          <Stack.Screen name="Tabs" component={Tabs} />
+          <Stack.Screen
+            navigation={navigation}
+            name="SplashScreen"
+            component={SplashScreen}
+          />
+          <Stack.Screen
+            navigation={navigation}
+            name="Onboarding"
+            component={OnboardingScreen}
+          />
+          <Stack.Screen
+            navigation={navigation}
+            name="Login"
+            component={Login}
+          />
+          <Stack.Screen navigation={navigation} name="Tabs" component={Tabs} />
         </Stack.Navigator>
       </FilterProvider>
     </NavigationContainer>

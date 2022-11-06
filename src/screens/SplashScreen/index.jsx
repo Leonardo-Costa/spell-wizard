@@ -2,6 +2,7 @@ import { Button, StyleSheet, Text, View } from "react-native";
 import { Icon } from "../../atom";
 import React from "react";
 import colors from "../../misc/Colors";
+import { StackActions } from "@react-navigation/native";
 
 const icons = {
   logo: require("../../../assets/logo.png"),
@@ -19,7 +20,7 @@ function SplashScreen({ navigation }) {
       <Button
         title={"Onboarding"}
         onPress={() => {
-          navigation.navigate("Onboarding", { name: "Onboarding" });
+          navigation.dispatch(StackActions.replace("Onboarding"));
         }}
       />
     </View>
