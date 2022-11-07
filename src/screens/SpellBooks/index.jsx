@@ -38,7 +38,6 @@ const styles = StyleSheet.create({
   topPart: {
     flex: 1,
     paddingHorizontal: 15,
-    paddingTop: 60,
     width: "100%",
   },
 });

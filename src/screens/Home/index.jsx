@@ -14,15 +14,17 @@ const icons = {
   search: require("../../../assets/search.png"),
 };
 
-const renderItem = ({ item }) => {
-  return <SpellCard key={item.index} spell={item} />;
-};
-
 function Home() {
   const [modalVisible, setModalVisible] = useState(false);
   const [spellData, setSpellData] = useState(spells);
   const [text, setText] = useState("");
   const [isSpell, setIsSpell] = useState(true);
+  const [apply, setApply] = useState(false);
+
+  const renderItem = ({ item }) => {
+    return <SpellCard key={item.index} spell={item} />;
+  };
+
   const {
     ascending,
     level,
@@ -114,11 +116,14 @@ function Home() {
     } else {
       setIsSpell(true);
     }
+    if (apply) {
+      setApply(false);
+    }
   };
 
   useEffect(() => {
     filterSpells();
-  }, [text]);
+  }, [text, apply]);
 
   return (
     <View style={styles.container}>
@@ -171,7 +176,7 @@ function Home() {
         }}
         transparent
       >
-        <Filter setModalVisible={setModalVisible} />
+        <Filter setModalVisible={setModalVisible} setApply={setApply} />
       </Modal>
     </View>
   );
@@ -187,11 +192,10 @@ const styles = StyleSheet.create({
   topPart: {
     flex: 2,
     paddingHorizontal: 15,
-    paddingTop: 60,
   },
   spellList: {
     marginHorizontal: 15,
-    flex: 7,
+    flex: 6,
     alignItems: "center",
   },
 });

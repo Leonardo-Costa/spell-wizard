@@ -7,7 +7,7 @@ import {
   TouchableOpacity,
   TextInput,
 } from "react-native";
-import { Icon } from "../../atom";
+import { Icon, TextInputCustom } from "../../atom";
 import React, { useState } from "react";
 import colors from "../../misc/Colors";
 import { StackActions } from "@react-navigation/native";
@@ -28,38 +28,19 @@ function Login({ navigation }) {
         <Text style={[styles.title]}>Spell</Text>
         <Text style={[styles.title, { fontWeight: "900" }]}>Wizard</Text>
       </View>
-      <TextInput
-        style={{
-          backgroundColor: colors.light_gray,
-          width: "80%",
-          height: 50,
-          padding: 10,
-          borderRadius: 10,
-          elevation: 20,
-          marginBottom: 20,
-        }}
-        value={email}
+      <TextInputCustom
+        data={email}
+        setData={setEmail}
         placeholder="Digite seu e-mail"
-        onChangeText={(email) => {
-          setEmail(email);
-        }}
+        secureTextEntry={false}
       />
-      <TextInput
-        style={{
-          backgroundColor: colors.light_gray,
-          width: "80%",
-          height: 50,
-          padding: 10,
-          borderRadius: 10,
-          elevation: 20,
-        }}
-        value={password}
-        placeholder="senha"
-        onChangeText={(password) => {
-          setEmail(setPassword);
-        }}
-        secureTextEntry
+      <TextInputCustom
+        data={password}
+        setData={setPassword}
+        placeholder="Senha"
+        secureTextEntry={true}
       />
+
       <TouchableOpacity
         style={{ padding: 20 }}
         onPress={() => {

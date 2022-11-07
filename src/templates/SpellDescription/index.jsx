@@ -28,7 +28,9 @@ function SpellDescription({ spell, setModalVisible }) {
         <View style={{ marginRight: 15 }}>
           <IconButton
             img={icons.close}
-            onPress={() => setModalVisible(false)}
+            onPress={() => {
+              setModalVisible(false);
+            }}
           />
         </View>
       </View>

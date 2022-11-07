@@ -22,7 +22,7 @@ const icons = {
   close: require("../../../assets/Close_Circle.png"),
 };
 
-function Filter({ setModalVisible }) {
+function Filter({ setModalVisible, setApply }) {
   const { setAscending, setLevel, setClasses, setSchools } =
     useContext(FilterContext);
   const handleReset = () => {
@@ -49,18 +49,44 @@ function Filter({ setModalVisible }) {
           <Text style={styles.title}>Reset</Text>
         </TouchableOpacity>
         <Text style={[styles.title, { textAlign: "center" }]}>Filters</Text>
-        <Button
-          image={icons.close}
-          size={24}
-          btnHeight={20}
-          btnWidth={60}
-          color={colors.dark_gray}
-          style={{ width: 60 }}
-          alignSelf="flex-end"
-          onPress={() => {
-            setModalVisible(false);
+        <View
+          style={{
+            flexDirection: "row",
+            alignItems: "center",
+            justifyContent: "space-between",
           }}
-        />
+        >
+          <TouchableOpacity
+            onPress={() => {
+              setApply(true);
+              setModalVisible(false);
+            }}
+          >
+            <Text
+              style={{
+                marginRight: 20,
+                fontWeight: "500",
+                textDecorationLine: "underline",
+                color: colors.dark_gray,
+              }}
+            >
+              Apply
+            </Text>
+          </TouchableOpacity>
+
+          <Button
+            image={icons.close}
+            size={24}
+            btnHeight={20}
+            btnWidth={20}
+            color={colors.dark_gray}
+            style={{ width: 60 }}
+            alignSelf="flex-end"
+            onPress={() => {
+              setModalVisible(false);
+            }}
+          />
+        </View>
       </View>
 
       <ScrollView showsVerticalScrollIndicator={false}>
