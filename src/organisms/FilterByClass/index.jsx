@@ -23,7 +23,6 @@ function FilterByClass() {
           fontWeight: "bold",
           color: colors.dark_gray,
           marginBottom: 30,
-          marginLeft: 10,
         }}
       >
         Filter By Class

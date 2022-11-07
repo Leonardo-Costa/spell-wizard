@@ -2,7 +2,7 @@ import { Button, StyleSheet, Text, View, Image } from "react-native";
 import React from "react";
 import Onboarding from "react-native-onboarding-swiper";
 import colors from "../../misc/Colors";
-import { MediumTitle, SmallTitle } from "../../atom";
+import { SmallTitle } from "../../atom";
 import { StackActions } from "@react-navigation/native";
 
 const images = {

@@ -35,7 +35,6 @@ function FilterByLevel({ style }) {
           fontWeight: "bold",
           color: colors.dark_gray,
           marginBottom: 30,
-          marginLeft: 10,
         }}
       >
         Filter by Level
