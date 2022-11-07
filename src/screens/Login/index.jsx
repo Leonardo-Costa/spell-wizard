@@ -5,9 +5,10 @@ import {
   View,
   Image,
   TouchableOpacity,
+  TextInput,
 } from "react-native";
 import { Icon } from "../../atom";
-import React from "react";
+import React, { useState } from "react";
 import colors from "../../misc/Colors";
 import { StackActions } from "@react-navigation/native";
 
@@ -17,6 +18,9 @@ const icons = {
 };
 
 function Login({ navigation }) {
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+
   return (
     <View style={styles.container}>
       <Icon image={icons.logo} size={160} color={colors.dark_gray} />
@@ -24,9 +28,38 @@ function Login({ navigation }) {
         <Text style={[styles.title]}>Spell</Text>
         <Text style={[styles.title, { fontWeight: "900" }]}>Wizard</Text>
       </View>
-      <TouchableOpacity style={{ marginBottom: 10, elevation: 20 }}>
-        <Image source={icons.button} />
-      </TouchableOpacity>
+      <TextInput
+        style={{
+          backgroundColor: colors.light_gray,
+          width: "80%",
+          height: 50,
+          padding: 10,
+          borderRadius: 10,
+          elevation: 20,
+          marginBottom: 20,
+        }}
+        value={email}
+        placeholder="Digite seu e-mail"
+        onChangeText={(email) => {
+          setEmail(email);
+        }}
+      />
+      <TextInput
+        style={{
+          backgroundColor: colors.light_gray,
+          width: "80%",
+          height: 50,
+          padding: 10,
+          borderRadius: 10,
+          elevation: 20,
+        }}
+        value={password}
+        placeholder="senha"
+        onChangeText={(password) => {
+          setEmail(setPassword);
+        }}
+        secureTextEntry
+      />
       <TouchableOpacity
         style={{ padding: 20 }}
         onPress={() => {
