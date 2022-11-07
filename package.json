@@ -13,10 +13,12 @@
     "@react-navigation/material-bottom-tabs": "^6.2.4",
     "@react-navigation/native": "^6.0.13",
     "@react-navigation/native-stack": "^6.9.1",
+    "bcryptjs": "^2.4.3",
     "dotenv": "^16.0.3",
     "expo": "~46.0.13",
     "expo-status-bar": "~1.4.0",
     "express": "^4.18.2",
+    "mysql2": "^3.0.0-rc.1",
     "react": "18.0.0",
     "react-native": "0.69.6",
     "react-native-gesture-handler": "^2.8.0",
@@ -24,11 +26,19 @@
     "react-native-paper": "^4.12.5",
     "react-native-safe-area-context": "4.3.1",
     "react-native-screens": "~3.15.0",
-    "react-native-vector-icons": "^9.2.0"
+    "react-native-vector-icons": "^9.2.0",
+    "sequelize": "^6.25.4"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
+    "eslint": "^8.27.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-react": "^7.31.10",
+    "eslint-plugin-react-hooks": "^4.6.0",
     "nodemon": "^2.0.20",
+    "sequelize-cli": "^6.5.2",
     "sucrase": "^3.28.0"
   },
   "private": true

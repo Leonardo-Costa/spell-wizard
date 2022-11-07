@@ -18,8 +18,8 @@ module.exports = {
   ],
   rules: {
     'no-console': 'off',
-    'global-require': 'off',
-    'react/prop-types': 'off',
-    'no-unneeded-ternary': 'off',
+    'class-methods-use-this': 'off',
+    'import/first': 'off',
+    'no-param-reassign': 'off',
   },
 };
