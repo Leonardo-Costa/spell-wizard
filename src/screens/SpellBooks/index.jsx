@@ -34,6 +34,7 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
     width: "100%",
+    paddingTop: 60,
   },
   topPart: {
     flex: 1,

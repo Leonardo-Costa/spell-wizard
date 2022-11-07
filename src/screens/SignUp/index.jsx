@@ -17,10 +17,12 @@ const icons = {
   button: require("../../../assets/Frame.png"),
 };
 
-function Login({ navigation }) {
+function SignUp({ navigation }) {
+  const [nome, setNome] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const ref_input2 = useRef();
+  const ref_input3 = useRef();
 
   return (
     <View style={styles.container}>
@@ -33,10 +35,22 @@ function Login({ navigation }) {
         <TextInput
           style={styles.input}
           placeholderTextColor={colors.light_gray}
+          value={nome}
+          placeholder="Digite seu nome"
+          returnKeyType="next"
+          onSubmitEditing={() => ref_input2.current.focus()}
+          onChangeText={(nome) => {
+            setNome(nome);
+          }}
+        />
+        <TextInput
+          style={styles.input}
+          placeholderTextColor={colors.light_gray}
           value={email}
           placeholder="Digite seu e-mail"
           returnKeyType="next"
-          onSubmitEditing={() => ref_input2.current.focus()}
+          onSubmitEditing={() => ref_input3.current.focus()}
+          ref={ref_input2}
           onChangeText={(email) => {
             setEmail(email);
           }}
@@ -46,27 +60,17 @@ function Login({ navigation }) {
           placeholderTextColor={colors.light_gray}
           value={password}
           placeholder="senha"
-          ref={ref_input2}
+          ref={ref_input3}
           onChangeText={(password) => {
             setPassword(password);
           }}
           secureTextEntry
         />
-        {email.length > 0 && password.length > 0 ? (
+        {nome.length > 0 && email.length > 0 && password.length > 0 ? (
           <TouchableOpacity style={styles.login}>
-            <Text style={styles.inputText}>Login</Text>
+            <Text style={styles.inputText}>Cadastrar</Text>
           </TouchableOpacity>
         ) : null}
-        <View
-          style={{
-            width: "100%",
-            alignItems: "flex-end",
-          }}
-        >
-          <TouchableOpacity>
-            <Text style={styles.button}>Esqueci a senha</Text>
-          </TouchableOpacity>
-        </View>
         <View
           style={{
             width: "100%",
@@ -75,14 +79,14 @@ function Login({ navigation }) {
         >
           <View style={{ flexDirection: "row", paddingTop: 10 }}>
             <Text style={[styles.button, { textDecorationLine: "none" }]}>
-              Criar uma conta:{" "}
+              Já tem uma conta?{" "}
             </Text>
             <TouchableOpacity
               onPress={() => {
-                navigation.dispatch(StackActions.replace("SignUp"));
+                navigation.dispatch(StackActions.replace("Login"));
               }}
             >
-              <Text style={styles.button}>Sign Up</Text>
+              <Text style={styles.button}>Login</Text>
             </TouchableOpacity>
           </View>
 
@@ -144,4 +148,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export { Login };
+export { SignUp };

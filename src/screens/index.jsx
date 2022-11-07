@@ -6,6 +6,7 @@ import { SpellBooks } from "./SpellBooks";
 import { SplashScreen } from "./SplashScreen";
 import { OnboardingScreen } from "./Onboarding";
 import { Login } from "./Login";
+import { SignUp } from "./SignUp";
 
 export {
   Home,
@@ -16,4 +17,5 @@ export {
   SplashScreen,
   OnboardingScreen,
   Login,
+  SignUp,
 };
