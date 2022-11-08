@@ -1,17 +1,6 @@
-import { StyleSheet, Text, View } from 'react-native';
-import React from 'react';
-import colors from '../../misc/Colors';
-
-const styles = StyleSheet.create({
-  container: {
-
-  },
-  title: {
-    fontWeight: 'bold',
-    fontSize: 25,
-    color: colors.dark_gray,
-  },
-});
+import { StyleSheet, Text, View } from "react-native";
+import React from "react";
+import colors from "../../misc/Colors";
 
 function SmallTitle({ text }) {
   return (
@@ -20,5 +9,14 @@ function SmallTitle({ text }) {
     </View>
   );
 }
+
+const styles = StyleSheet.create({
+  container: {},
+  title: {
+    fontWeight: "bold",
+    fontSize: 25,
+    color: colors.dark_gray,
+  },
+});
 
 export default { SmallTitle };
