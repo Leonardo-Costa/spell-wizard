@@ -2,6 +2,7 @@ import { StyleSheet, Text, View } from "react-native";
 import { BigTitle, SearchBar } from "../../atom";
 import React from "react";
 import colors from "../../misc/Colors";
+import { SpellBookCard } from "../../organisms";
 
 const icons = {
   search: require("../../../assets/search.png"),
@@ -22,6 +23,7 @@ function SpellBooks() {
           <BigTitle>SpellBooks</BigTitle>
         </View>
         <SearchBar icon={icons.search} />
+        <SpellBookCard />
       </View>
     </View>
   );

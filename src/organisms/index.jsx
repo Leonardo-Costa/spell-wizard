@@ -5,6 +5,7 @@ import { FilterByClass } from "./FilterByClass";
 import { SortBy } from "./SortBy";
 import { SpellStats } from "./SpellStats";
 import { RatingCard } from "./RatingCard";
+import { SpellBookCard } from "./SpellBookCard";
 
 export {
   SpellCard,
@@ -14,4 +15,5 @@ export {
   FilterByClass,
   SpellStats,
   RatingCard,
+  SpellBookCard,
 };
