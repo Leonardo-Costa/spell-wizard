@@ -3,6 +3,7 @@ import { GenericButtonOnOff } from "./ToggleButton";
 import { FilterByStars } from "./FilterByStars";
 import { TitleSubtitle } from "./TitleSubtitle";
 import { NoSpells } from "./NoSpells";
+import { Header } from "./Header";
 
 export {
   SpellCardContent,
@@ -10,4 +11,5 @@ export {
   FilterByStars,
   TitleSubtitle,
   NoSpells,
+  Header,
 };

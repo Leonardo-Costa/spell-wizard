@@ -7,6 +7,10 @@ import { SplashScreen } from "./SplashScreen";
 import { OnboardingScreen } from "./Onboarding";
 import { Login } from "./Login";
 import { SignUp } from "./SignUp";
+import { SpellBookCardContent } from "./SpellBookCardContent";
+import { ModalSpellBook } from "./ModalSpellBook";
+import { ModalSpellsSlots } from "./ModalSpellsSlots";
+import { ModalNotes } from "./ModalNotes";
 
 export {
   Home,
@@ -18,4 +22,8 @@ export {
   OnboardingScreen,
   Login,
   SignUp,
+  SpellBookCardContent,
+  ModalSpellBook,
+  ModalSpellsSlots,
+  ModalNotes,
 };

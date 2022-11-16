@@ -11,7 +11,10 @@ export default function App({ navigation }) {
   return (
     <NavigationContainer>
       <FilterProvider>
-        <Stack.Navigator screenOptions={{ headerShown: false }}>
+        <Stack.Navigator
+          screenOptions={{ headerShown: false }}
+          options={{ headerShown: false }}
+        >
           <Stack.Screen
             navigation={navigation}
             name="SplashScreen"

@@ -1,7 +1,15 @@
-import { StyleSheet, Text, View, Image, Modal } from "react-native";
+import {
+  StyleSheet,
+  Text,
+  View,
+  Image,
+  Modal,
+  TouchableOpacity,
+} from "react-native";
 import React, { useState } from "react";
 import colors from "../../misc/Colors";
 import { IconButton } from "../../atom";
+import { SpellBookCardContent } from "../../screens/SpellBookCardContent";
 
 const icons = {
   teste: require("../../../assets/casa.png"),
@@ -12,42 +20,48 @@ function SpellBookCard() {
   const [modalVisible, setModalVisible] = useState(false);
 
   return (
-    <View style={styles.container}>
+    <TouchableOpacity
+      style={styles.container}
+      onPress={() => {
+        setModalVisible(true);
+      }}
+    >
       <Modal
         animationType="slide"
-        transparent={true}
         visible={modalVisible}
         onRequestClose={() => {
           setModalVisible(!modalVisible);
         }}
-      ></Modal>
+      >
+        <SpellBookCardContent />
+      </Modal>
       <View style={{ flexDirection: "row" }}>
         <View
           style={{
             backgroundColor: colors.white,
-            padding: 30,
+            padding: 20,
             borderRadius: 100,
           }}
         >
           <Image
             source={icons.teste}
             resizeMethod={"auto"}
-            style={{ width: 70, height: 70 }}
+            style={{ width: 50, height: 50 }}
           />
         </View>
-        <View style={{ marginLeft: 40 }}>
+        <View style={{ marginLeft: 20 }}>
           <Text style={styles.title}>Ambrosia</Text>
           <Text style={styles.subtitle}>Druid Spellbook</Text>
           <Text style={styles.spellsSaved}>10 spells saved</Text>
         </View>
         <IconButton
-          style={{ position: "absolute", right: 10, top: 0 }}
+          style={{ position: "absolute", right: 0, top: 0 }}
           img={icons.close}
-          width={30}
-          height={30}
+          width={24}
+          height={24}
         />
       </View>
-    </View>
+    </TouchableOpacity>
   );
 }
 
@@ -59,15 +73,14 @@ const styles = StyleSheet.create({
     marginBottom: 20,
   },
   title: {
-    fontSize: 36,
+    fontSize: 32,
     fontWeight: "bold",
     color: colors.dark_gray,
   },
   subtitle: {
     color: colors.dark_gray,
-    fontSize: 20,
-    fontWeight: "600",
-    marginBottom: 5,
+    fontSize: 16,
+    fontWeight: "700",
   },
   spellsSaved: {
     color: colors.dark_gray,
