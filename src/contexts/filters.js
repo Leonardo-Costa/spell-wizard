@@ -57,6 +57,7 @@ function FilterProvider({ children }) {
     "illusion",
     "transmutation",
   ];
+  const [likedSpells, setLikedSpells] = useState([]);
   return (
     <FilterContext.Provider
       value={{
@@ -72,6 +73,8 @@ function FilterProvider({ children }) {
         setStars,
         classesNames,
         schoolNames,
+        likedSpells,
+        setLikedSpells,
       }}
     >
       {children}

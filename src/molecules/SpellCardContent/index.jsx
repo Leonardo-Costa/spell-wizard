@@ -1,14 +1,40 @@
 import { StyleSheet, Text, View, TouchableOpacity, Modal } from "react-native";
 import { IconButton } from "../../atom";
 import colors from "../../misc/Colors";
-import React from "react";
+import React, { useState, useContext, useEffect } from "react";
+import { FilterContext } from "../../contexts/filters";
 
 const icons = {
   favorito: require("../../../assets/favorito.png"),
+  favoritoBold: require("../../../assets/favorito-bold.png"),
   opcao: require("../../../assets/Opcao.png"),
 };
 
 function SpellCardContent({ spell, modalVisible, setModalVisible }) {
+  const [liked, setLiked] = useState(false);
+  const { likedSpells, setLikedSpells } = useContext(FilterContext);
+  useEffect(() => {
+    if (likedSpells.includes(spell)) {
+      setLiked(true);
+    } else {
+      setLiked(false);
+    }
+  }, []);
+  const handleOnPress = () => {
+    if (!liked) {
+      setLiked(true);
+      let list = likedSpells;
+      list.push(spell);
+      setLikedSpells(list);
+      console.log(list);
+    } else {
+      setLiked(false);
+      let list = likedSpells;
+      list.splice(list.indexOf(spell), 1);
+      setLikedSpells(list);
+      console.log(list);
+    }
+  };
   return (
     <TouchableOpacity
       onPress={() => {
@@ -32,7 +58,10 @@ function SpellCardContent({ spell, modalVisible, setModalVisible }) {
             width={30}
             height={30}
             color={colors.dark_gray}
-            img={icons.favorito}
+            img={liked ? icons.favoritoBold : icons.favorito}
+            onPress={() => {
+              handleOnPress();
+            }}
           />
           <IconButton
             width={30}

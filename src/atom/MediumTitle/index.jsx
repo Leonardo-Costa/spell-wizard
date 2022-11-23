@@ -2,10 +2,12 @@ import { StyleSheet, Text, View } from "react-native";
 import colors from "../../misc/Colors";
 import React from "react";
 
-function MediumTitle({ children, style, color }) {
+function MediumTitle({ children, style, color, textStyle }) {
   return (
     <View style={[styles.container, style]}>
-      <Text style={[styles.title, { color: color }]}>{children}</Text>
+      <Text style={[styles.title, textStyle, { color: color }]}>
+        {children}
+      </Text>
     </View>
   );
 }

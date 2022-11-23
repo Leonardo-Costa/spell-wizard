@@ -6,7 +6,12 @@ import colors from "../../misc/Colors";
 function NoSpells({ style }) {
   return (
     <View style={style}>
-      <MediumTitle color={colors.light_gray}>No spells found ;(</MediumTitle>
+      <MediumTitle
+        textStyle={{ textAlign: "center" }}
+        color={colors.light_gray}
+      >
+        No spells found.{"\n"} Tap to reload.
+      </MediumTitle>
     </View>
   );
 }

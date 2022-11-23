@@ -11,6 +11,7 @@ const icons = {
 
 function SpellCard({ spell }) {
   const [modalVisible, setModalVisible] = useState(false);
+
   return (
     <View>
       <Modal
