@@ -8,10 +8,10 @@ const icons = {
   settings: require("../../../assets/settings.png"),
 };
 
-function Header() {
+function Header([setModalVisible]) {
   return (
     <View style={styles.container}>
-      <IconButton img={icons.arrow} />
+      <IconButton img={icons.arrow} onPress={() => setModalVisible(false)} />
       <Text style={styles.title}>Ambrosia</Text>
       <IconButton img={icons.settings} />
     </View>
@@ -20,7 +20,7 @@ function Header() {
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: colors.primary,
+    backgroundColor: colors.white,
     flexDirection: "row",
     justifyContent: "space-between",
     alignItems: "center",

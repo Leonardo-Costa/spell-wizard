@@ -16,12 +16,12 @@ const icons = {
   close: require("../../../assets/Close_Circle.png"),
 };
 
-function SpellBookCard() {
+function SpellBookCard({ style }) {
   const [modalVisible, setModalVisible] = useState(false);
 
   return (
     <TouchableOpacity
-      style={styles.container}
+      style={[styles.container, style]}
       onPress={() => {
         setModalVisible(true);
       }}
@@ -33,7 +33,7 @@ function SpellBookCard() {
           setModalVisible(!modalVisible);
         }}
       >
-        <SpellBookCardContent />
+        <SpellBookCardContent setModalVisible={setModalVisible} />
       </Modal>
       <View style={{ flexDirection: "row" }}>
         <View

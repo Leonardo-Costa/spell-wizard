@@ -23,7 +23,7 @@ function SpellBooks() {
           <BigTitle>SpellBooks</BigTitle>
         </View>
         <SearchBar icon={icons.search} />
-        <SpellBookCard />
+        <SpellBookCard style={{ marginTop: 40 }} />
       </View>
     </View>
   );
