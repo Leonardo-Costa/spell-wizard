@@ -2,10 +2,10 @@ import { StyleSheet, Text, View } from "react-native";
 import colors from "../../misc/Colors";
 import React from "react";
 
-function SmallTitle({ children, style }) {
+function SmallTitle({ children, style, textStyle }) {
   return (
     <View style={[styles.container, style]}>
-      <Text style={styles.title}>{children}</Text>
+      <Text style={[styles.title, textStyle]}>{children}</Text>
     </View>
   );
 }
