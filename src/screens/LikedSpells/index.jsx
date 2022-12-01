@@ -63,7 +63,7 @@ function LikedSpells() {
             marginBottom: 20,
           }}
         >
-          <BigTitle>Spells</BigTitle>
+          <BigTitle>Liked Spells</BigTitle>
         </View>
         <SearchBar icon={icons.search} text={text} setText={setText} />
       </View>
