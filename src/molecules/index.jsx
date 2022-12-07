@@ -4,6 +4,8 @@ import { FilterByStars } from "./FilterByStars";
 import { TitleSubtitle } from "./TitleSubtitle";
 import { NoSpells } from "./NoSpells";
 import { Header } from "./Header";
+import { DiceResult } from "./DiceResult";
+import { LastRolls } from "./LastRolls";
 
 export {
   SpellCardContent,
@@ -12,4 +14,6 @@ export {
   TitleSubtitle,
   NoSpells,
   Header,
+  DiceResult,
+  LastRolls,
 };

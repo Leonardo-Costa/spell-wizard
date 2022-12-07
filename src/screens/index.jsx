@@ -11,6 +11,8 @@ import { SpellBookCardContent } from "./SpellBookCardContent";
 import { ModalSpellBook } from "./ModalSpellBook";
 import { ModalSpellsSlots } from "./ModalSpellsSlots";
 import { ModalNotes } from "./ModalNotes";
+import { CreateSpellModal } from "./CreateSpellModal";
+import { RollDice } from "./RollDice";
 
 export {
   Home,
@@ -26,4 +28,6 @@ export {
   ModalSpellBook,
   ModalSpellsSlots,
   ModalNotes,
+  CreateSpellModal,
+  RollDice,
 };

@@ -1,13 +1,22 @@
-import { StyleSheet, Text, View, Image, TouchableOpacity } from "react-native";
-import React from "react";
+import {
+  StyleSheet,
+  Text,
+  View,
+  Image,
+  TouchableOpacity,
+  Modal,
+} from "react-native";
+import React, { useState } from "react";
 import colors from "../../misc/Colors";
 import { SmallTitle } from "../../atom";
+import { CreateSpellModal } from "../CreateSpellModal";
 
 const icons = {
   logo: require("../../../assets/logo.png"),
 };
 
 function AddSpell() {
+  const [modalVisible, setModalVisible] = useState(false);
   return (
     <View style={styles.container}>
       <Image source={icons.logo} />
@@ -18,7 +27,7 @@ function AddSpell() {
       </View>
       <TouchableOpacity
         onPress={() => {
-          console.log("create spell");
+          setModalVisible(true);
         }}
         style={styles.button}
       >
@@ -26,6 +35,15 @@ function AddSpell() {
           Create Spell
         </SmallTitle>
       </TouchableOpacity>
+      <Modal
+        animationType="slide"
+        visible={modalVisible}
+        onRequestClose={() => {
+          setModalVisible(!modalVisible);
+        }}
+      >
+        <CreateSpellModal />
+      </Modal>
     </View>
   );
 }

@@ -10,6 +10,7 @@ import { ClassButton } from "./ClassButton";
 import { FilterButton } from "./FilterButton";
 import { SchoolButton } from "./SchoolButton";
 import { MediumTitle } from "./MediumTitle";
+import { DiceButton } from "./DiceButton";
 
 export {
   IconButton,
@@ -24,4 +25,5 @@ export {
   FilterButton,
   SchoolButton,
   MediumTitle,
+  DiceButton,
 };
