@@ -69,8 +69,8 @@ function Tabs() {
       <Tab.Screen name="Home" component={Home} />
       <Tab.Screen name="SpellBooks" component={SpellBooks} />
       <Tab.Screen name="LikedSpells" component={LikedSpells} />
-      <Tab.Screen name="AddSpell" component={AddSpell} />
       <Tab.Screen name="RollDice" component={RollDice} />
+      <Tab.Screen name="AddSpell" component={AddSpell} />
     </Tab.Navigator>
   );
 }

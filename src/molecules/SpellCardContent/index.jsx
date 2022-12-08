@@ -26,13 +26,11 @@ function SpellCardContent({ spell, modalVisible, setModalVisible }) {
       let list = likedSpells;
       list.push(spell);
       setLikedSpells(list);
-      console.log(list);
     } else {
       setLiked(false);
       let list = likedSpells;
       list.splice(list.indexOf(spell), 1);
       setLikedSpells(list);
-      console.log(list);
     }
   };
   return (

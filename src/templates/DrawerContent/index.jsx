@@ -9,7 +9,6 @@ function DrawerContent({ setDrawerOpen }) {
         style={{ backgroundColor: "red", padding: 20 }}
         onPress={() => {
           setDrawerOpen(false);
-          console.log("oi");
         }}
       >
         <Text>DrawerContent</Text>
