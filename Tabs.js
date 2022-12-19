@@ -4,6 +4,7 @@ import {
   AddSpell,
   SpellBooks,
   RollDice,
+  Guide,
 } from "./src/screens";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import React from "react";
@@ -23,6 +24,8 @@ const icons = {
   coracaoBold: require("./assets/coracao-bold.png"),
   d20: require("./assets/d20.png"),
   d20bold: require("./assets/d20bold.png"),
+  guide: require("./assets/livro-guia.png"),
+  guideBold: require("./assets/livro-guia-bold.png"),
 };
 
 function Tabs() {
@@ -53,6 +56,8 @@ function Tabs() {
             iconName = focused ? icons.addBold : icons.add;
           } else if (route.name === "RollDice") {
             iconName = focused ? icons.d20bold : icons.d20;
+          } else if (route.name === "Guide") {
+            iconName = focused ? icons.guideBold : icons.guide;
           }
           return (
             <Icon
@@ -71,6 +76,7 @@ function Tabs() {
       <Tab.Screen name="LikedSpells" component={LikedSpells} />
       <Tab.Screen name="RollDice" component={RollDice} />
       <Tab.Screen name="AddSpell" component={AddSpell} />
+      <Tab.Screen name="Guide" component={Guide} />
     </Tab.Navigator>
   );
 }

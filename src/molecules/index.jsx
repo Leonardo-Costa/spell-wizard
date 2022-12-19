@@ -6,6 +6,7 @@ import { NoSpells } from "./NoSpells";
 import { Header } from "./Header";
 import { DiceResult } from "./DiceResult";
 import { LastRolls } from "./LastRolls";
+import { PrettyTitle } from "./PrettyTitle";
 
 export {
   SpellCardContent,
@@ -16,4 +17,5 @@ export {
   Header,
   DiceResult,
   LastRolls,
+  PrettyTitle,
 };
