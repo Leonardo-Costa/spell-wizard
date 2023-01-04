@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {},
+      undefined,
+    ]
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#202020",
+          "fontSize": 25,
+          "fontWeight": "bold",
+        },
+        undefined,
+      ]
+    }
+  />
+</View>
+`;
