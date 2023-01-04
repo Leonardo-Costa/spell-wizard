@@ -26,6 +26,7 @@ const icons = {
 };
 
 function Tabs() {
+  //console.log(user);
   return (
     <Tab.Navigator
       screenOptions={({ route }) => ({

@@ -6,11 +6,22 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import Tabs from "./Tabs";
 import MenuDrawer from "react-native-side-drawer";
 import { DrawerContent } from "./src/templates";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
+import { onAuthStateChanged, FirebaseAuthTypes } from "firebase/auth";
+import { auth } from "../spell-wizard/firebaseConfig";
 
 const Stack = createNativeStackNavigator();
 
 export default function App({ navigation }) {
+
+  const [user , setUser] = useState(null);
+
+  useEffect(() => {
+      auth.onAuthStateChanged( _user => {
+        setUser(_user);
+      })
+  }, [])
+
   return (
     <NavigationContainer>
 
