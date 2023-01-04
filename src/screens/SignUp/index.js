@@ -11,6 +11,9 @@ import { Icon } from "../../atom";
 import React, { useState, useRef } from "react";
 import colors from "../../misc/Colors";
 import { StackActions } from "@react-navigation/native";
+import { createUserWithEmailAndPassword } from "firebase/auth";
+import { auth } from "../../../firebaseConfig";
+
 
 const icons = {
   logo: require("../../../assets/logo.png"),
@@ -18,13 +21,33 @@ const icons = {
 };
 
 function SignUp({ navigation }) {
-  const [nome, setNome] = useState("");
+  //const [nome, setNome] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const ref_input2 = useRef();
-  const ref_input3 = useRef();
+  //const ref_input3 = useRef();
+
+  //const [UsercreateUserWithEmailAndPassword,user,loading,error] = createUserWithEmailAndPassword(auth);
+
+    function handleSignOut() {
+      createUserWithEmailAndPassword(auth, email, password)
+      .then((userCredential) => {
+        console.log("usuario criado");
+        const user = userCredential.user;
+        // ...
+      })
+      .catch((error) => {
+        if(error.code === 'auth/email-already-in-use') {
+          console.log("Email já existe");
+        }
+        if(error.code === 'auth/invalid-email') {
+          console.log("Email inválido");
+        }
+      });
+  } 
 
   return (
+    
     <View style={styles.container}>
       <Icon image={icons.logo} size={160} color={colors.dark_gray} />
       <View style={{ flexDirection: "row", marginTop: 40, marginBottom: 80 }}>
@@ -32,25 +55,14 @@ function SignUp({ navigation }) {
         <Text style={[styles.title, { fontWeight: "900" }]}>Wizard</Text>
       </View>
       <View style={styles.smallContainer}>
-        <TextInput
-          style={styles.input}
-          placeholderTextColor={colors.light_gray}
-          value={nome}
-          placeholder="Digite seu nome"
-          returnKeyType="next"
-          onSubmitEditing={() => ref_input2.current.focus()}
-          onChangeText={(nome) => {
-            setNome(nome);
-          }}
-        />
+        
         <TextInput
           style={styles.input}
           placeholderTextColor={colors.light_gray}
           value={email}
           placeholder="Digite seu e-mail"
           returnKeyType="next"
-          onSubmitEditing={() => ref_input3.current.focus()}
-          ref={ref_input2}
+          onSubmitEditing={() => ref_input2.current.focus()}
           onChangeText={(email) => {
             setEmail(email);
           }}
@@ -60,14 +72,14 @@ function SignUp({ navigation }) {
           placeholderTextColor={colors.light_gray}
           value={password}
           placeholder="senha"
-          ref={ref_input3}
+          ref={ref_input2}
           onChangeText={(password) => {
             setPassword(password);
           }}
           secureTextEntry
         />
-        {nome.length > 0 && email.length > 0 && password.length > 0 ? (
-          <TouchableOpacity style={styles.login}>
+        {email.length > 0 && password.length > 0 ? (
+          <TouchableOpacity style={styles.login} onPress={handleSignOut}>
             <Text style={styles.inputText}>Cadastrar</Text>
           </TouchableOpacity>
         ) : null}

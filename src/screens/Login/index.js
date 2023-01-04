@@ -10,7 +10,14 @@ import {
 import { Icon } from "../../atom";
 import React, { useState, useRef } from "react";
 import colors from "../../misc/Colors";
-import { StackActions } from "@react-navigation/native";
+import { CommonActions, StackActions } from "@react-navigation/native";
+import { signInWithEmailAndPassword } from "firebase/auth";
+import { auth } from "../../../firebaseConfig";
+
+
+
+
+
 
 const icons = {
   logo: require("../../../assets/logo.png"),
@@ -21,6 +28,27 @@ function Login({ navigation }) {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const ref_input2 = useRef();
+
+ function handleSignIn() {
+    signInWithEmailAndPassword(auth, email, password)
+      .then((userCredential) => {
+        console.log("usuario logou f");
+        const user = userCredential.user;
+        console.log(user);
+        navigation.dispatch(StackActions.replace("Tabs"));
+        /*navigation.dispatch(CommonActions.navigate({
+                  name:'Tabs',
+                  params: {user},
+          })
+        );*/
+        
+      })
+      .catch((error) => {
+        console.log("usuario nao logou s", error);
+      });
+  }
+   
+  
 
   return (
     <View style={styles.container}>
@@ -53,7 +81,7 @@ function Login({ navigation }) {
           secureTextEntry
         />
         {email.length > 0 && password.length > 0 ? (
-          <TouchableOpacity style={styles.login}>
+          <TouchableOpacity style={styles.login} onPress={handleSignIn}>
             <Text style={styles.inputText}>Login</Text>
           </TouchableOpacity>
         ) : null}

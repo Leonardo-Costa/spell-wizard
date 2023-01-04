@@ -8,6 +8,7 @@ import { Modal } from "react-native";
 import { Filter } from "../Filter";
 import { FilterContext } from "../../contexts/filters";
 import colors from "../../misc/Colors";
+import { db, getFirestore, collection, getDocs } from "../../../firebaseConfig";
 
 const icons = {
   filter: require("../../../assets/filter.png"),
@@ -20,6 +21,26 @@ function Home() {
   const [text, setText] = useState("");
   const [isSpell, setIsSpell] = useState(true);
   const [apply, setApply] = useState(false);
+  const [spellDataBase, setspellDataBase] = useState([]);
+
+
+  const spellServer = async() => {
+    const querySnapshot = await getDocs(collection(db, "spellAdd"));
+    querySnapshot.forEach((doc) => {
+    console.log( doc.id );
+    console.log(doc.data());
+    setspellDataBase ({
+      ...doc.data(),
+      id: doc.id,
+    })
+    });
+  }
+
+
+  useEffect ( () => {
+    spellServer();
+  }, []);
+
 
   const renderItem = ({ item }) => {
     return <SpellCard key={item.index} spell={item} />;
@@ -168,6 +189,15 @@ function Home() {
           <NoSpells style={{ marginTop: 150 }} />
         )}
       </View>
+      
+      {/*<BigTitle>Spells Personalizadas</BigTitle> */}
+
+      {/*<FlatList
+      Arrumar 
+      data={spellDataBase}
+
+        /> */}
+
       <Modal
         visible={modalVisible}
         animationType="slide"

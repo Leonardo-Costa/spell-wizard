@@ -8,6 +8,7 @@ import {
 } from "react-native";
 import React, { useState } from "react";
 import colors from "../../misc/Colors";
+import { db, getFirestore, collection, addDoc } from "../../../firebaseConfig";
 
 const placeholders = [
   "level",
@@ -31,6 +32,41 @@ function CreateSpellModal() {
 
   handleSaveSpell = () => {};
 
+  const addSpellonDataBase = async() => {
+    const textForm = Object.values(inputValues);
+    //console.log(type(textForm[2]));
+    try {
+      const docRef = await addDoc(collection(db, "spellAdd"), {
+        level: textForm[0],
+        castingTime: textForm[1],
+        range: textForm[2],
+        concentration: textForm[3],
+        duration: textForm[4],
+        components: textForm[5],
+        ritual: textForm[6],
+        description: textForm[7]
+        
+        //first: "Ada",
+        //last: "Lovelace",
+        //born: 1815
+      });
+      console.log("Document written with ID: ", docRef.id);
+    } catch (e) {
+      console.error("Error adding document: ", e);
+    } 
+  }
+
+  function propertiesSubmit() {
+    const properties = Object.keys(inputValues);
+    const numProperties = properties.length;
+    const textForm = Object.values(inputValues);
+
+    //console.log(properties);
+    //console.log(numProperties);
+    //console.log(inputValues);
+    console.log(textForm[1]);
+  }
+
   return (
     <View style={styles.container}>
       <View style={{ width: "80%" }}>
@@ -53,7 +89,8 @@ function CreateSpellModal() {
       </View>
       <TouchableOpacity
         style={styles.submit}
-        onPress={() => {
+        onPress= {addSpellonDataBase}
+        /*</View>{() => {
           const properties = Object.keys(inputValues);
           const numProperties = properties.length;
           for (let i = 0; i < numProperties; i++) {
@@ -62,10 +99,12 @@ function CreateSpellModal() {
               return;
             }
           }
+          
+
           if (numProperties !== placeholders.length) {
             createAlert();
           }
-        }}
+        }} */
       >
         <Text
           style={{ color: colors.dark_gray, fontWeight: "bold", fontSize: 16 }}
