@@ -13,6 +13,7 @@ import { ModalSpellsSlots } from "./ModalSpellsSlots";
 import { ModalNotes } from "./ModalNotes";
 import { CreateSpellModal } from "./CreateSpellModal";
 import { RollDice } from "./RollDice";
+import { PasswordRecovery } from "./PasswordRecovery";
 
 export {
   Home,
@@ -30,4 +31,5 @@ export {
   ModalNotes,
   CreateSpellModal,
   RollDice,
+  PasswordRecovery,
 };

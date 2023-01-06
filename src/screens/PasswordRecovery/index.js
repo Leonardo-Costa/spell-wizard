@@ -11,7 +11,7 @@ import { Icon } from "../../atom";
 import React, { useState, useRef } from "react";
 import colors from "../../misc/Colors";
 import { StackActions } from "@react-navigation/native";
-import { createUserWithEmailAndPassword } from "firebase/auth";
+import { sendPasswordResetEmail } from "firebase/auth";
 import { auth } from "../../../firebaseConfig";
 
 
@@ -20,31 +20,23 @@ const icons = {
   button: require("../../../assets/Frame.png"),
 };
 
-function SignUp({ navigation }) {
-  //const [nome, setNome] = useState("");
+function PasswordRecovery({ navigation }) {
   const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
+  //const [password, setPassword] = useState("");
   const ref_input2 = useRef();
-  //const ref_input3 = useRef();
+ 
 
-  //const [UsercreateUserWithEmailAndPassword,user,loading,error] = createUserWithEmailAndPassword(auth);
-
-    function handleSignOut() {
-      createUserWithEmailAndPassword(auth, email.toLowerCase().trim(), password)
-      .then((userCredential) => {
-        console.log("usuario criado");
-        alert("Usuário criado");
+    function RecoveryPass() {
+      //console.log("Teste");
+      //console.log(email.toLowerCase().trim());
+      sendPasswordResetEmail(auth, email.toLowerCase().trim())
+      .then(() => {
+        alert("Email enviado com sucesso");
+        //console.log("Email enviado com sucesso");
         navigation.dispatch(StackActions.replace("Login"));
-        //const user = userCredential.user;
-        // ...
       })
-      .catch((error) => {
-        if(error.code === 'auth/email-already-in-use') {
-          console.log("Email já existe");
-        }
-        if(error.code === 'auth/invalid-email') {
-          console.log("Email inválido");
-        }
+      .catch((error) => {       
+          console.log(error);       
       });
   } 
 
@@ -62,27 +54,16 @@ function SignUp({ navigation }) {
           style={styles.input}
           placeholderTextColor={colors.light_gray}
           value={email}
-          placeholder="Digite seu e-mail"
+          placeholder="Digite seu e-mail para recuperar a senha"
           returnKeyType="next"
           onSubmitEditing={() => ref_input2.current.focus()}
           onChangeText={(email) => {
             setEmail(email);
           }}
         />
-        <TextInput
-          style={styles.input}
-          placeholderTextColor={colors.light_gray}
-          value={password}
-          placeholder="senha"
-          ref={ref_input2}
-          onChangeText={(password) => {
-            setPassword(password);
-          }}
-          secureTextEntry
-        />
-        {email.length > 0 && password.length > 0 ? (
-          <TouchableOpacity style={styles.login} onPress={handleSignOut}>
-            <Text style={styles.inputText}>Cadastrar</Text>
+        {email.length > 0 ? (
+          <TouchableOpacity style={styles.login} onPress={RecoveryPass}>
+            <Text style={styles.inputText}>Recuperar Senha</Text>
           </TouchableOpacity>
         ) : null}
         <View
@@ -93,7 +74,7 @@ function SignUp({ navigation }) {
         >
           <View style={{ flexDirection: "row", paddingTop: 10 }}>
             <Text style={[styles.button, { textDecorationLine: "none" }]}>
-              Já tem uma conta?{" "}
+              Voltar para Login?{" "}
             </Text>
             <TouchableOpacity
               onPress={() => {
@@ -162,4 +143,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export { SignUp };
+export { PasswordRecovery };

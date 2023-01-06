@@ -1,4 +1,4 @@
-import { SplashScreen, OnboardingScreen, Login, SignUp } from "./src/screens";
+import { SplashScreen, OnboardingScreen, Login, SignUp, PasswordRecovery } from "./src/screens";
 import { StyleSheet } from "react-native";
 import FilterProvider from "./src/contexts/filters";
 import { NavigationContainer } from "@react-navigation/native";
@@ -14,13 +14,13 @@ const Stack = createNativeStackNavigator();
 
 export default function App({ navigation }) {
 
-  const [user , setUser] = useState(null);
+ /* const [user , setUser] = useState(null);
 
   useEffect(() => {
       auth.onAuthStateChanged( _user => {
         setUser(_user);
       })
-  }, [])
+  }, [])*/
 
   return (
     <NavigationContainer>
@@ -54,6 +54,11 @@ export default function App({ navigation }) {
               navigation={navigation}
               name="Tabs"
               component={Tabs}
+            />
+            <Stack.Screen
+              navigation={navigation}
+              name="PasswordRecovery"
+              component={PasswordRecovery}
             />
           </Stack.Navigator>
         </FilterProvider>

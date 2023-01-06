@@ -56,16 +56,7 @@ function CreateSpellModal() {
     } 
   }
 
-  function propertiesSubmit() {
-    const properties = Object.keys(inputValues);
-    const numProperties = properties.length;
-    const textForm = Object.values(inputValues);
-
-    //console.log(properties);
-    //console.log(numProperties);
-    //console.log(inputValues);
-    console.log(textForm[1]);
-  }
+ 
 
   return (
     <View style={styles.container}>

@@ -30,7 +30,7 @@ function Login({ navigation }) {
   const ref_input2 = useRef();
 
  function handleSignIn() {
-    signInWithEmailAndPassword(auth, email, password)
+    signInWithEmailAndPassword(auth, email.toLowerCase().trim(), password)
       .then((userCredential) => {
         console.log("usuario logou f");
         const user = userCredential.user;
@@ -91,7 +91,11 @@ function Login({ navigation }) {
             alignItems: "flex-end",
           }}
         >
-          <TouchableOpacity>
+          <TouchableOpacity 
+          onPress={() => {
+                navigation.dispatch(StackActions.replace("PasswordRecovery"));
+              }}
+              >
             <Text style={styles.button}>Esqueci a senha</Text>
           </TouchableOpacity>
         </View>
